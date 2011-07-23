@@ -1,0 +1,168 @@
+/* CSS Document */
+
+/* site */
+
+html, div  {
+	margin: 0px;
+	padding: 0px;
+	}
+
+body {
+	background-color: #3C3C3C;
+	background-image: url('images/background-fullheight-srgb.png');
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	font-family: Tahoma, Verdana, Helvetica;
+	font-size: 12pt;
+	margin: 0px;
+	padding: 0px;
+	color: #0099CC;
+	}
+
+/* remise en page des tables */
+
+#main table {
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#main table, #main td {
+	border-collapse: collapse;
+	border: 0px solid;
+	padding: 1px;
+	}
+
+#main td {
+	width:auto;
+	vertical-align: top;
+	}
+
+td.date {
+	white-space: nowrap;
+	color: #888888;
+	}
+
+td.nowrap {
+	white-space: nowrap;
+	}
+
+#main p {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	}
+
+input, option{
+	font-size: 10pt;
+	}
+
+/*main*/
+
+#main {
+	padding: 0px;
+	width: 95%;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#000000;
+	background-image: url('images/bg2.jpg');
+	background-repeat: repeat;
+	border:1px solid #0099CC;
+	}
+
+#main a {
+	font-weight:bold;
+	color: rgb(90%,90%,80%);
+	text-decoration: none;
+	}
+
+#main a:visited {
+	color: rgb(90%,90%,80%);
+	}
+
+#main a:hover {
+	color: white;
+	}
+
+/* barre du haut */
+
+#barre {
+	width: 695px;
+	height: 69px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color:#000000;
+	background-image: url('images/bg_barre.jpg');
+	background-repeat: no-repeat;
+	border-bottom:1px solid #0099CC;
+	border-left:1px solid #0099CC;
+	border-right:1px solid #0099CC;
+	}
+
+/* couleurs */
+.c0 {
+	color: #0099CC;
+	}
+
+.c1 {
+	color: #FF6600;
+	font-weight: bold;
+	}
+
+.c2 {
+	color: #FFFF00;
+	}
+
+.c5 {
+	color: rgb(244,104,27);
+	}
+
+.c14 {
+	color: rgb(170,145,215);
+	font-weight: bold;
+	}
+
+.c17 {
+	color: #CC0000;
+	font-weight: bold;
+	}
+
+.c25 {
+	color: #FFFFFF;
+	font-weight: bold;
+	}	
+
+.c26 {
+	color: #00FFFF;
+	font-weight: bold;
+	}	
+
+.c6 {
+	color: #FF9900;
+	font-weight: bold;
+	}	
+
+
+/* AJOUTS POUR INFO-BULLES */
+
+.info{
+	color: #000000;
+	text-decoration: none;
+}
+
+.info span{
+	display: none;
+}
+
+.info:hover span{
+	overflow: auto;
+	display: block;
+	position: absolute;
+	padding: 5px;
+	left: 24px; 
+	border: 1px solid #000000;
+	background-color: yellow; 
+	color: #000000;
+	}

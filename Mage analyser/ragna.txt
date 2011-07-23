@@ -1,0 +1,610 @@
+[22:34:56.741] Trunkot Déflagration des Arcanes Ragnaros 18018
+[22:34:57.842] Trunkot gains Idées claires from Trunkot
+[22:35:00.075] Trunkot Orbe enflammé Ragnaros *3943*
+[22:35:00.624] Trunkot Déflagration des Arcanes Ragnaros *44067*
+[22:35:01.357] Trunkot Orbe enflammé Ragnaros 1979
+[22:35:01.724] Trunkot Déflagration des Arcanes Ragnaros *50340*
+[22:35:02.287] Trunkot Orbe enflammé Ragnaros 1984
+[22:35:03.420] Trunkot Orbe enflammé Ragnaros 1951
+[22:35:03.420] Trunkot Déflagration des Arcanes Ragnaros 26960
+[22:35:03.803] Trunkot Déflagration des Arcanes Ragnaros 29202
+[22:35:04.186] Trunkot Orbe enflammé Ragnaros 2170
+[22:35:04.370] Trunkot gains Pouvoir des Arcanes from Trunkot
+[22:35:05.286] Trunkot Orbe enflammé Ragnaros *6651*
+[22:35:06.207] Trunkot Orbe enflammé Ragnaros *6659*
+[22:35:06.207] Trunkot Déflagration des Arcanes Ragnaros 48046
+[22:35:06.207] Trunkot gains Image miroir from Trunkot
+[22:35:07.506] Trunkot Orbe enflammé Ragnaros 3194
+[22:35:07.875] Trunkot Déflagration des Arcanes Ragnaros 47741
+[22:35:08.062] Trunkot Orbe enflammé Ragnaros 3222
+[22:35:08.606] Trunkot Destruction volcanique Ragnaros 4569
+[22:35:09.339] Trunkot Orbe enflammé Ragnaros *7102*
+[22:35:09.339] Trunkot Déflagration des Arcanes Ragnaros 51727
+[22:35:10.272] Trunkot Orbe enflammé Ragnaros *7078*
+[22:35:10.638] Trunkot Déflagration des Arcanes Ragnaros 52241
+[22:35:11.008] Trunkot Orbe enflammé Ragnaros 3469
+[22:35:11.922] Trunkot Déflagration des Arcanes Ragnaros 51168
+[22:35:12.294] Trunkot Orbe enflammé Ragnaros *6989*
+[22:35:13.222] Trunkot Orbe enflammé Ragnaros 3433
+[22:35:13.223] Trunkot Déflagration des Arcanes Ragnaros *104950*
+[22:35:14.887] Trunkot Déflagration des Arcanes Ragnaros *103488*
+[22:35:15.987] Trunkot Déflagration des Arcanes Ragnaros 49619
+[22:35:17.344] Trunkot Déflagration des Arcanes Ragnaros *101798*
+[22:35:18.270] Trunkot Déflagration des Arcanes Ragnaros 49636
+[22:35:19.557] Trunkot Déflagration des Arcanes Ragnaros 34364
+[22:35:21.219] Trunkot Déflagration des Arcanes Ragnaros *61540*
+[22:35:22.519] Trunkot Déflagration des Arcanes Ragnaros 28903
+[22:35:22.709] Trunkot gains Idées claires from Trunkot
+[22:35:23.618] Trunkot Déflagration des Arcanes Ragnaros 28243
+[22:35:24.917] Trunkot Déflagration des Arcanes Ragnaros 26282
+[22:35:26.584] Trunkot Déflagration des Arcanes Ragnaros 26043
+[22:35:27.685] Trunkot Déflagration des Arcanes Ragnaros 26196
+[22:35:28.982] Trunkot Déflagration des Arcanes Ragnaros 25391
+[22:35:30.103] Trunkot Déflagration des Arcanes Ragnaros 25545
+[22:35:34.514] Trunkot Projectiles des Arcanes Ragnaros 4427
+[22:35:34.883] Trunkot Projectiles des Arcanes Ragnaros 4428
+[22:35:35.266] Trunkot Projectiles des Arcanes Ragnaros 4429
+[22:35:35.819] Trunkot Projectiles des Arcanes Ragnaros 4428
+[22:35:36.180] Trunkot Projectiles des Arcanes Ragnaros 4466
+[22:35:45.192] Trunkot Déflagration des Arcanes Ragnaros *46277*
+[22:35:45.563] Trunkot gains Idées claires from Trunkot
+[22:35:48.524] Trunkot Déflagration des Arcanes Ragnaros 25663
+[22:35:49.806] Trunkot Déflagration des Arcanes Ragnaros 28914
+[22:35:51.290] Trunkot Déflagration des Arcanes Ragnaros 31438
+[22:35:51.840] Trunkot Trait de feu Ragnaros 7536
+[22:35:54.238] Trunkot Déflagration des Arcanes Ragnaros *59980*
+[22:35:57.954] Trunkot Projectiles des Arcanes Ragnaros 5055
+[22:35:58.505] Trunkot Projectiles des Arcanes Ragnaros 5055
+[22:35:58.690] Trunkot Destruction volcanique Ragnaros 3165
+[22:35:58.873] Trunkot Projectiles des Arcanes Ragnaros 5061
+[22:35:59.238] Trunkot Projectiles des Arcanes Ragnaros 5061
+[22:35:59.806] Trunkot Projectiles des Arcanes Ragnaros *10403*
+[22:35:59.988] Trunkot Barrage des Arcanes Ragnaros 16755
+[22:36:00.355] Trunkot Déflagration des Arcanes Ragnaros 22372
+[22:36:02.021] Trunkot Déflagration des Arcanes Ragnaros 25520
+[22:36:02.202] Trunkot gains Idées claires from Trunkot
+[22:36:03.294] Trunkot Déflagration des Arcanes Ragnaros 28027
+[22:36:05.206] Trunkot Déflagration des Arcanes Ragnaros 31336
+[22:36:08.697] Trunkot Barrage des Arcanes Ragnaros *40654*
+[22:36:12.946] Trunkot Déflagration des Arcanes Ragnaros *39069*
+[22:36:14.236] Trunkot Déflagration des Arcanes Ragnaros *44643*
+[22:36:17.549] Trunkot Déflagration des Arcanes Ragnaros *50060*
+[22:36:17.732] Trunkot gains Idées claires from Trunkot
+[22:36:19.214] Trunkot Déflagration des Arcanes Ragnaros *54229*
+[22:36:22.162] Trunkot Projectiles des Arcanes Ragnaros 5144
+[22:36:22.711] Trunkot Projectiles des Arcanes Ragnaros *10574*
+[22:36:23.082] Trunkot Déflagration des Arcanes Ragnaros 19049
+[22:36:23.082] Trunkot Projectiles des Arcanes Ragnaros *10582*
+[22:36:23.645] Trunkot Projectiles des Arcanes Ragnaros 5150
+[22:36:23.829] Trunkot Projectiles des Arcanes Ragnaros 5150
+[22:36:24.378] Trunkot Déflagration des Arcanes Ragnaros 21952
+[22:36:26.029] Trunkot Déflagration des Arcanes Ragnaros 24438
+[22:36:27.126] Trunkot Déflagration des Arcanes Ragnaros 26361
+[22:36:28.793] Trunkot Déflagration des Arcanes Ragnaros 29058
+[22:36:32.862] Trunkot gains Idées claires from Trunkot
+[22:36:33.592] Trunkot Projectiles des Arcanes Ragnaros 5068
+[22:36:33.775] Trunkot Projectiles des Arcanes Ragnaros *10416*
+[22:36:34.142] Trunkot Orbe enflammé Ragnaros *3919*
+[22:36:34.325] Trunkot Projectiles des Arcanes Ragnaros 5069
+[22:36:34.691] Trunkot Projectiles des Arcanes Ragnaros *10419*
+[22:36:35.058] Trunkot Orbe enflammé Ragnaros 1932
+[22:36:35.242] Trunkot Projectiles des Arcanes Ragnaros *10503*
+[22:36:36.175] Trunkot Orbe enflammé Ragnaros 1944
+[22:36:36.358] Trunkot Barrage des Arcanes Ragnaros 16533
+[22:36:36.908] Trunkot Orbe enflammé Ragnaros *4006*
+[22:36:38.272] Trunkot Orbe enflammé Ragnaros *4825*
+[22:36:39.056] Trunkot Orbe enflammé Ragnaros *4784*
+[22:36:40.189] Trunkot Orbe enflammé Ragnaros *4766*
+[22:36:40.740] Trunkot Déflagration des Arcanes Ragnaros 22680
+[22:36:41.107] Trunkot Orbe enflammé Ragnaros 2324
+[22:36:42.222] Trunkot Orbe enflammé Ragnaros 2367
+[22:36:42.222] Trunkot Déflagration des Arcanes Ragnaros 25846
+[22:36:43.137] Trunkot Orbe enflammé Ragnaros 2299
+[22:36:44.239] Trunkot Orbe enflammé Ragnaros *4700*
+[22:36:45.168] Trunkot Orbe enflammé Ragnaros *4855*
+[22:36:45.904] Trunkot Orbe enflammé Ragnaros 2321
+[22:36:47.185] Trunkot Orbe enflammé Ragnaros 2306
+[22:36:47.570] Trunkot Déflagration des Arcanes Ragnaros 24353
+[22:36:47.936] Trunkot Orbe enflammé Ragnaros 1987
+[22:36:49.219] Trunkot Déflagration des Arcanes Ragnaros 26440
+[22:36:49.952] Trunkot Destruction volcanique Ragnaros 3239
+[22:36:50.321] Trunkot Déflagration des Arcanes Ragnaros 33722
+[22:36:50.701] Trunkot gains Idées claires from Trunkot
+[22:36:50.884] Trunkot Déflagration des Arcanes Ragnaros 34013
+[22:36:55.483] Trunkot Projectiles des Arcanes Ragnaros *12328*
+[22:36:55.672] Trunkot Projectiles des Arcanes Ragnaros *12329*
+[22:36:56.044] Trunkot Déflagration des Arcanes Ragnaros *45727*
+[22:36:56.217] Trunkot Projectiles des Arcanes Ragnaros *12328*
+[22:36:56.583] Trunkot Projectiles des Arcanes Ragnaros 6001
+[22:36:56.950] Trunkot Projectiles des Arcanes Ragnaros *12339*
+[22:36:57.683] Trunkot Déflagration des Arcanes Ragnaros 27832
+[22:36:58.983] Trunkot Déflagration des Arcanes Ragnaros 30665
+[22:37:00.632] Trunkot Déflagration des Arcanes Ragnaros 33926
+[22:37:02.665] Trunkot Déflagration des Arcanes Ragnaros 32116
+[22:37:04.331] Trunkot Déflagration des Arcanes Ragnaros 31461
+[22:37:08.377] Trunkot Barrage des Arcanes Ragnaros 17674
+[22:37:08.559] Trunkot gains Idées claires from Trunkot
+[22:37:10.037] Trunkot Déflagration des Arcanes Ragnaros 20566
+[22:37:11.708] Trunkot Déflagration des Arcanes Ragnaros *47356*
+[22:37:17.229] Trunkot Déflagration des Arcanes Ragnaros 28135
+[22:37:18.892] Trunkot Déflagration des Arcanes Ragnaros 30882
+[22:37:20.177] Trunkot Déflagration des Arcanes Ragnaros 33451
+[22:37:21.643] Trunkot Déflagration des Arcanes Ragnaros *68338*
+[22:37:22.992] Trunkot Déflagration des Arcanes Ragnaros 32875
+[22:37:26.324] Trunkot Projectiles des Arcanes Ragnaros *11863*
+[22:37:26.873] Trunkot Projectiles des Arcanes Ragnaros *9951*
+[22:37:27.057] Trunkot Déflagration des Arcanes Ragnaros *37084*
+[22:37:27.240] Trunkot Projectiles des Arcanes Ragnaros *9955*
+[22:37:27.607] Trunkot Projectiles des Arcanes Ragnaros 4848
+[22:37:28.056] Trunkot Projectiles des Arcanes Ragnaros *9964*
+[22:37:28.706] Trunkot Déflagration des Arcanes Ragnaros 20681
+[22:37:29.824] Trunkot Déflagration des Arcanes Ragnaros 23063
+[22:37:30.192] Trunkot gains Idées claires from Trunkot
+[22:37:31.473] Trunkot Déflagration des Arcanes Ragnaros *52180*
+[22:37:32.772] Trunkot Déflagration des Arcanes Ragnaros 27983
+[22:37:35.904] Trunkot Barrage des Arcanes Ragnaros 15580
+[22:37:37.750] Trunkot Déflagration des Arcanes Ragnaros 18978
+[22:37:38.482] Trunkot Destruction volcanique Ragnaros 3031
+[22:37:39.049] Trunkot Déflagration des Arcanes Ragnaros 24269
+[22:37:40.515] Trunkot Déflagration des Arcanes Ragnaros 26998
+[22:37:46.784] Trunkot Déflagration des Arcanes Fils des flammes *38704*
+[22:37:46.967] Trunkot gains Idées claires from Trunkot
+[22:37:47.883] Trunkot Déflagration des Arcanes Fils des flammes *43921*
+[22:37:49.725] Trunkot Déflagration des Arcanes Fils des flammes *47652*
+[22:37:52.309] Trunkot Déflagration des Arcanes Fils des flammes 22484
+[22:37:53.792] Trunkot Déflagration des Arcanes Fils des flammes 24134
+[22:37:54.709] Trunkot Déflagration des Arcanes Fils des flammes 24132
+[22:37:56.361] Trunkot Déflagration des Arcanes Fils des flammes 23529
+[22:37:57.095] Trunkot Barrage des Arcanes Fils des flammes 13554
+[22:38:00.960] Trunkot Déflagration des Arcanes Fils des flammes *32285*
+[22:38:14.288] Trunkot Déflagration des Arcanes Ragnaros 16846
+[22:38:15.587] Trunkot Déflagration des Arcanes Ragnaros *42127*
+[22:38:15.771] Trunkot gains Idées claires from Trunkot
+[22:38:19.271] Trunkot Projectiles des Arcanes Ragnaros 4915
+[22:38:19.454] Trunkot Orbe enflammé Ragnaros *3891*
+[22:38:19.820] Trunkot Projectiles des Arcanes Ragnaros *10104*
+[22:38:20.004] Trunkot Projectiles des Arcanes Ragnaros 4918
+[22:38:20.370] Trunkot Orbe enflammé Ragnaros *3827*
+[22:38:20.553] Trunkot Projectiles des Arcanes Ragnaros *10181*
+[22:38:20.737] Trunkot Déflagration des Arcanes Ragnaros *37636*
+[22:38:20.920] Trunkot Projectiles des Arcanes Ragnaros 4959
+[22:38:21.670] Trunkot Orbe enflammé Ragnaros *4039*
+[22:38:22.402] Trunkot Orbe enflammé Ragnaros 2029
+[22:38:22.402] Trunkot Déflagration des Arcanes Ragnaros *44851*
+[22:38:23.685] Trunkot Orbe enflammé Ragnaros 1969
+[22:38:24.053] Trunkot Déflagration des Arcanes Ragnaros 24413
+[22:38:24.419] Trunkot Orbe enflammé Ragnaros 2007
+[22:38:25.719] Trunkot Orbe enflammé Ragnaros 1978
+[22:38:26.451] Trunkot Orbe enflammé Ragnaros 1975
+[22:38:27.734] Trunkot Orbe enflammé Ragnaros 1977
+[22:38:27.734] Trunkot Projectiles des Arcanes Ragnaros 5190
+[22:38:28.101] Trunkot Déflagration des Arcanes Ragnaros 19367
+[22:38:28.101] Trunkot Projectiles des Arcanes Ragnaros *10667*
+[22:38:28.484] Trunkot Orbe enflammé Ragnaros 1952
+[22:38:28.668] Trunkot Projectiles des Arcanes Ragnaros 5191
+[22:38:28.850] Trunkot Destruction volcanique Ragnaros 2685
+[22:38:29.218] Trunkot Projectiles des Arcanes Ragnaros 5195
+[22:38:29.584] Trunkot Projectiles des Arcanes Ragnaros 5196
+[22:38:29.767] Trunkot Orbe enflammé Ragnaros *4697*
+[22:38:30.684] Trunkot Orbe enflammé Ragnaros 2279
+[22:38:31.433] Trunkot Orbe enflammé Ragnaros 2249
+[22:38:31.433] Trunkot Déflagration des Arcanes Ragnaros 25164
+[22:38:32.534] Trunkot Orbe enflammé Ragnaros 2279
+[22:38:33.451] Trunkot Orbe enflammé Ragnaros *4736*
+[22:38:35.106] Trunkot Projectiles des Arcanes Ragnaros 5957
+[22:38:35.660] Trunkot Projectiles des Arcanes Ragnaros 6005
+[22:38:35.660] Trunkot gains Idées claires from Trunkot
+[22:38:36.032] Trunkot Projectiles des Arcanes Ragnaros 6004
+[22:38:36.582] Trunkot Projectiles des Arcanes Ragnaros 6006
+[22:38:36.949] Trunkot Projectiles des Arcanes Ragnaros 5777
+[22:38:38.798] Trunkot Barrage des Arcanes Ragnaros 18795
+[22:38:41.548] Trunkot Déflagration des Arcanes Ragnaros 20801
+[22:38:43.025] Trunkot Déflagration des Arcanes Ragnaros 26710
+[22:38:44.504] Trunkot Déflagration des Arcanes Ragnaros 30217
+[22:38:45.611] Trunkot Déflagration des Arcanes Ragnaros *66997*
+[22:38:46.898] Trunkot Déflagration des Arcanes Ragnaros 35176
+[22:38:48.561] Trunkot Déflagration des Arcanes Ragnaros 35035
+[22:38:48.561] Trunkot Explosion des Arcanes Ragnaros 6518
+[22:38:48.561] Trunkot Explosion des Arcanes Elémentaire du magma 6004
+[22:38:48.561] Trunkot Explosion des Arcanes Elémentaire du magma 6032
+[22:38:48.561] Trunkot Explosion des Arcanes Elémentaire du magma 5983
+[22:38:49.528] Trunkot Explosion des Arcanes Ragnaros *13236*
+[22:38:49.528] Trunkot Explosion des Arcanes Elémentaire du magma 5969
+[22:38:49.528] Trunkot Explosion des Arcanes Elémentaire du magma 6005
+[22:38:49.528] Trunkot Explosion des Arcanes Elémentaire du magma 6026
+[22:38:49.528] Trunkot Explosion des Arcanes Elémentaire du magma 5969
+[22:38:49.528] Trunkot Explosion des Arcanes Elémentaire du magma 5966
+[22:38:49.534] Trunkot Explosion des Arcanes Elémentaire du magma 6008
+[22:38:49.534] Trunkot Explosion des Arcanes Elémentaire du magma 5988
+[22:38:49.534] Trunkot Explosion des Arcanes Elémentaire du magma 5964
+[22:38:50.409] Trunkot Explosion des Arcanes Ragnaros *14088*
+[22:38:50.409] Trunkot Explosion des Arcanes Elémentaire du magma 6298
+[22:38:50.409] Trunkot Explosion des Arcanes Elémentaire du magma 6354
+[22:38:50.409] Trunkot Explosion des Arcanes Elémentaire du magma *13073*
+[22:38:50.409] Trunkot Explosion des Arcanes Elémentaire du magma 5942
+[22:38:50.409] Trunkot Explosion des Arcanes Elémentaire du magma *13039*
+[22:38:50.589] Trunkot Explosion des Arcanes Elémentaire du magma 6367
+[22:38:50.589] Trunkot Explosion des Arcanes Elémentaire du magma 6364
+[22:38:50.589] Trunkot Explosion des Arcanes Elémentaire du magma 5955
+[22:38:50.724] Trunkot gains Idées claires from Trunkot
+[22:38:51.672] Trunkot Explosion des Arcanes Ragnaros *13993*
+[22:38:51.672] Trunkot Explosion des Arcanes Elémentaire du magma *12985*
+[22:38:51.672] Trunkot Explosion des Arcanes Elémentaire du magma 6316
+[22:38:51.672] Trunkot Explosion des Arcanes Elémentaire du magma 6377
+[22:38:51.672] Trunkot Explosion des Arcanes Elémentaire du magma 5959
+[22:38:51.672] Trunkot Explosion des Arcanes Elémentaire du magma *13081*
+[22:38:51.672] Trunkot Explosion des Arcanes Elémentaire du magma *12974*
+[22:38:51.672] Trunkot Explosion des Arcanes Elémentaire du magma *12985*
+[22:38:51.672] Trunkot Explosion des Arcanes Elémentaire du magma 6003
+[22:38:52.429] Trunkot Explosion des Arcanes Ragnaros 6926
+[22:38:52.613] Trunkot Explosion des Arcanes Elémentaire du magma 6441
+[22:38:52.613] Trunkot Explosion des Arcanes Elémentaire du magma 6455
+[22:38:52.613] Trunkot Explosion des Arcanes Elémentaire du magma *13196*
+[22:38:52.613] Trunkot Explosion des Arcanes Elémentaire du magma *12428*
+[22:38:52.613] Trunkot Explosion des Arcanes Elémentaire du magma *13265*
+[22:38:52.613] Trunkot Explosion des Arcanes Elémentaire du magma 6411
+[22:38:52.613] Trunkot Explosion des Arcanes Elémentaire du magma 6408
+[22:38:52.613] Trunkot Explosion des Arcanes Elémentaire du magma *12503*
+[22:38:53.707] Trunkot Explosion des Arcanes Ragnaros 6921
+[22:38:53.707] Trunkot Explosion des Arcanes Elémentaire du magma 6456
+[22:38:53.707] Trunkot Explosion des Arcanes Elémentaire du magma 6439
+[22:38:53.707] Trunkot Explosion des Arcanes Elémentaire du magma *13168*
+[22:38:53.707] Trunkot Explosion des Arcanes Elémentaire du magma 6048
+[22:38:53.707] Trunkot Explosion des Arcanes Elémentaire du magma 6411
+[22:38:53.707] Trunkot Explosion des Arcanes Elémentaire du magma *13168*
+[22:38:53.707] Trunkot Explosion des Arcanes Elémentaire du magma 6444
+[22:38:53.707] Trunkot Explosion des Arcanes Elémentaire du magma 6051
+[22:38:54.386] Trunkot Explosion des Arcanes Ragnaros *7678*
+[22:38:54.386] Trunkot Explosion des Arcanes Elémentaire du magma *7109*
+[22:38:54.386] Trunkot Explosion des Arcanes Elémentaire du magma 3463
+[22:38:54.386] Trunkot Explosion des Arcanes Elémentaire du magma *7146*
+[22:38:54.386] Trunkot Explosion des Arcanes Elémentaire du magma 3269
+[22:38:54.386] Trunkot Explosion des Arcanes Elémentaire du magma 3481
+[22:38:54.386] Trunkot Explosion des Arcanes Elémentaire du magma 3493
+[22:38:54.386] Trunkot Explosion des Arcanes Elémentaire du magma 3491
+[22:38:54.386] Trunkot Explosion des Arcanes Elémentaire du magma 3265
+[22:38:55.737] Trunkot Explosion des Arcanes Ragnaros *7699*
+[22:38:55.737] Trunkot Explosion des Arcanes Elémentaire du magma 3464
+[22:38:55.737] Trunkot Explosion des Arcanes Elémentaire du magma 3484
+[22:38:55.745] Trunkot Explosion des Arcanes Elémentaire du magma 3489
+[22:38:55.745] Trunkot Explosion des Arcanes Elémentaire du magma 3275
+[22:38:55.745] Trunkot Explosion des Arcanes Elémentaire du magma 3462
+[22:38:55.745] Trunkot Explosion des Arcanes Elémentaire du magma 3462
+[22:38:55.745] Trunkot Explosion des Arcanes Elémentaire du magma 3310
+[22:38:56.478] Trunkot Explosion des Arcanes Ragnaros 3774
+[22:38:56.478] Trunkot Explosion des Arcanes Elémentaire du magma *2939* (O: 4169)
+[22:38:56.478] Trunkot Explosion des Arcanes Elémentaire du magma 3500
+[22:38:56.667] Trunkot Explosion des Arcanes Elémentaire du magma *7180*
+[22:38:56.667] Trunkot Explosion des Arcanes Elémentaire du magma 3489
+[22:38:56.667] Trunkot Explosion des Arcanes Elémentaire du magma *6105* (O: 989)
+[22:38:57.962] Trunkot Explosion des Arcanes Ragnaros 3805
+[22:38:57.962] Trunkot Explosion des Arcanes Elémentaire du magma *5648* (O: 1585)
+[22:38:57.962] Trunkot Explosion des Arcanes Elémentaire du magma 3540
+[22:38:58.692] Trunkot Explosion des Arcanes Ragnaros 3801
+[22:38:58.692] Trunkot Explosion des Arcanes Elémentaire du magma 1009 (O: 2519)
+[22:39:03.487] Trunkot Trait de feu Ragnaros 6372
+[22:39:04.220] Trunkot Barrage des Arcanes Ragnaros 16071
+[22:39:06.437] Trunkot Déflagration des Arcanes Ragnaros 17894
+[22:39:06.619] Trunkot gains Idées claires from Trunkot
+[22:39:08.086] Trunkot Déflagration des Arcanes Ragnaros 20818
+[22:39:08.454] Trunkot Déflagration des Arcanes Ragnaros 22741
+[22:39:11.220] Trunkot Déflagration des Arcanes Ragnaros *51858*
+[22:39:11.220] Trunkot gains Pouvoir des Arcanes from Trunkot
+[22:39:12.701] Trunkot gains Image miroir from Trunkot
+[22:39:12.885] Trunkot Déflagration des Arcanes Ragnaros 40908
+[22:39:14.551] Trunkot Déflagration des Arcanes Ragnaros 40328
+[22:39:15.650] Trunkot Déflagration des Arcanes Ragnaros 41922
+[22:39:16.933] Trunkot Déflagration des Arcanes Ragnaros 41504
+[22:39:18.233] Trunkot Déflagration des Arcanes Ragnaros *84809*
+[22:39:20.248] Trunkot Orbe enflammé Ragnaros 2758
+[22:39:20.984] Trunkot Orbe enflammé Ragnaros 2757
+[22:39:21.349] Trunkot Déflagration des Arcanes Ragnaros 40809
+[22:39:22.284] Trunkot Destruction volcanique Ragnaros *7888*
+[22:39:22.284] Trunkot Orbe enflammé Ragnaros 3029
+[22:39:22.647] Trunkot Déflagration des Arcanes Ragnaros *93459*
+[22:39:23.015] Trunkot Orbe enflammé Ragnaros 2998
+[22:39:23.930] Trunkot Déflagration des Arcanes Ragnaros 45096
+[22:39:24.314] Trunkot Orbe enflammé Ragnaros *6137*
+[22:39:25.048] Trunkot Orbe enflammé Ragnaros *6091*
+[22:39:25.048] Trunkot Déflagration des Arcanes Ragnaros 44131
+[22:39:25.415] Trunkot gains Idées claires from Trunkot
+[22:39:26.331] Trunkot Orbe enflammé Ragnaros 2926
+[22:39:26.698] Trunkot Déflagration des Arcanes Ragnaros *63977*
+[22:39:27.064] Trunkot Orbe enflammé Ragnaros *4238*
+[22:39:27.980] Trunkot Déflagration des Arcanes Ragnaros *62473*
+[22:39:28.363] Trunkot Orbe enflammé Ragnaros 1999
+[22:39:29.098] Trunkot Orbe enflammé Ragnaros *4087*
+[22:39:29.098] Trunkot Déflagration des Arcanes Ragnaros 29998
+[22:39:30.414] Trunkot Orbe enflammé Ragnaros 1964
+[22:39:30.781] Trunkot Déflagration des Arcanes Ragnaros 29396
+[22:39:31.148] Trunkot Orbe enflammé Ragnaros 1938
+[22:39:32.080] Trunkot Orbe enflammé Ragnaros 1981
+[22:39:33.187] Trunkot Orbe enflammé Ragnaros 2013
+[22:39:33.730] Trunkot Déflagration des Arcanes Ragnaros *60328*
+[22:39:34.111] Trunkot Orbe enflammé Ragnaros *4117*
+[22:39:35.216] Trunkot Déflagration des Arcanes Ragnaros 25061
+[22:39:36.492] Trunkot Déflagration des Arcanes Ragnaros *51356*
+[22:39:40.924] Trunkot Barrage des Arcanes Ragnaros *29079*
+[22:39:41.289] Trunkot gains Idées claires from Trunkot
+[22:39:44.241] Trunkot Déflagration des Arcanes Ragnaros *33808*
+[22:39:47.374] Trunkot Déflagration des Arcanes Ragnaros 21802
+[22:39:48.659] Trunkot Explosion des Arcanes Ragnaros *9373*
+[22:39:48.659] Trunkot Explosion des Arcanes Elémentaire du magma 3995
+[22:39:48.659] Trunkot Explosion des Arcanes Elémentaire du magma 3988
+[22:39:48.659] Trunkot Explosion des Arcanes Elémentaire du magma 4008
+[22:39:49.767] Trunkot Explosion des Arcanes Ragnaros *9345*
+[22:39:49.767] Trunkot Explosion des Arcanes Elémentaire du magma 3978
+[22:39:49.767] Trunkot Explosion des Arcanes Elémentaire du magma 3974
+[22:39:49.767] Trunkot Explosion des Arcanes Elémentaire du magma 3980
+[22:39:49.767] Trunkot Explosion des Arcanes Elémentaire du magma 4008
+[22:39:50.694] Trunkot Explosion des Arcanes Ragnaros *9414*
+[22:39:50.694] Trunkot Explosion des Arcanes Elémentaire du magma 3980
+[22:39:50.703] Trunkot Explosion des Arcanes Elémentaire du magma 3970
+[22:39:50.703] Trunkot Explosion des Arcanes Elémentaire du magma *8146*
+[22:39:50.703] Trunkot Explosion des Arcanes Elémentaire du magma 3980
+[22:39:50.703] Trunkot Explosion des Arcanes Elémentaire du magma 3962
+[22:39:50.703] Trunkot Explosion des Arcanes Elémentaire du magma 3968
+[22:39:51.788] Trunkot Explosion des Arcanes Ragnaros 4592
+[22:39:51.788] Trunkot Explosion des Arcanes Elémentaire du magma 4247
+[22:39:51.788] Trunkot Explosion des Arcanes Elémentaire du magma 4215
+[22:39:51.788] Trunkot Explosion des Arcanes Elémentaire du magma 4248
+[22:39:51.788] Trunkot Explosion des Arcanes Elémentaire du magma 4211
+[22:39:51.788] Trunkot Explosion des Arcanes Elémentaire du magma 4234
+[22:39:51.788] Trunkot Explosion des Arcanes Elémentaire du magma 3996
+[22:39:51.788] Trunkot Explosion des Arcanes Elémentaire du magma 4226
+[22:39:51.788] Trunkot Explosion des Arcanes Elémentaire du magma 4221
+[22:39:52.721] Trunkot Explosion des Arcanes Ragnaros 4592
+[22:39:52.721] Trunkot Explosion des Arcanes Elémentaire du magma 4248
+[22:39:52.721] Trunkot Explosion des Arcanes Elémentaire du magma 4227
+[22:39:52.721] Trunkot Explosion des Arcanes Elémentaire du magma 4273
+[22:39:52.721] Trunkot Explosion des Arcanes Elémentaire du magma 4259
+[22:39:52.721] Trunkot Explosion des Arcanes Elémentaire du magma 4253
+[22:39:52.721] Trunkot Explosion des Arcanes Elémentaire du magma 3989
+[22:39:52.721] Trunkot Explosion des Arcanes Elémentaire du magma 4263
+[22:39:52.721] Trunkot Explosion des Arcanes Elémentaire du magma *8740*
+[22:39:53.776] Trunkot Explosion des Arcanes Ragnaros *7502*
+[22:39:53.776] Trunkot Explosion des Arcanes Elémentaire du magma 3385
+[22:39:53.776] Trunkot Explosion des Arcanes Elémentaire du magma 3384
+[22:39:53.776] Trunkot Explosion des Arcanes Elémentaire du magma 3382
+[22:39:53.776] Trunkot Explosion des Arcanes Elémentaire du magma 3369
+[22:39:53.776] Trunkot Explosion des Arcanes Elémentaire du magma *6937*
+[22:39:53.776] Trunkot Explosion des Arcanes Elémentaire du magma 3178
+[22:39:53.776] Trunkot Explosion des Arcanes Elémentaire du magma 3392
+[22:39:53.776] Trunkot Explosion des Arcanes Elémentaire du magma 3389
+[22:39:54.748] Trunkot Explosion des Arcanes Ragnaros *7427*
+[22:39:54.748] Trunkot Explosion des Arcanes Elémentaire du magma 3367
+[22:39:54.748] Trunkot Explosion des Arcanes Elémentaire du magma 3360
+[22:39:54.748] Trunkot Explosion des Arcanes Elémentaire du magma 3366
+[22:39:54.748] Trunkot Explosion des Arcanes Elémentaire du magma 3360
+[22:39:54.748] Trunkot Explosion des Arcanes Elémentaire du magma 3348
+[22:39:54.748] Trunkot Explosion des Arcanes Elémentaire du magma 3162
+[22:39:54.748] Trunkot Explosion des Arcanes Elémentaire du magma 3366
+[22:39:54.748] Trunkot Explosion des Arcanes Elémentaire du magma 3368
+[22:39:55.835] Trunkot Explosion des Arcanes Ragnaros 3104
+[22:39:55.835] Trunkot Explosion des Arcanes Elémentaire du magma 2879
+[22:39:55.835] Trunkot Explosion des Arcanes Elémentaire du magma 2856
+[22:39:55.835] Trunkot Explosion des Arcanes Elémentaire du magma *5883*
+[22:39:55.835] Trunkot Explosion des Arcanes Elémentaire du magma 2867
+[22:39:55.835] Trunkot Explosion des Arcanes Elémentaire du magma 2863
+[22:39:55.835] Trunkot Explosion des Arcanes Elémentaire du magma 2706
+[22:39:55.835] Trunkot Explosion des Arcanes Elémentaire du magma 2862
+[22:39:55.835] Trunkot Explosion des Arcanes Elémentaire du magma *5881*
+[22:39:56.234] Trunkot gains Idées claires from Trunkot
+[22:39:56.763] Trunkot Explosion des Arcanes Ragnaros *6361*
+[22:39:56.763] Trunkot Explosion des Arcanes Elémentaire du magma 2843
+[22:39:56.763] Trunkot Explosion des Arcanes Elémentaire du magma 2862
+[22:39:56.763] Trunkot Explosion des Arcanes Elémentaire du magma *5871*
+[22:39:56.763] Trunkot Explosion des Arcanes Elémentaire du magma *5837*
+[22:39:56.763] Trunkot Explosion des Arcanes Elémentaire du magma *5902*
+[22:39:56.763] Trunkot Explosion des Arcanes Elémentaire du magma 2701
+[22:39:56.763] Trunkot Explosion des Arcanes Elémentaire du magma *5834*
+[22:39:56.763] Trunkot Explosion des Arcanes Elémentaire du magma 2866
+[22:39:57.509] Trunkot Explosion des Arcanes Ragnaros *6390*
+[22:39:57.509] Trunkot Explosion des Arcanes Elémentaire du magma *5914*
+[22:39:57.509] Trunkot Explosion des Arcanes Elémentaire du magma *5904*
+[22:39:57.509] Trunkot Explosion des Arcanes Elémentaire du magma 2902
+[22:39:57.509] Trunkot Explosion des Arcanes Elémentaire du magma 2881
+[22:39:57.509] Trunkot Explosion des Arcanes Elémentaire du magma *5923*
+[22:39:57.509] Trunkot Explosion des Arcanes Elémentaire du magma 2879
+[22:39:58.809] Trunkot Explosion des Arcanes Ragnaros 3117
+[22:39:58.809] Trunkot Explosion des Arcanes Elémentaire du magma 2871
+[22:39:58.809] Trunkot Explosion des Arcanes Elémentaire du magma 2884
+[22:39:59.721] Trunkot Explosion des Arcanes Ragnaros 3112
+[22:39:59.721] Trunkot Explosion des Arcanes Elémentaire du magma 2894
+[22:39:59.721] Trunkot Explosion des Arcanes Elémentaire du magma *5934*
+[22:40:00.820] Trunkot Explosion des Arcanes Ragnaros 3133
+[22:40:06.166] Trunkot Trait de feu Ragnaros *12412*
+[22:40:07.099] Trunkot Barrage des Arcanes Ragnaros *31836*
+[22:40:16.115] Trunkot Déflagration des Arcanes Ragnaros *37893*
+[22:40:17.598] Trunkot Déflagration des Arcanes Ragnaros 20855
+[22:40:17.963] Trunkot gains Idées claires from Trunkot
+[22:40:18.898] Trunkot Déflagration des Arcanes Ragnaros *47872*
+[22:40:20.546] Trunkot Déflagration des Arcanes Ragnaros 25963
+[22:40:24.610] Trunkot Projectiles des Arcanes Ragnaros 4939
+[22:40:24.977] Trunkot Déflagration des Arcanes Ragnaros 18728
+[22:40:24.977] Trunkot Projectiles des Arcanes Ragnaros 4941
+[22:40:25.342] Trunkot Projectiles des Arcanes Ragnaros *10159*
+[22:40:25.709] Trunkot Destruction volcanique Ragnaros *6085*
+[22:40:25.709] Trunkot Projectiles des Arcanes Ragnaros 4980
+[22:40:26.275] Trunkot Projectiles des Arcanes Ragnaros 4980
+[22:40:26.458] Trunkot Déflagration des Arcanes Ragnaros 23883
+[22:40:28.130] Trunkot Déflagration des Arcanes Ragnaros 29739
+[22:40:29.407] Trunkot Déflagration des Arcanes Ragnaros *67289*
+[22:40:33.640] Trunkot Barrage des Arcanes Ragnaros *42408*
+[22:40:33.822] Trunkot Déflagration des Arcanes Ragnaros 23456
+[22:40:34.204] Trunkot gains Idées claires from Trunkot
+[22:40:35.123] Trunkot Déflagration des Arcanes Ragnaros 26297
+[22:40:36.774] Trunkot Déflagration des Arcanes Ragnaros *60921*
+[22:40:41.205] Trunkot Trait de feu Ragnaros 7246
+[22:40:41.575] Trunkot Barrage des Arcanes Ragnaros 18120
+[22:40:46.305] Trunkot Projectiles des Arcanes Ragnaros *11516*
+[22:40:46.700] Trunkot Projectiles des Arcanes Ragnaros 5606
+[22:40:47.273] Trunkot Projectiles des Arcanes Ragnaros 5614
+[22:40:47.273] Trunkot Déflagration des Arcanes Ragnaros *38413*
+[22:40:47.652] Trunkot Projectiles des Arcanes Ragnaros *11535*
+[22:40:48.033] Trunkot Projectiles des Arcanes Ragnaros 5615
+[22:40:50.224] Trunkot Déflagration des Arcanes Ragnaros *51497*
+[22:40:51.324] Trunkot Déflagration des Arcanes Ragnaros *56274*
+[22:40:52.996] Trunkot Déflagration des Arcanes Ragnaros 30185
+[22:40:54.089] Trunkot Déflagration des Arcanes Ragnaros 33289
+[22:40:54.089] Trunkot Explosion des Arcanes Ragnaros 6111
+[22:40:54.089] Trunkot Explosion des Arcanes Elémentaire du magma 5621
+[22:40:54.089] Trunkot Explosion des Arcanes Elémentaire du magma 5640
+[22:40:54.089] Trunkot Explosion des Arcanes Elémentaire du magma 5651
+[22:40:54.089] Trunkot Explosion des Arcanes Elémentaire du magma 5686
+[22:40:54.089] Trunkot Explosion des Arcanes Elémentaire du magma 5626
+[22:40:54.089] Trunkot Explosion des Arcanes Elémentaire du magma 5631
+[22:40:54.089] Trunkot Explosion des Arcanes Elémentaire du magma 5673
+[22:40:54.089] Trunkot Explosion des Arcanes Elémentaire du magma 5636
+[22:40:54.446] Trunkot gains Idées claires from Trunkot
+[22:40:55.376] Trunkot Explosion des Arcanes Ragnaros *12912*
+[22:40:55.376] Trunkot Explosion des Arcanes Elémentaire du magma *11940*
+[22:40:55.376] Trunkot Explosion des Arcanes Elémentaire du magma 5806
+[22:40:55.376] Trunkot Explosion des Arcanes Elémentaire du magma 5853
+[22:40:55.376] Trunkot Explosion des Arcanes Elémentaire du magma 5806
+[22:40:55.376] Trunkot Explosion des Arcanes Elémentaire du magma 5837
+[22:40:55.376] Trunkot Explosion des Arcanes Elémentaire du magma 5815
+[22:40:55.376] Trunkot Explosion des Arcanes Elémentaire du magma 5832
+[22:40:55.381] Trunkot Explosion des Arcanes Elémentaire du magma 5811
+[22:40:56.130] Trunkot Explosion des Arcanes Ragnaros 6287
+[22:40:56.130] Trunkot Explosion des Arcanes Elémentaire du magma 5858
+[22:40:56.130] Trunkot Explosion des Arcanes Elémentaire du magma *11962*
+[22:40:56.130] Trunkot Explosion des Arcanes Elémentaire du magma 5861
+[22:40:56.130] Trunkot Explosion des Arcanes Elémentaire du magma *12069*
+[22:40:56.130] Trunkot Explosion des Arcanes Elémentaire du magma 591 (O: 5270)
+[22:40:56.130] Trunkot Explosion des Arcanes Elémentaire du magma 5851
+[22:40:56.130] Trunkot Explosion des Arcanes Elémentaire du magma 5837
+[22:40:56.311] Trunkot Explosion des Arcanes Elémentaire du magma 5849
+[22:40:57.414] Trunkot Explosion des Arcanes Ragnaros 6364
+[22:40:57.414] Trunkot Explosion des Arcanes Elémentaire du magma 5918
+[22:40:57.414] Trunkot Explosion des Arcanes Elémentaire du magma 5914
+[22:40:57.414] Trunkot Explosion des Arcanes Elémentaire du magma 5923
+[22:40:57.414] Trunkot Explosion des Arcanes Elémentaire du magma 5893
+[22:40:57.414] Trunkot Explosion des Arcanes Elémentaire du magma 5911
+[22:40:57.414] Trunkot Explosion des Arcanes Elémentaire du magma 5891
+[22:40:57.414] Trunkot Explosion des Arcanes Elémentaire du magma 5868
+[22:40:58.158] Trunkot Explosion des Arcanes Ragnaros 5428
+[22:40:58.158] Trunkot Explosion des Arcanes Elémentaire du magma 5011
+[22:40:58.158] Trunkot Explosion des Arcanes Elémentaire du magma 5026
+[22:40:58.158] Trunkot Explosion des Arcanes Elémentaire du magma *10271*
+[22:40:58.333] Trunkot Explosion des Arcanes Elémentaire du magma 4991
+[22:40:58.333] Trunkot Explosion des Arcanes Elémentaire du magma *10308*
+[22:40:58.333] Trunkot Explosion des Arcanes Elémentaire du magma 5038
+[22:40:58.333] Trunkot Explosion des Arcanes Elémentaire du magma *10343*
+[22:40:59.074] Trunkot Explosion des Arcanes Ragnaros 5387
+[22:40:59.074] Trunkot Explosion des Arcanes Elémentaire du magma 5010
+[22:40:59.074] Trunkot Explosion des Arcanes Elémentaire du magma *10263*
+[22:40:59.074] Trunkot Explosion des Arcanes Elémentaire du magma 5007
+[22:40:59.074] Trunkot Explosion des Arcanes Elémentaire du magma 5017
+[22:40:59.074] Trunkot Explosion des Arcanes Elémentaire du magma 5012
+[22:40:59.074] Trunkot Explosion des Arcanes Elémentaire du magma 4967
+[22:40:59.074] Trunkot Explosion des Arcanes Elémentaire du magma 4990
+[22:41:00.186] Trunkot Explosion des Arcanes Ragnaros 3576
+[22:41:00.186] Trunkot Explosion des Arcanes Elémentaire du magma 3275
+[22:41:00.186] Trunkot Explosion des Arcanes Elémentaire du magma 3272
+[22:41:00.186] Trunkot Explosion des Arcanes Elémentaire du magma 3295
+[22:41:00.186] Trunkot Explosion des Arcanes Elémentaire du magma 3301
+[22:41:01.106] Trunkot Explosion des Arcanes Ragnaros 3537
+[22:41:01.106] Trunkot Explosion des Arcanes Elémentaire du magma 3295
+[22:41:01.106] Trunkot Explosion des Arcanes Elémentaire du magma *6708*
+[22:41:02.385] Trunkot Explosion des Arcanes Ragnaros *7306*
+[22:41:02.385] Trunkot Explosion des Arcanes Elémentaire du magma 3330
+[22:41:03.135] Trunkot Explosion des Arcanes Ragnaros 3554
+[22:41:03.135] Trunkot Explosion des Arcanes Elémentaire du magma *6821*
+[22:41:10.128] Trunkot Déflagration des Arcanes Ragnaros 18332
+[22:41:10.860] Trunkot Destruction volcanique Ragnaros 2599
+[22:41:11.593] Trunkot Déflagration des Arcanes Ragnaros *48741*
+[22:41:13.442] Trunkot Déflagration des Arcanes Ragnaros 26597
+[22:41:13.627] Trunkot gains Idées claires from Trunkot
+[22:41:14.912] Trunkot Déflagration des Arcanes Ragnaros 29094
+[22:41:20.989] Trunkot Déflagration des Arcanes Ragnaros 31983
+[22:41:29.454] Trunkot Déflagration des Arcanes Fils des flammes 24451
+[22:41:29.454] Trunkot gains Idées claires from Trunkot
+[22:41:32.412] Trunkot Déflagration des Arcanes Fils des flammes 24569
+[22:41:33.330] Trunkot Déflagration des Arcanes Fils des flammes 24435
+[22:41:34.431] Trunkot Déflagration des Arcanes Fils des flammes 24493
+[22:41:35.714] Trunkot Déflagration des Arcanes Fils des flammes 24074
+[22:41:37.750] Trunkot Déflagration des Arcanes Fils des flammes 23909
+[22:41:39.412] Trunkot Déflagration des Arcanes Fils des flammes 23640
+[22:41:40.700] Trunkot Déflagration des Arcanes Fils des flammes 24326
+[22:41:46.223] Trunkot Déflagration des Arcanes Fils des flammes *49885*
+[22:41:46.592] Trunkot gains Idées claires from Trunkot
+[22:41:50.595] Trunkot Barrage des Arcanes Scion de lave 14931
+[22:41:52.862] Trunkot Déflagration des Arcanes Scion de lave *33647*
+[22:41:54.146] Trunkot Déflagration des Arcanes Scion de lave 18737
+[22:41:55.628] Trunkot Déflagration des Arcanes Scion de lave *42902*
+[22:41:56.910] Trunkot Déflagration des Arcanes Scion de lave 22774
+[22:41:59.859] Trunkot Déflagration des Arcanes Scion de lave *50386*
+[22:42:00.043] Trunkot gains Pouvoir des Arcanes from Trunkot
+[22:42:01.343] Trunkot Déflagration des Arcanes Scion de lave *75476*
+[22:42:02.443] Trunkot Déflagration des Arcanes Scion de lave *73855*
+[22:42:02.996] Trunkot Destruction volcanique Scion de lave 3207
+[22:42:03.361] Trunkot Déflagration des Arcanes Scion de lave *81852*
+[22:42:04.310] Trunkot Déflagration des Arcanes Scion de lave 39869
+[22:42:05.410] Trunkot Déflagration des Arcanes Scion de lave *80575*
+[22:42:06.704] Trunkot Déflagration des Arcanes Scion de lave 39250
+[22:42:06.897] Trunkot gains Idées claires from Trunkot
+[22:42:10.763] Trunkot Déflagration des Arcanes Scion de lave 41617
+[22:42:12.054] Trunkot Déflagration des Arcanes Scion de lave *84514*
+[22:42:12.782] Trunkot Déflagration des Arcanes Scion de lave *85040*
+[22:42:17.388] Trunkot Déflagration des Arcanes Ragnaros 25313
+[22:42:18.322] Trunkot Déflagration des Arcanes Scion de lave 24545
+[22:42:19.236] Trunkot Déflagration des Arcanes Scion de lave 24366
+[22:42:20.171] Trunkot Déflagration des Arcanes Scion de lave 24053
+[22:42:21.287] Trunkot Déflagration des Arcanes Scion de lave 23300
+[22:42:22.570] Trunkot Déflagration des Arcanes Scion de lave 23138
+[22:42:25.905] Trunkot Barrage des Arcanes Scion de lave 13338
+[22:42:27.382] Trunkot Déflagration des Arcanes Scion de lave *31180*
+[22:42:27.725] Trunkot gains Idées claires from Trunkot
+[22:42:33.633] Trunkot Orbe enflammé Ragnaros 1813
+[22:42:34.367] Trunkot Orbe enflammé Ragnaros *4024*
+[22:42:34.367] Trunkot Déflagration des Arcanes Ragnaros 19126
+[22:42:35.663] Trunkot Orbe enflammé Ragnaros 1924
+[22:42:35.663] Trunkot Déflagration des Arcanes Ragnaros 21585
+[22:42:36.397] Trunkot Orbe enflammé Ragnaros 1968
+[22:42:36.767] Trunkot Déflagration des Arcanes Ragnaros 24225
+[22:42:37.584] Trunkot Orbe enflammé Ragnaros 1953
+[22:42:37.597] Trunkot Déflagration des Arcanes Ragnaros *54926*
+[22:42:38.430] Trunkot Orbe enflammé Ragnaros *3973*
+[22:42:39.713] Trunkot Orbe enflammé Ragnaros *4031*
+[22:42:40.448] Trunkot Orbe enflammé Ragnaros 1828
+[22:42:41.747] Trunkot Orbe enflammé Ragnaros 1901
+[22:42:41.747] Trunkot Déflagration des Arcanes Ragnaros 27804
+[22:42:42.479] Trunkot Orbe enflammé Ragnaros 1860
+[22:42:43.038] Trunkot Déflagration des Arcanes Ragnaros 27349
+[22:42:43.214] Trunkot gains Idées claires from Trunkot
+[22:42:43.963] Trunkot Orbe enflammé Ragnaros 1874
+[22:42:44.511] Trunkot Orbe enflammé Ragnaros 1862
+[22:42:44.511] Trunkot Déflagration des Arcanes Ragnaros 27403
+[22:42:45.444] Trunkot Orbe enflammé Ragnaros *3783*
+[22:42:46.727] Trunkot Orbe enflammé Ragnaros *3862*
+[22:42:47.110] Trunkot Déflagration des Arcanes Ragnaros 27522
+[22:42:47.477] Trunkot Orbe enflammé Ragnaros 1850
+[22:42:48.218] Trunkot Déflagration des Arcanes Ragnaros 27017
+[22:42:49.137] Trunkot Destruction volcanique Ragnaros 2498
+[22:42:49.504] Trunkot Déflagration des Arcanes Ragnaros 30829
+[22:42:50.993] Trunkot Déflagration des Arcanes Ragnaros *62258*
+[22:42:52.456] Trunkot Déflagration des Arcanes Ragnaros 30631
+[22:42:57.619] Trunkot Déflagration des Arcanes Ragnaros 30577
+[22:42:59.268] Trunkot Déflagration des Arcanes Ragnaros 30365
+[22:42:59.467] Trunkot gains Idées claires from Trunkot
+[22:43:00.567] Trunkot Déflagration des Arcanes Ragnaros 29772
+[22:43:01.667] Trunkot Déflagration des Arcanes Ragnaros 26184
+[22:43:05.551] Trunkot Barrage des Arcanes Ragnaros 14817
+[22:43:14.206] Trunkot Barrage des Arcanes Ragnaros 14953
+[22:43:20.914] Trunkot Barrage des Arcanes Ragnaros 15429
+[22:43:21.096] Trunkot gains Idées claires from Trunkot
+[22:43:25.525] Trunkot Barrage des Arcanes Ragnaros *32736*
+[22:43:29.025] Trunkot Barrage des Arcanes Ragnaros 16181
+[22:43:32.173] Trunkot Déflagration des Arcanes Ragnaros 18299
+[22:43:33.572] Trunkot Déflagration des Arcanes Ragnaros 20111
+[22:43:36.014] Trunkot Déflagration des Arcanes Ragnaros 22487
+[22:43:36.191] Trunkot gains Idées claires from Trunkot
+[22:43:37.108] Trunkot Déflagration des Arcanes Ragnaros 24827
+[22:43:38.402] Trunkot Déflagration des Arcanes Ragnaros 27058
+[22:43:39.335] Trunkot Destruction volcanique Ragnaros 2674
+[22:43:40.290] Trunkot Déflagration des Arcanes Ragnaros 30868
+[22:43:41.023] Trunkot Déflagration des Arcanes Ragnaros 30225
+[22:43:46.552] Trunkot Barrage des Arcanes Ragnaros *36038*
+[22:43:51.518] Trunkot Barrage des Arcanes Ragnaros *36268*
+[22:43:55.985] Trunkot Barrage des Arcanes Ragnaros 15532

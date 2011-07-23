@@ -1,0 +1,144 @@
+[21:22:25.984] Trunkot gains 224 mana from Trunkot's Armure du mage
+[21:22:27.734] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:22:30.359] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:30.984] Trunkot gains 1393 mana from Trunkot's Armure du mage
+[21:22:31.343] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:32.187] Trunkot gains 3386 mana from Trunkot's Récupération du mana
+[21:22:32.968] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:22:34.953] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:22:35.359] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:35.984] Trunkot gains 1393 mana from Trunkot's Armure du mage
+[21:22:36.359] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:37.343] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:38.359] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:39.359] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:40.359] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:40.968] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:22:41.375] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:42.359] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:42.593] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:22:43.359] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:44.203] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:22:44.390] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:45.343] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:45.796] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:22:45.984] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:22:46.359] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:47.000] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:22:47.359] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:48.203] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:22:48.359] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:49.343] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:50.343] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:50.625] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:22:50.968] Trunkot gains 1393 mana from Trunkot's Armure du mage
+[21:22:51.359] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:51.812] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:22:52.359] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:53.046] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:22:53.359] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:54.375] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:55.375] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:55.843] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:22:55.984] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:22:56.343] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:57.046] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:22:57.343] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:58.250] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:22:58.640] Trunkot gains 39 mana from Reds's Requinquage
+[21:22:59.359] Trunkot gains 38 mana from Reds's Requinquage
+[21:22:59.875] Trunkot gains Evocation from Trunkot
+[21:23:00.250] Trunkot gains 5799 mana from Trunkot's Evocation
+[21:23:00.640] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:00.906] Trunkot gains 5799 mana from Trunkot's Evocation
+[21:23:00.984] Trunkot gains 1393 mana from Trunkot's Armure du mage
+[21:23:01.656] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:02.250] Trunkot gains 5799 mana from Trunkot's Evocation
+[21:23:02.656] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:02.875] Trunkot gains 5799 mana from Trunkot's Evocation
+[21:23:02.875] Trunkot's Evocation fades
+[21:23:03.671] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:04.671] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:05.703] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:05.968] Trunkot gains 1142 mana from Trunkot's Armure du mage
+[21:23:07.078] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:23:07.656] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:08.671] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:09.484] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:23:09.687] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:10.687] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:10.968] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:23:11.078] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:23:11.687] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:12.687] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:13.656] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:14.656] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:15.656] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:16.296] Trunkot gains 1393 mana from Trunkot's Armure du mage
+[21:23:16.656] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:17.687] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:18.687] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:19.109] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:23:19.703] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:20.703] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:20.953] Trunkot gains 1393 mana from Trunkot's Armure du mage
+[21:23:21.687] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:22.687] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:23.671] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:24.656] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:25.656] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:26.312] Trunkot gains 1393 mana from Trunkot's Armure du mage
+[21:23:26.671] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:27.687] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:28.687] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:29.656] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:30.656] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:30.968] Trunkot gains 1393 mana from Trunkot's Armure du mage
+[21:23:31.656] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:32.656] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:33.140] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:23:34.171] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:35.140] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:35.984] Trunkot gains 1393 mana from Trunkot's Armure du mage
+[21:23:36.156] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:37.156] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:38.156] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:39.171] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:40.156] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:40.968] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:23:41.171] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:42.140] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:43.156] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:44.171] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:45.171] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:45.968] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:23:46.156] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:23:46.156] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:47.156] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:47.609] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:23:48.156] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:49.156] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:50.140] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:50.812] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:23:51.000] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:23:51.140] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:52.125] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:53.140] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:53.625] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:23:54.156] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:54.828] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:23:55.171] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:55.968] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:23:56.140] Trunkot gains 39 mana from Reds's Requinquage
+[21:23:57.125] Trunkot gains 38 mana from Reds's Requinquage
+[21:23:59.640] Trunkot gains 78 mana from Trunkot's Maître des éléments
+[21:24:00.984] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:24:04.859] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:24:06.015] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:24:08.468] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:24:09.890] Trunkot gains 38 mana from Reds's Requinquage
+[21:24:10.062] Trunkot gains 79 mana from Trunkot's Maître des éléments
+[21:24:10.890] Trunkot gains 38 mana from Reds's Requinquage
+[21:24:10.968] Trunkot gains 1392 mana from Trunkot's Armure du mage
+[21:24:11.875] Trunkot gains 39 mana from Reds's Requinquage
+[21:24:12.875] Trunkot gains 38 mana from Reds's Requinquage
