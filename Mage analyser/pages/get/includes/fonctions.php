@@ -187,15 +187,28 @@ function getmaxmana($int)
 
 
 // ajoute le mp5 (pas affiché dans les rapports mana...
-function addmp5($mana,$max_mana)
+function addmp5($mana,$max_mana,$date,$last_mp5)
 {
-	return $mana+869+326+$max_mana*0.036;
+	if($date > $last_mp5)
+		return $mana+869+326+$max_mana*0.036;
+	}
+	else
+	{
+		return 0;
+	}
 }
 
 // ajoute le mp5 (pas affiché dans les rapports mana...
-function requincage($mana,$max_mana)
+function requincage($mana,$max_mana,$date,$last_requinc)
 {
-	return $mana+floor($max_mana*0.01);
+	if($date > $last_requinc)
+	{
+		return $mana+floor($max_mana*0.01);
+	}
+	else
+	{
+		return 0;
+	}
 }
 
 // on récupère les dégats d'une ligne
@@ -270,7 +283,7 @@ function send($date,$string,$class,$d_mana,$cast)
 	}
 	else
 	{
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->time_lost.'</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.(($analyse->time_lost > 1) ? "<span class='c17'>" : "").$analyse->time_lost.(($analyse->time_lost > 1) ? "</span>" : "").'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.$d_mana.'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->mana.'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->mana/$mana_base)*100).'%</td>'."\n";

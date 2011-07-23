@@ -12,6 +12,8 @@ class analyse_arcane {
 		'dmg' => 0
 		);
 	var $nb_blast = 1;
+	var $timer_mp5 = '[00:00:00.000]';
+	var $timer_requinc = '[00:00:00.000]';
 	var $timer_debuff = '[00:00:00.000]';
 	var $nb_debuff = 0;
 	var $mana = 0;
@@ -35,10 +37,7 @@ class analyse_arcane {
 		'Icy Veins' => 'non',
 		'Mirror Image' => 'non',
 		'Replenish Mana' => 'non',
-		'Flame Orb' => 'non',
-		'Evocation' => 'non',
-		'mp5' => 'non',
-		'requincage' => 'non'
+		'Evocation' => 'non'
 		);
 	var $buff = array(
 		'Arcane Power' => 'non',
@@ -54,6 +53,11 @@ class analyse_arcane {
 	function analyse($hero,&$ligne,$last_date) {
 	
 		global $lang, $cast, $cast_time;
+
+		while ($timer_requinc < $last_date) {
+		requincage()
+		}
+
 		if($this->last_date_dmg == 0) $this->last_date_dmg = $last_date;
 		$this->time_lost = 0;
 		$this->d_mana = 0;
@@ -66,7 +70,6 @@ class analyse_arcane {
 		$this->check_cd($ligne,$last_date,'Mirror Image');
 		$this->check_cd($ligne,$last_date,'Replenish Mana');
 		$this->check_cd($ligne,$last_date,'Evocation');
-		$this->check_cd($ligne,$last_date,'Flame Orb');
 
 		if(strpos($ligne,$lang['Arcane Barrage']) != 0)
 			{
@@ -183,17 +186,11 @@ class analyse_arcane {
 	{
 		
 		global $lang,$hero,$mana_sorts,$mana_base;
-		if(	strpos($ligne,'mana') != 0 )//&& !(strpos($ligne,$lang['Replenish Mana']) != 0))
+		if(	strpos($ligne,'mana') != 0 )
 		{
 			$text = explode(" ", $ligne);
 				$this->mana += $text[2];
 				$this->d_mana = '+'.$text[2];
-				$this->mana = max(0,min($this->mana,$mana_base));
-		}
-		if(	strpos($ligne,$lang['Mage Armor']) != 0 )
-		{
-				$this->mana += floor($mana_base*0.05);
-				$this->d_mana .= ' +'.floor($mana_base*0.05);
 				$this->mana = max(0,min($this->mana,$mana_base));
 		}
 

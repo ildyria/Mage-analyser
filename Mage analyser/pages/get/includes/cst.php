@@ -17,6 +17,7 @@ $cd_sorts['Icy Veins'] = 144;
 $cd_sorts['Mirror Image'] = 180;
 $cd_sorts['Replenish Mana'] = 120;
 $cd_sorts['Evocation'] = 120;
+$cd_sorts['Flame Orb'] = 60;
 
 // definition du cout en mana
 $mana_sorts = array();
@@ -35,7 +36,7 @@ $mana_sorts['Pyroblast'] = floor(0.17*MANA_BASE);
 $mana_sorts['Dragon Breath'] = floor(0.07*MANA_BASE);
 $mana_sorts['Flamestrike'] = floor(0.3*MANA_BASE);
 $mana_sorts['Blast Wave'] = floor(0.07*MANA_BASE);
-$mana_sorts['Flame Orb'] = floor(0.06*MANA_BASE);
+$mana_sorts['Flame Orb'] = 0; //floor(0.06*MANA_BASE);
 
 // definition des duree en secondes
 $long = array();

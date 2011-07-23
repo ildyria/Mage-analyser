@@ -103,16 +103,16 @@ input, option{
 
 /* couleurs */
 .c0 {
-	color: #0099CC;
+	color: #0099CC; /*bleu ciel*/
 	}
 
 .c1 {
-	color: #FF6600;
+	color: #FF6600; /*orange*/
 	font-weight: bold;
 	}
 
 .c2 {
-	color: #FFFF00;
+	color: #FFFF00; /* jaune */
 	}
 
 .c5 {
@@ -125,22 +125,22 @@ input, option{
 	}
 
 .c17 {
-	color: #CC0000;
+	color: #CC0000; /* rouge sang */
 	font-weight: bold;
 	}
 
 .c25 {
-	color: #FFFFFF;
+	color: #FFFFFF; /* blanc */
 	font-weight: bold;
 	}	
 
 .c26 {
-	color: #00FFFF;
+	color: #00FFFF; /* cyan */
 	font-weight: bold;
 	}	
 
 .c6 {
-	color: #FF9900;
+	color: #FF9900; /* jaune orange */
 	font-weight: bold;
 	}	
 
