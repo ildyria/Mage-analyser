@@ -4,20 +4,21 @@ DEFINED('MA') or die('HACKING ATTEMPT!');
 
 require_once $path['root'].'/pages/get/includes/fonctions.php';
 require_once $path['root'].'/pages/get/includes/cst.php';
-if($spe == 'arc')
-	{
-		require_once $path['root'].'/pages/get/class/arc.php';
-	}
-else
-	{
-		require_once $path['root'].'/pages/get/class/fire.php';
-	}
+require_once $path['root'].'/pages/get/class/arc.php';
+require_once $path['root'].'/pages/get/class/fire.php';
 
 $table_date = array();
 $table_dps = array();
 $table_mana = array();
 $table_temp = array(0,0,0,0,0,0,0,0,0,0,0,0);
+$loglignes = array();
 
+$class = 'aucune';
+$mana_base = getmaxmana($intel);
+$debut = 'plop';
+$hero = 'off';
+
+// definition de la langue du rapport
 if($language == 'fr')
 {
 	$lang = $lang_fr;
@@ -27,34 +28,34 @@ else
 	$lang = $lang_en;
 }
 
-$loglignes = array();
-$log1lignes = array();
-$log2lignes = array();
-
-$loglignes = preg_split('/\n/', $log1);
-//$log2lignes = preg_split('/\n/', $log2);
-$i1 = 0;
-$i2 = 0;
-//concat_table($log1lignes,$i1,count($log1lignes),$log2lignes,$i2,count($log2lignes),$loglignes);
-
-$i=0;
-$speech = '';
-$class = ($speech == 'oui') ? 'aucune' : 'nowrap';
-$mana_base = getmaxmana($intel);
+// begin printing table
 echo '<div id=\'main\'>'."\n";
 echo '<div style=\'text-align: center; padding: 25px;\'><img src="Cache/test.png" alt="image ici" id="img" style="border: solid 1px #0099CC;" /></div>'."\n";
-echo '<div style=\'display: block; text-align: center; border: solid 1px #0099CC; width: 200px; position:relative; margin-left:auto; margin-right:auto; background: #000000;\'>'."\n";
-echo 'Intelligence : '.$intel.'<br />'."\n";
+echo '<div style=\'display: block; text-align: center; border: solid 1px #0099CC; width: 400px; position:relative; margin-left:auto; margin-right:auto; background: #000000;\'>'."\n";
+echo 'Intelligence : '.$intel.' +80 +300<br />'."\n";
 echo 'Mana : '.$mana_base.'<br />'."\n";
 echo 'Hate : '.$hast.'<br />'."\n";
 echo 'NWP : 3<br />'."\n";
-echo 'Spé : '.(($spe == 'arc') ? 'Arcane' : 'Feu').'<br />'."\n";
+echo 'Sp&eacute; : '.(($spe == 'arc') ? 'Arcane' : 'Feu').'<br />'."\n";
+echo 'Buffs raid : 5% hate, 1% mana/10s, PA<br />'."\n";
+echo 'Amure : Mage glyph&eacute;e<br />'."\n";
 echo '</div>'."\n";
-echo '<div style=\'text-align: center; padding-top: 25px;\'>Votre log fait '.(strlen($log1) + strlen($log2)).' Octets.</div>'."\n";
+echo '<div style=\'text-align: center; padding-top: 25px;\'>Votre log fait '.strlen($log).' Octets.</div>'."\n";
 echo '<table>'."\n";
 
-$debut = 'plop';
-$hero = 'off';
+echo "\t".'<tr class="c0">'."\n";
+echo "\t"."\t".'<td>&nbsp;</td>'."\n";
+echo "\t"."\t".'<td class="date" style="text-align: center;">time</td>'."\n";
+echo "\t"."\t".'<td class="aucune" style="text-align: center;">action</td>'."\n";
+echo "\t"."\t".'<td style="padding-left: 15px;">cast</td>'."\n";
+echo "\t"."\t".'<td style="padding-left: 15px;">lost</td>'."\n";
+echo "\t"."\t".'<td style="padding-left: 15px;">&Delta;mana</td>'."\n";
+echo "\t"."\t".'<td style="padding-left: 15px;">mana</td>'."\n";
+echo "\t"."\t".'<td style="padding-left: 15px;">%mana</td>'."\n";
+echo "\t".'</tr>'."\n";
+
+
+// define the spect used
 if($spe == 'arc')
 	{
 		$analyse = new analyse_arcane();
@@ -65,6 +66,9 @@ else
 		$analyse = new analyse_fire();
 	}
 
+$loglignes = preg_split('/\n/', $log);
+$i=0;
+// begin log parsing
 while($i < count($loglignes))
 	{
 		$cast_time = 0;
@@ -73,11 +77,23 @@ while($i < count($loglignes))
 		$last_date = split_date_text($ligne);
 		$class = 'c0';
 		
-		if($debut == 'plop') $debut = $last_date;
+		if($debut == 'plop')
+		{
+			$debut = $last_date;
+			$analyse->initialise($last_date,$mana_base);
+		}
 		
 		if(strpos($ligne,$lang['Heroism']) != 0 && $hero == 'off')
 			{
 				$hero = 'on';
+			}
+		elseif(strpos($ligne,$lang['Heroism']) != 0 && $hero == 'off')
+			{
+				$hero = 'on';
+			}
+		elseif(strpos($ligne,$lang['Heroism']) != 0)
+			{
+				$hero = 'off';
 			}
 		elseif(strpos($ligne,$lang['Heroism']) != 0)
 			{
@@ -88,9 +104,12 @@ while($i < count($loglignes))
 				$analyse->statistique['nb blink'] ++;
 			}
 		$analyse->analyse($hero,$ligne,$last_date);
-		if(($affmana == 'yes' or !((strpos($ligne,'gains') != 0) && (strpos($ligne,'mana') != 0))) and !(strpos($ligne,$lang['Arcane Missiles']) != 0)) send($last_date,prepare_ligne($ligne),$class,$analyse->d_mana,$cast_time);
+		if(!(strpos($ligne,$lang['Arcane Missiles']) != 0)) send($last_date,prepare_ligne($ligne),$class,$analyse->d_mana,$cast_time);
 	};
 echo '</table><br />'."\n";
+
+
+// results
 echo '<div style="text-align: center; padding-top: 10px; border-top: solid 1px #0099CC;" class="c0">';
 
 $heure_debut = explode(':',$debut);
@@ -103,6 +122,7 @@ $secondes = $duree - 60 * $minutes;
 echo 'Durant ce combat ('.$minutes.' min '.$secondes.' sec) il y a eut :<br />'."\n";
 $analyse->resultat();
 
+// graph
 require_once $path['root'].'/pages/get/includes/graph.php';
 
 echo "<script type='text/javascript'>

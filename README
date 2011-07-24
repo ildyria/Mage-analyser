@@ -1,9 +1,6 @@
 Source code of Mage Analyser for those who may help me
 
 TO DO : 
-adding fire spec back
-improving mana management
-removing Flame Orb bug
-adding Master of elements crits mana gains
-adding evocation to request => mana gain
-adding resplendish mana (mana gem) => to request
+1) improving arcane spec code
+2) adding Master of elements crits mana gains
+3) adding fire spec back

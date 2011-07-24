@@ -18,5 +18,5 @@ echo "\t".'<link rel="stylesheet" type="text/css" href="site.css" />'."\n";
 echo "\t".'<script type="text/javascript" src="js/form.js" ></script>'."\n";
 echo '</head>'."\n";
 echo '<body>'."\n";
-//echo '<div id=\'barre\'><a href="http://www.rolemaniak.fr/soleilrouge/"><img src="images/bg_barre.jpg" style="border: 0px;" alt="&nbsp;" /></a></div>'."\n";
+echo '<div id=\'barre\'><a href="index.php"><img src="images/barre.png" style="border: 0px;" alt="&nbsp;" /></a></div>'."\n";
 ?>

@@ -1,8 +1,13 @@
 <?php
-
+// SECURITE
 DEFINED('MA') or die('HACKING ATTEMPT!');
 
-// sépare le texte de l'heure
+
+/*************************************************
+**
+** SPLIT DATE AND TEXT
+**
+*************************************************/
 function split_date_text(&$string)
 {
 
@@ -12,48 +17,13 @@ function split_date_text(&$string)
 
 }
 
-// Concat en triant deux tableaux (on prie pour que ça fonctionne...)
-function concat_table($a1,&$i1,$m1,$a2,&$i2,$m2,&$s)
-{
-	if($i1 == $m1)
-	{
-		while($i2 < $m2)
-		{
-			$s[] = $a2[$i2];
-			$i2++;
-		}
-	}
-	elseif($i2 == $m2)
-	{
-		while($i1 < $m1)
-		{
-			$s[] = $a1[$i1];
-			$i1++;
-		}
-	}
-	else
-	{
-		$ligne_a1 = $a1[$i1];
-		$ligne_a2 = $a2[$i2];
-		$t1 = split_date_text($ligne_a1);
-		$t2 = split_date_text($ligne_a2);
-		if($t1 > $t2)
-		{
-			$s[] = '['.$t2.']'.' '.$ligne_a2;
-			$i2 ++;
-			concat_table($a1,$i1,$m1,$a2,$i2,$m2,$s);
-		}
-		else
-		{
-			$s[] = '['.$t1.']'.' '.$ligne_a1;
-			$i1++;
-			concat_table($a1,$i1,$m1,$a2,$i2,$m2,$s);
-		}
-	}
-}
 
 
-// ajoute un temps à une heure
+/*************************************************
+**
+** ADD TIME IN SECOND TO A DATE
+**
+*************************************************/
 function add_sec_to_date($date,$sec)
 {
 	$time_total;
@@ -83,7 +53,13 @@ function add_sec_to_date($date,$sec)
 	return $heure.":".( ($minutes < 10) ? '0'.$minutes : $minutes).":".( ($secondes < 10) ? '0'.$secondes : $secondes).".".$milisec;
 }
 
-// ajoute un temps à une heure
+
+
+/*************************************************
+**
+** SUPPOSED TO GIVE THE SUBSTRACTION BETWEEN TWO DATE
+**
+*************************************************/
 function sub_time($date1,$date2)
 {
 	$a_heure1 = explode(':',$date1);
@@ -94,7 +70,13 @@ function sub_time($date1,$date2)
 	return max(0,floor(100*($d_time))/100);
 }
 
-// prépare la ligne avant qu'elle ne sorte.
+
+
+/*************************************************
+**
+** PREPARE THE LINE BEFORE PRINTING
+**
+*************************************************/
 function prepare_ligne(&$string)
 {
 	global $lang;
@@ -125,7 +107,13 @@ function prepare_ligne(&$string)
 
 }
 
-// vérification des heures
+
+
+/*************************************************
+**
+** CHECK (what is that for ???)
+**
+*************************************************/
 function checkinsertdate($date)
 {
 	global $date_end;
@@ -146,7 +134,13 @@ function checkinsertdate($date)
 	}
 }
 
-// moyenne des dmg
+
+
+/*************************************************
+**
+** MEAN BETWEEN THE LAST 5 VALUES
+**
+*************************************************/
 function mean5($dmg)
 {
 	global $table_temp;
@@ -165,7 +159,12 @@ function mean5($dmg)
 }
 
 
-// moyenne des dmg
+
+/*************************************************
+**
+** GIVE THE CAST TIME OF A SPELL GIVEN THE HASTE RATING
+**
+*************************************************/
 function getcasttime($basetime)
 {
 	global $hero, $hast;
@@ -179,39 +178,53 @@ function getcasttime($basetime)
 		}
 }
 
-// donne le total mana en fonction de l'intel
+
+
+/*************************************************
+**
+** GIVE THE MANA MAX GIVEN THE INTELLIGENCE OF THE PLAYER
+**
+*************************************************/
 function getmaxmana($int)
 {
-	return floor(15*$int+MANA_BASE+2126-280);
+	return floor(15*($int+380)+MANA_BASE+2126-280);
 }
 
 
-// ajoute le mp5 (pas affiché dans les rapports mana...
-function addmp5($mana,$max_mana,$date,$last_mp5)
+
+/*************************************************
+**
+** ADD MP5 TO MANA POOL (mage armor glyphed + PA)
+**
+*************************************************/
+function addmp5($mana)
 {
-	if($date > $last_mp5)
-		return $mana+869+326+$max_mana*0.036;
-	}
-	else
-	{
-		return 0;
-	}
+	global $mana_base;
+	
+	return max(0,min($mana_base,$mana+869+326+$mana_base*0.036));
 }
 
-// ajoute le mp5 (pas affiché dans les rapports mana...
-function requincage($mana,$max_mana,$date,$last_requinc)
+
+
+/*************************************************
+**
+** ADD REQUINCAGE (0,1% MANAMAX EVERY 1 SEC)
+**
+*************************************************/
+function requincage($mana)
 {
-	if($date > $last_requinc)
-	{
-		return $mana+floor($max_mana*0.01);
-	}
-	else
-	{
-		return 0;
-	}
+	global $mana_base;
+	
+	return max(0,min($mana_base,$mana+floor($mana_base*0.001)));
 }
 
-// on récupère les dégats d'une ligne
+
+
+/*************************************************
+**
+** GET DAMAGE DONE OF A LINE
+**
+*************************************************/
 function getdmg($string)
 {
 	$i=0;
@@ -219,7 +232,7 @@ function getdmg($string)
 	$max = count($a);
 	while($i < $max)
 	{
-		if(preg_match('/.[0-9]./',$a[$i]))// && !(strpos($a[$i],')') != 0))
+		if(preg_match('/.[0-9]./',$a[$i]))
 		{
 			if(strpos($a[$i],'*') === 0)
 			{
@@ -242,7 +255,43 @@ function getdmg($string)
 	return 0;
 }
 
-// insertion des données dans les tableaux
+
+
+/*************************************************
+**
+** CHECK IF DAMAGES DONE ARE CRITICALS
+**
+*************************************************/
+function iscrit($string)
+{
+	$i=0;
+	$a = explode(' ',$string);
+	$max = count($a);
+	while($i < $max)
+	{
+		if(preg_match('/.[0-9]./',$a[$i]))
+		{
+			if(strpos($a[$i],'*') === 0)
+			{
+				return "crit";
+			}
+			else
+			{
+				return "nocrit";
+			}
+		}
+	$i++;
+	}
+	return "nocrit";
+}
+
+
+
+/*************************************************
+**
+** INSERT DATA TO TABLE
+**
+*************************************************/
 function insertdata($date,$string,$mana=1,$casttime=1)
 {
 	global $mana_base,$table_date,$table_dps,$table_mana;
@@ -255,7 +304,13 @@ function insertdata($date,$string,$mana=1,$casttime=1)
 	}
 }
 
-// ecrit la ligne
+
+
+/*************************************************
+**
+** PRINT LINE
+**
+*************************************************/
 function send($date,$string,$class,$d_mana,$cast)
 {
 	global $mana_base,$lang,$analyse,$hero;
@@ -283,7 +338,10 @@ function send($date,$string,$class,$d_mana,$cast)
 	}
 	else
 	{
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.(($analyse->time_lost > 1) ? "<span class='c17'>" : "").$analyse->time_lost.(($analyse->time_lost > 1) ? "</span>" : "").'</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">';
+		echo (($analyse->time_lost > 1) ? "<span class='c17'>" : "").$analyse->time_lost.(($analyse->time_lost > 1) ? "</span>" : "");
+		echo ' -- '.$analyse->statistique['time_lost'];
+		echo '</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.$d_mana.'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->mana.'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->mana/$mana_base)*100).'%</td>'."\n";

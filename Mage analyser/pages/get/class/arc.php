@@ -12,9 +12,11 @@ class analyse_arcane {
 		'dmg' => 0
 		);
 	var $nb_blast = 1;
-	var $timer_mp5 = '[00:00:00.000]';
-	var $timer_requinc = '[00:00:00.000]';
-	var $timer_debuff = '[00:00:00.000]';
+	var $timer = array(
+		'debuff' => '[00:00:00.000]',
+		'mp5' => 'non',
+		'requinc' => 'non'
+	);
 	var $nb_debuff = 0;
 	var $mana = 0;
 	var $d_mana = 0;
@@ -37,7 +39,8 @@ class analyse_arcane {
 		'Icy Veins' => 'non',
 		'Mirror Image' => 'non',
 		'Replenish Mana' => 'non',
-		'Evocation' => 'non'
+		'Evocation' => 'non',
+		'Flame Orb' => 'non'
 		);
 	var $buff = array(
 		'Arcane Power' => 'non',
@@ -47,20 +50,51 @@ class analyse_arcane {
 		'Icy Veins' => 'non',
 		'Mirror Image' => 'non',
 		'Replenish Mana' => 'non',
+		'Flame Orb' => 'non',
 		'Evocation' => 'non'
 		);
 
+/*************************************************
+**
+** INITIALISE
+**
+*************************************************/
+	function initialise($last_date,$manabase) {
+		$this->timer['requinc'] = $last_date;
+		$this->timer['mp5'] = $last_date;
+		$this->mana = $manabase;
+	}
+
+
+
+/*************************************************
+**
+** ANALYSE
+**
+*************************************************/
 	function analyse($hero,&$ligne,$last_date) {
 	
 		global $lang, $cast, $cast_time;
-
-		while ($timer_requinc < $last_date) {
-		requincage()
+		
+		// MANA GAIN
+		while ($this->timer['requinc'] < $last_date) {
+		$this->mana = requincage($this->mana);
+		$this->timer['requinc'] = add_sec_to_date($this->timer['requinc'],1);
 		}
 
+		while ($this->timer['mp5'] < $last_date) {
+		$this->mana = addmp5($this->mana);
+		$this->timer['mp5'] = add_sec_to_date($this->timer['mp5'],5);
+		}
+
+		// WHAT IS THAT FOR ? IDK  xD
 		if($this->last_date_dmg == 0) $this->last_date_dmg = $last_date;
+
+		// INITIALISING VALUES
 		$this->time_lost = 0;
 		$this->d_mana = 0;
+		
+		// CHECKS
 		$this->check_clearcasting($ligne);
 		$this->check_cd($ligne,$last_date,'Arcane Power');
 		$this->check_cd($ligne,$last_date,'Scale of Fates');
@@ -69,6 +103,7 @@ class analyse_arcane {
 		$this->check_cd($ligne,$last_date,'Icy Veins');
 		$this->check_cd($ligne,$last_date,'Mirror Image');
 		$this->check_cd($ligne,$last_date,'Replenish Mana');
+		$this->check_cd($ligne,$last_date,'Flame Orb');
 		$this->check_cd($ligne,$last_date,'Evocation');
 
 		if(strpos($ligne,$lang['Arcane Barrage']) != 0)
@@ -88,7 +123,7 @@ class analyse_arcane {
 			{
 
 				$this->statistique['nb deflag'] ++;
-				if($this->timer_debuff < $last_date )
+				if($this->timer['debuff'] < $last_date )
 					{
 						$this->blast = 0;
 						$this->nb_blast = 1;
@@ -171,7 +206,14 @@ class analyse_arcane {
 		$this->statistique['time_lost'] += $this->time_lost;
 	}
 
-	// calcul des débuff d'arcane
+
+
+
+/*************************************************
+**
+** CHECK CLEARCASTING
+**
+*************************************************/
 	function check_clearcasting($ligne)
 	{
 		global $lang;
@@ -181,11 +223,20 @@ class analyse_arcane {
 		}
 	}
 
-	// calcul des débuff d'arcane
+
+
+
+/*************************************************
+**
+** CALCULATE SPELL MANA COST AND MANAGING MANA 
+**
+*************************************************/
 	function get_mana($ligne,$last_date)
 	{
 		
-		global $lang,$hero,$mana_sorts,$mana_base;
+		global $lang,$hero,$mana_sorts,$cd_sorts,$mana_base;
+
+		// adding mana if mana gem or evocation		
 		if(	strpos($ligne,'mana') != 0 )
 		{
 			$text = explode(" ", $ligne);
@@ -194,6 +245,7 @@ class analyse_arcane {
 				$this->mana = max(0,min($this->mana,$mana_base));
 		}
 
+		// removing mana else
 		foreach ($mana_sorts as $k => $v) {
 			if(	strpos($ligne,$lang[$k]) != 0)
 			{
@@ -204,8 +256,21 @@ class analyse_arcane {
 				}
 				elseif($k == 'Arcane Blast')
 				{
-					$this->mana -= floor($v * (1 + 1.50*($this->nb_debuff)));
+					$this->mana -= floor($v * (1 + 1.5*($this->nb_debuff)));
 					$this->d_mana = -floor($v * (1 + 1.5*($this->nb_debuff)));
+				}
+				elseif($k == 'Flame Orb')
+				{
+					// that is to avoid flame orb cost being removed on each tic.
+					if($this->cd['Flame Orb'] == add_sec_to_date($last_date,$cd_sorts['Flame Orb']))
+					{
+					$this->mana -= $v;
+					$this->d_mana = -$v;
+					}
+					else
+					{
+					$this->d_mana = 0;
+					}
 				}
 				else
 				{
@@ -215,8 +280,14 @@ class analyse_arcane {
 			}
 		}
 	}
-		
-	// fonction pour verifier les cd
+
+
+
+/*************************************************
+**
+** CHECK IF CD IS USED OR OFF CD OR BEING AVAILABLE
+**
+*************************************************/
 	function check_cd($ligne,$last_date,$spell)
 	{
 	
@@ -227,33 +298,40 @@ class analyse_arcane {
 	
 				if(	$spell != 'Presence of Mind' &&
 					$spell != 'Replenish Mana' &&
+					$spell != 'Flame Orb' &&
 					$spell != 'Evocation'
 					)
 					{
 						$this->buff[$spell] = add_sec_to_date($last_date,$long_sorts[$spell]);
 					}
-				if(!(strpos($ligne,'mana') != 0) && !(strpos($ligne,'fades') != 0))
-				{
-					$this->cd[$spell] = add_sec_to_date($last_date,$cd_sorts[$spell]);
-//					send('-----------',"/!\ BEGIN CD ".$spell.", time out at : ".$this->cd[$spell]." /!\\","c5",0);
-				}
+				if(!(strpos($ligne,'fades') != 0) && $this->cd[$spell] == 'non')
+					{
+						$this->cd[$spell] = add_sec_to_date($last_date,$cd_sorts[$spell]);
+						send($last_date,"/!\ BEGIN CD ".$lang[$spell].", time out at : ".$this->cd[$spell]." /!\\","c5",0,0);
+					}
 			}
 	
 		if($last_date > $this->cd[$spell])
 			{
-  				send($this->cd[$spell],$spell." avialable","c25",0,0);
+  				send($this->cd[$spell],$lang[$spell]." available","c25",0,0);
 				$this->cd[$spell] = 'non';
 			}
 		
 		if($last_date > $this->buff[$spell])
 			{
-  				send($this->buff[$spell],$spell." fades","c10",0,0);
+  				send($this->buff[$spell],$lang[$spell]." fades","c10",0,0);
 				$this->buff[$spell] = 'non';
 			}
 	
 	}
 
-	// calcul des débuff d'arcane
+
+
+/*************************************************
+**
+** COUNT ARCANE DEBUFFS
+**
+*************************************************/
 	function debuff_arcane($ligne,$last_date)
 	{
 		
@@ -262,15 +340,16 @@ class analyse_arcane {
 			strpos($ligne,$lang['Arcane Barrage']) != 0)
 			{
 				$this->nb_debuff = 0;
-				$this->timer_debuff = $last_date;
+				$this->timer['debuff'] = $last_date;
 			}
 		elseif(strpos($ligne,$lang['Arcane Blast']) != 0)
 			{
 				$this->nb_debuff = min(4, $this->nb_debuff + 1);
 				$this->nb_blast ++;
-				$this->timer_debuff = add_sec_to_date($last_date,6);
+				$this->timer['debuff'] = add_sec_to_date($last_date,6);
 			}
 	}
+
 
 	// vérifier les projo
 	function missiles($ligne,$last_date)
@@ -283,9 +362,27 @@ class analyse_arcane {
 		$this->nb_debuff = 0;
 	}
 	
-	// resultat
+	
+	
+	
+	
+	
+/*************************************************
+**
+** PRINT PARSING RESULTS
+**
+*************************************************/
     function resultat() {
-		echo '- '.$this->statistique['time_lost'].' secondes de perdues.<br />'."\n";
+		$minutes = (floor($this->statistique['time_lost']) - (floor($this->statistique['time_lost']) % 60)) / 60;
+		$secondes = $this->statistique['time_lost'] - 60 * $minutes;
+		if($minutes != 0)
+			{
+				echo '- '.$minutes.' minutes et '.$secondes.' secondes de perdues.<br />'."\n";
+			}
+		else
+			{
+				echo '- '.$this->statistique['time_lost'].' secondes de perdues.<br />'."\n";
+			}
 		echo '- '.$this->statistique['nb missiles'].' missiles.<br />'."\n";
 		echo '- '.$this->statistique['nb deflag'].' déflag.<br />'."\n";
 //		echo '- '.$this->statistique['nb blink'].' blink.<br />'."\n";

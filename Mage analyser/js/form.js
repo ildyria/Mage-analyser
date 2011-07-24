@@ -34,20 +34,17 @@ function edit_request()
 	feu += name;
 	feu += '"], "spellNames": ["Chaleur continue"]}]';
 
-	var arcane1 = '(sourceName = "'+name+'" and(((spellId = 55342 or spellId =67684 or spellId =71579 or spellId = 12042 or spellId = 12536)  and fullType = SPELL_AURA_APPLIED)or(spellId != 67714 and fullType = SPELL_DAMAGE)))or(targetName = "'+name+'" and (spellId = 2825 or spellId = 32182))';
-	var arcane2 = 'targetName = "'+name+'" and (spellId = 6117 or spellId = 57669 or spellId = 12051 or spellId = 29166 or fullType = SPELL_ENERGIZE)';
+	var arcane1 = '((sourceName = "'+name+'" and (((spellId = 55342 or spellId = 67684 or spellId = 71579 or spellId = 12042 or spellId = 12536)  and fullType = SPELL_AURA_APPLIED) or(spellId != 67714 and fullType = SPELL_DAMAGE)))or(targetName = "'+name+'" and (spellId = 2825 or spellId = 32182))) or (targetName = "'+name+'" and ((spellId = 12051 and fullType = SPELL_PERIODIC_ENERGIZE) or spellId = 29166))';
+//	var arcane2 = 'targetName = "'+name+'" and (spellId = 6117 or spellId = 57669 or spellId = 12051 or spellId = 29166 or fullType = SPELL_ENERGIZE)';
 
 	if ( spe == 'feu') {
 		document.getElementById('request').value = feu;
-		document.getElementById('request2').setAttribute("style","background: #000000; border: none;");
 		document.getElementById('txtarcane').setAttribute("style","display: none;");
 		document.getElementById('txtfire').setAttribute("style","");
 	}
 	else
 	{
 		document.getElementById('request').value = arcane1;
-		document.getElementById('request2').value = arcane2;
-		document.getElementById('request2').setAttribute("style","");
 		document.getElementById('txtarcane').setAttribute("style","");
 		document.getElementById('txtfire').setAttribute("style","display: none;");
 	}

@@ -5,11 +5,17 @@ DEFINED('MA') or die('HACKING ATTEMPT!');
 define('MANA_BASE', 17418);
 define('CST_HATE', 12806);
 
-// definition des cd en secondes
+
+
+/*************************************************
+**
+** COOLDOWN TABLE
+**
+*************************************************/
 $cd_sorts = array();
 
-$cd_sorts['Arcane Power'] = 84;
-$cd_sorts['Presence of Mind'] = 84;
+$cd_sorts['Arcane Power'] = 90;
+$cd_sorts['Presence of Mind'] = 90;
 $cd_sorts['Hospitality'] = 120;
 $cd_sorts['Elusive Power'] = 120;
 $cd_sorts['Scale of Fates'] = 120;
@@ -19,7 +25,13 @@ $cd_sorts['Replenish Mana'] = 120;
 $cd_sorts['Evocation'] = 120;
 $cd_sorts['Flame Orb'] = 60;
 
-// definition du cout en mana
+
+
+/*************************************************
+**
+** MANA COST TABLE
+**
+*************************************************/
 $mana_sorts = array();
 
 $mana_sorts['Arcane Power'] = 0;
@@ -27,7 +39,7 @@ $mana_sorts['Mirror Image'] = floor(0.1*MANA_BASE);
 $mana_sorts['Arcane Barrage'] = floor(0.11*MANA_BASE);
 $mana_sorts['Arcane Blast'] = floor(0.05*MANA_BASE);
 $mana_sorts['Arcane Missiles'] = 0;
-$mana_sorts['Arcane Explosion'] = floor(0.15*MANA_BASE);
+$mana_sorts['Arcane Explosion'] = 0;//floor(0.15*MANA_BASE);
 $mana_sorts['Living Bomb'] = floor(0.17*MANA_BASE);
 $mana_sorts['Fireball'] = floor(0.09*MANA_BASE);
 $mana_sorts['Fire Blast'] = floor(0.21*MANA_BASE);
@@ -36,9 +48,15 @@ $mana_sorts['Pyroblast'] = floor(0.17*MANA_BASE);
 $mana_sorts['Dragon Breath'] = floor(0.07*MANA_BASE);
 $mana_sorts['Flamestrike'] = floor(0.3*MANA_BASE);
 $mana_sorts['Blast Wave'] = floor(0.07*MANA_BASE);
-$mana_sorts['Flame Orb'] = 0; //floor(0.06*MANA_BASE);
+$mana_sorts['Flame Orb'] = floor(0.06*MANA_BASE);
 
-// definition des duree en secondes
+
+
+/*************************************************
+**
+** SPELL DURATION TABLE
+**
+*************************************************/
 $long = array();
 
 $long_sorts['Arcane Power'] = 15;
@@ -49,10 +67,16 @@ $long_sorts['Scale of Fates'] = 20;
 $long_sorts['Icy Veins'] = 20;
 $long_sorts['Mirror Image'] = 30;
 $long_sorts['Living Bomb'] = 12;
-$long_sorts['Flame Orb'] = 60;
 
-// definition des temps de cast en secondes
+
+
+/*************************************************
+**
+** SPELL CASTING TIME TABLE
+**
+*************************************************/
 $cast = array();
+
 $cast['Arcane Missiles'] = .5;
 $cast['Arcane Blast'] = 2;
 $cast['Arcane Barrage'] = 1.5;
@@ -68,8 +92,14 @@ $cast['Flamestrike'] = 1.5;
 $cast['Flame Orb'] = 1.5;
 
 
-// Localisation
+
+/*************************************************
+**
+** LOCALISATION TABLE (ENGLISH)
+**
+*************************************************/
 $lang_en = array();
+
 $lang_en['Innervate'] = 'Innervate';
 $lang_en['Hymn of Hope'] = 'Hymn of Hope';
 $lang_en['Clearcasting'] = 'Clearcasting';
@@ -135,7 +165,15 @@ $lang_en['Vague explosive'] = 'Blast Wave';
 $lang_en['Armure du mage'] = 'Mage Armor';
 $lang_en['Orbe enflammé'] = 'Flame Orb';
 
+
+
+/*************************************************
+**
+** LOCALISATION TABLE (FRENCH)
+**
+*************************************************/
 $lang_fr = array();
+
 $lang_fr['Innervate'] = 'Innervation';
 $lang_fr['Hymn of Hope'] = 'Hymne à l\'espoir';
 $lang_fr['Clearcasting'] = 'Idées claires';
