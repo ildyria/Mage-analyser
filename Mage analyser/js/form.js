@@ -34,7 +34,7 @@ function edit_request()
 	feu += name;
 	feu += '"], "spellNames": ["Chaleur continue"]}]';
 
-	var arcane1 = '((sourceName = "'+name+'" and (((spellId = 55342 or spellId = 67684 or spellId = 71579 or spellId = 12042 or spellId = 12536)  and fullType = SPELL_AURA_APPLIED) or(spellId != 67714 and fullType = SPELL_DAMAGE)))or(targetName = "'+name+'" and (spellId = 2825 or spellId = 32182))) or (targetName = "'+name+'" and ((spellId = 12051 and fullType = SPELL_PERIODIC_ENERGIZE) or spellId = 29166))';
+	var arcane1 = '((sourceName = "'+name+'" and (((spellId = 55342 or spellId = 67684 or spellId = 71579 or spellId = 12042 or spellId = 12536)  and fullType = SPELL_AURA_APPLIED) or(spellId != 67714 and fullType = SPELL_DAMAGE)))or(targetName = "'+name+'" and (spellId = 2825 or spellId = 32182))) or (targetName = "'+name+'" and ((spellId = 12051 and fullType = SPELL_PERIODIC_ENERGIZE) or spellId = 5405 or spellId = 29166))';
 //	var arcane2 = 'targetName = "'+name+'" and (spellId = 6117 or spellId = 57669 or spellId = 12051 or spellId = 29166 or fullType = SPELL_ENERGIZE)';
 
 	if ( spe == 'feu') {
