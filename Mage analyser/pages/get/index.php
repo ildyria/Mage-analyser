@@ -32,7 +32,7 @@ else
 echo '<div id=\'main\'>'."\n";
 echo '<div style=\'text-align: center; padding: 25px;\'><img src="Cache/test.png" alt="image ici" id="img" style="border: solid 1px #0099CC;" /></div>'."\n";
 echo '<div style=\'display: block; text-align: center; border: solid 1px #0099CC; width: 400px; position:relative; margin-left:auto; margin-right:auto; background: #000000;\'>'."\n";
-echo 'Intelligence : '.$intel.' +80 +300<br />'."\n";
+echo 'Intelligence : '.$intel.' +80 +300 <br />'."\n";
 echo 'Mana : '.$mana_base.'<br />'."\n";
 echo 'Hate : '.$hast.'<br />'."\n";
 echo 'NWP : 3<br />'."\n";
@@ -48,7 +48,7 @@ echo "\t"."\t".'<td>&nbsp;</td>'."\n";
 echo "\t"."\t".'<td class="date" style="text-align: center;">time</td>'."\n";
 echo "\t"."\t".'<td class="aucune" style="text-align: center;">action</td>'."\n";
 echo "\t"."\t".'<td style="padding-left: 15px;">cast</td>'."\n";
-echo "\t"."\t".'<td style="padding-left: 15px;">lost</td>'."\n";
+echo "\t"."\t".'<td style="padding-left: 15px;">time lost</td>'."\n";
 echo "\t"."\t".'<td style="padding-left: 15px;">&Delta;mana</td>'."\n";
 echo "\t"."\t".'<td style="padding-left: 15px;">mana</td>'."\n";
 echo "\t"."\t".'<td style="padding-left: 15px;">%mana</td>'."\n";
@@ -59,7 +59,6 @@ echo "\t".'</tr>'."\n";
 if($spe == 'arc')
 	{
 		$analyse = new analyse_arcane();
-		$analyse->mana = $mana_base;
 	}
 else
 	{
@@ -71,40 +70,48 @@ $i=0;
 // begin log parsing
 while($i < count($loglignes))
 	{
-		$cast_time = 0;
-		$ligne = $loglignes[$i];
-		$i++;
-		$last_date = split_date_text($ligne);
-		$class = 'c0';
+		$ligne = $loglignes[$i]; // get i line
+		$i++; // increment i
+		$last_date = split_date_text($ligne); // get date of event
+		$class = 'c0'; // class base
 		
+		// initialise log if 1st line
 		if($debut == 'plop')
 		{
-			$debut = $last_date;
+			$debut = $last_date;	
+			$a_heure = explode(':',$last_date);
+			$time = 3600 * $a_heure[0] + 60 * $a_heure[1] + floor($a_heure[2]/30);
+			$date_end = $time = 3600 * $a_heure[0] + 60 * $a_heure[1] + floor($a_heure[2]/30);
 			$analyse->initialise($last_date,$mana_base);
 		}
 		
-		if(strpos($ligne,$lang['Heroism']) != 0 && $hero == 'off')
+		// check if heroism
+		if((strpos($ligne,$lang['Heroism']) != 0 || strpos($ligne,$lang['Bloodlust']) != 0 ||
+			strpos($ligne,$lang['Time Warp']) != 0 || strpos($ligne,$lang['Ancient Hysteria']) != 0 ) && $hero == 'off')
 			{
 				$hero = 'on';
 			}
-		elseif(strpos($ligne,$lang['Heroism']) != 0 && $hero == 'off')
-			{
-				$hero = 'on';
-			}
-		elseif(strpos($ligne,$lang['Heroism']) != 0)
+		elseif(strpos($ligne,$lang['Heroism']) != 0 || strpos($ligne,$lang['Bloodlust']) != 0 ||
+			strpos($ligne,$lang['Time Warp']) != 0 || strpos($ligne,$lang['Ancient Hysteria']) != 0 )
 			{
 				$hero = 'off';
 			}
-		elseif(strpos($ligne,$lang['Heroism']) != 0)
-			{
-				$hero = 'off';
-			}
+
+		// count number of blink
 		if(strpos($ligne,$lang['Blink']) != 0)
 			{
 				$analyse->statistique['nb blink'] ++;
 			}
+
+		// start analyse
 		$analyse->analyse($hero,$ligne,$last_date);
-		if(!(strpos($ligne,$lang['Arcane Missiles']) != 0)) send($last_date,prepare_ligne($ligne),$class,$analyse->d_mana,$cast_time);
+		
+		// print line if not Arcane Missiles & not Arcane Explosion to ease the log reading
+		if(!(strpos($ligne,$lang['Arcane Missiles']) != 0) && !(strpos($ligne,$lang['Arcane Explosion']) != 0))
+			{
+				send($last_date,prepare_ligne($ligne),$class);
+			}
+
 	};
 echo '</table><br />'."\n";
 
@@ -120,11 +127,13 @@ $duree = $time_fin - $time_debut;
 $minutes = ($duree - ($duree % 60)) / 60;
 $secondes = $duree - 60 * $minutes;
 echo 'Durant ce combat ('.$minutes.' min '.$secondes.' sec) il y a eut :<br />'."\n";
+// print analyse
 $analyse->resultat();
 
 // graph
 require_once $path['root'].'/pages/get/includes/graph.php';
 
+// print graph 1 sec after printing the page.
 echo "<script type='text/javascript'>
 function testtimeout(){
 setTimeout('printer()',1000);

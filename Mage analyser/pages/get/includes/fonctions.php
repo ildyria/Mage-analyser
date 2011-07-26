@@ -66,7 +66,7 @@ function sub_time($date1,$date2)
 	$a_heure2 = explode(':',$date2);
 	$time_total1 = 3600 * $a_heure1[0] + 60 * $a_heure1[1] + $a_heure1[2];
 	$time_total2 = 3600 * $a_heure2[0] + 60 * $a_heure2[1] + $a_heure2[2];
-	$d_time = $time_total1 - $time_total2;
+	$d_time = abs($time_total1 - $time_total2);
 	return max(0,floor(100*($d_time))/100);
 }
 
@@ -126,7 +126,7 @@ function checkinsertdate($date)
 		$minutes = $time - 3600 * $heure;
 		$minutes = ($minutes - ($minutes % 60)) / 60;
 		$secondes = $time - 3600 * $heure - 60 * $minutes;
-		return $heure.":".( ($minutes < 10) ? '0'.$minutes : $minutes).":".( ($secondes == 1) ? '30' : 0);
+		return $heure.":".( ($minutes < 10) ? '0'.$minutes : $minutes).":".( ($secondes == 1) ? '30' : '00');
 	}
 	else
 	{
@@ -311,7 +311,7 @@ function insertdata($date,$string,$mana=1,$casttime=1)
 ** PRINT LINE
 **
 *************************************************/
-function send($date,$string,$class,$d_mana,$cast)
+function send($date,$string,$class)
 {
 	global $mana_base,$lang,$analyse,$hero;
 
@@ -328,23 +328,23 @@ function send($date,$string,$class,$d_mana,$cast)
 	echo '</td>'."\n";
 	echo "\t"."\t".'<td class="date">['.$date.']</td>'."\n";
 	echo "\t"."\t".'<td class="'.$class.'">'.$string.'</td>'."\n";
-	echo "\t"."\t".'<td style="padding-left: 15px;">'.(($cast ==0 )? '&nbsp;' : $cast.'s').'</td>'."\n";
-	if($d_mana == 0 && !(strpos($string,$lang['Arcane Missiles']) != 0))
+	echo "\t"."\t".'<td style="padding-left: 15px;">'.(($analyse->a_memory['cast_time'] ==0 )? '&nbsp;' : $analyse->a_memory['cast_time'].'s').'</td>'."\n";
+	if(($analyse->a_mana['delta'] == 0 && !(strpos($string,'Arcane') != 0))|| strpos($string,'fade') != 0)
 	{
 		echo "\t"."\t".'<td style="padding-left: 15px;">&nbsp;</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">&nbsp;</td>'."\n";
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->mana.'</td>'."\n";
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->mana/$mana_base)*100).'%</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->a_mana['current'].'</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->a_mana['current']/$mana_base)*100).'%</td>'."\n";
 	}
 	else
 	{
 		echo "\t"."\t".'<td style="padding-left: 15px;">';
-		echo (($analyse->time_lost > 1) ? "<span class='c17'>" : "").$analyse->time_lost.(($analyse->time_lost > 1) ? "</span>" : "");
-		echo ' -- '.$analyse->statistique['time_lost'];
+		echo (($analyse->a_memory['time_lost'] > 1) ? "<span class='c17'>" : "").$analyse->a_memory['time_lost'].(($analyse->a_memory['time_lost'] > 1) ? "</span>" : "");
+//		echo ' -- '.$analyse->a_statistique['time_lost'];
 		echo '</td>'."\n";
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.$d_mana.'</td>'."\n";
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->mana.'</td>'."\n";
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->mana/$mana_base)*100).'%</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->a_mana['delta'].'</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->a_mana['current'].'</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->a_mana['current']/$mana_base)*100).'%</td>'."\n";
 	}
 	echo "\t".'</tr>'."\n";
 }

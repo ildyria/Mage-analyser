@@ -39,7 +39,7 @@ $mana_sorts['Mirror Image'] = floor(0.1*MANA_BASE);
 $mana_sorts['Arcane Barrage'] = floor(0.11*MANA_BASE);
 $mana_sorts['Arcane Blast'] = floor(0.05*MANA_BASE);
 $mana_sorts['Arcane Missiles'] = 0;
-$mana_sorts['Arcane Explosion'] = 0;//floor(0.15*MANA_BASE);
+$mana_sorts['Arcane Explosion'] = floor(0.15*MANA_BASE);
 $mana_sorts['Living Bomb'] = floor(0.17*MANA_BASE);
 $mana_sorts['Fireball'] = floor(0.09*MANA_BASE);
 $mana_sorts['Fire Blast'] = floor(0.21*MANA_BASE);
@@ -80,6 +80,7 @@ $cast = array();
 $cast['Arcane Missiles'] = .5;
 $cast['Arcane Blast'] = 2;
 $cast['Arcane Barrage'] = 1.5;
+$cast['Arcane Explosion'] = 1.5;
 $cast['Fire Blast'] = 1.5;
 $cast['Fireball'] = 2.5;
 $cast['Pyroblast'] = 1.5;
@@ -103,7 +104,6 @@ $lang_en = array();
 $lang_en['Innervate'] = 'Innervate';
 $lang_en['Hymn of Hope'] = 'Hymn of Hope';
 $lang_en['Clearcasting'] = 'Clearcasting';
-$lang_en['Heroism'] = 'Heroism';
 $lang_en['Arcane Power'] = 'Arcane Power';
 $lang_en['Presence of Mind'] = 'Presence of Mind';
 $lang_en['Hospitality'] = 'Hospitality';
@@ -131,12 +131,16 @@ $lang_en['Dragon Breath'] = 'Dragon Breath';
 $lang_en['Flamestrike'] = 'Flamestrike';
 $lang_en['Blast Wave'] = 'Blast Wave';
 $lang_en['Mage Armor'] = 'Mage Armor';
-$lang_en['Orbe enflammé'] = 'Flame Orb';
+$lang_en['Flame Orb'] = 'Flame Orb';
+$lang_en['Heroism'] = 'Heroism';
+$lang_en['Bloodlust'] = 'Bloodlust';
+$lang_en['Time Warp'] = 'Time Warp';
+$lang_en['Ancient Hysteria'] = 'Ancient Hysteria';
+
 //--------------------------------------------------
 $lang_en['Innervation'] = 'Innervate';
 $lang_en['Hymne à l\'espoir'] = 'Hymn of Hope';
 $lang_en['Idées claires'] = 'Clearcasting';
-$lang_en['Héroïsme'] = 'Heroism';
 $lang_en['Pouvoir des Arcanes'] = 'Arcane Power';
 $lang_en['Présence spirituelle'] = 'Presence of Mind';
 $lang_en['Hospitalité'] = 'Hospitality';
@@ -164,6 +168,10 @@ $lang_en['Choc de flammes'] = 'Flamestrike';
 $lang_en['Vague explosive'] = 'Blast Wave';
 $lang_en['Armure du mage'] = 'Mage Armor';
 $lang_en['Orbe enflammé'] = 'Flame Orb';
+$lang_en['Héroïsme'] = 'Heroism';
+$lang_en['Furie sanguinaire'] = 'Bloodlust';
+$lang_en['Distorsion temporelle'] = 'Time Warp';
+$lang_en['Hystérie ancienne'] = 'Ancient Hysteria';
 
 
 
@@ -177,7 +185,6 @@ $lang_fr = array();
 $lang_fr['Innervate'] = 'Innervation';
 $lang_fr['Hymn of Hope'] = 'Hymne à l\'espoir';
 $lang_fr['Clearcasting'] = 'Idées claires';
-$lang_fr['Heroism'] = 'Héroïsme';
 $lang_fr['Arcane Power'] = 'Pouvoir des Arcanes';
 $lang_fr['Presence of Mind'] = 'Présence spirituelle';
 $lang_fr['Hospitality'] = 'Hospitalité';
@@ -206,5 +213,9 @@ $lang_fr['Flamestrike'] = 'Choc de flammes';
 $lang_fr['Blast Wave'] = 'Vague explosive';
 $lang_fr['Mage Armor'] = 'Armure du mage';
 $lang_fr['Flame Orb'] = 'Orbe enflammé';
+$lang_fr['Heroism'] = 'Héroïsme';
+$lang_fr['Bloodlust'] = 'Furie sanguinaire';
+$lang_fr['Time Warp'] = 'Distorsion temporelle';
+$lang_fr['Ancient Hysteria'] = 'Hystérie ancienne';
 
 ?>
