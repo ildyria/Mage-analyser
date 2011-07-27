@@ -236,7 +236,7 @@ function getdmg($string)
 		{
 			if(strpos($a[$i],'*') === 0)
 			{
-				$dps = substr($a[$i], 1, -1);
+				$dps = substr($a[$i], 1, -2);
 				if($dps != '')
 				{
 					return $dps;
@@ -246,7 +246,7 @@ function getdmg($string)
 			{
 				if($a[$i] != '')
 				{
-					return $a[$i];
+					return substr($a[$i], 0, -1);
 				}
 			}
 		}
@@ -283,6 +283,31 @@ function iscrit($string)
 	$i++;
 	}
 	return "nocrit";
+}
+
+
+
+/*************************************************
+**
+** GIVE 30% BASE MANA COST IF SPELL IS CRITICAL
+**
+*************************************************/
+function masterofelements($spell,$string,&$mana)
+{
+
+	global $mana_sorts;
+	
+	if(iscrit($string) == 'crit')
+		{
+			if($spell == 'Flame Orb')
+				{
+					$mana['current'] = min($mana['max'],$mana['current']+round(($mana_sorts['Flame Orb']/15)*0.3,0));
+				}
+			else
+				{
+					$mana['current'] = min($mana['max'],$mana['current']+round($mana_sorts[$spell]*0.3,0));
+				}
+		}
 }
 
 

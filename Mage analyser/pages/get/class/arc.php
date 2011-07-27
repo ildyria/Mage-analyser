@@ -14,6 +14,8 @@ class analyse_arcane {
 		'explosion_ligne' => 0,
 		'explosion_dmgs' => '(',
 		'explosion_dmg' => 0,
+		'explosion_crit' => 'non',
+		
 		'cast_time' => 0,
 		'time_lost' => 0,
 		'last_date_dmg' => 0
@@ -346,6 +348,7 @@ class analyse_arcane {
 				{
 					$this->get_mana($spell,$last_date);
 					insertdata($last_date,$ligne,$this->a_mana['current'],$this->a_memory['cast_time']);
+					masterofelements('Arcane Blast',$ligne,$this->a_mana);
 					$ligne = preg_replace('/'.$lang['Arcane Blast'].'/',$lang['Arcane Blast'].' ('.$this->a_arcaneblast['nb_debuff'].')',$ligne);
 				}
 				else
@@ -354,6 +357,7 @@ class analyse_arcane {
 					$this->a_memory['cast_time'] = getcasttime($cast['Arcane Blast']);
 					$this->get_mana('Arcane Blast',$last_date);
 					insertdata($last_date,$ligne,$this->a_mana['current'],$this->a_memory['cast_time']);
+					masterofelements('Arcane Blast',$ligne,$this->a_mana);
 					$ligne = preg_replace('/'.$lang['Arcane Blast'].'/',$lang['Arcane Blast'].' ('.$this->a_arcaneblast['nb_debuff'].')',$ligne);
 				}
 			}
@@ -362,6 +366,7 @@ class analyse_arcane {
 				$this->a_memory['cast_time'] = getcasttime($cast['Arcane Blast']-0.1*$this->a_arcaneblast['nb_debuff']);
 				$this->get_mana('Arcane Blast',$last_date);
 				insertdata($last_date,$ligne,$this->a_mana['current'],$this->a_memory['cast_time']);
+				masterofelements('Arcane Blast',$ligne,$this->a_mana);
 				$ligne = preg_replace('/'.$lang['Arcane Blast'].'/',$lang['Arcane Blast'].' ('.$this->a_arcaneblast['nb_debuff'].')',$ligne);
 			}
 
@@ -397,6 +402,7 @@ class analyse_arcane {
 		$this->get_mana('Arcane Barrage',$last_date);
 		$this->f_timelost($last_date,'Arcane Barrage');
 //		$this->a_memory['cast_time'] = getcasttime($cast['Arcane Barrage']);
+		masterofelements('Arcane Barrage',$ligne,$this->a_mana);
 		insertdata($last_date,$ligne,$this->a_mana['current'],$this->a_memory['cast_time']);
 
 		$this->a_memory['last_date_dmg'] = $last_date;
@@ -497,7 +503,13 @@ class analyse_arcane {
 		{
 			$this->a_memory['explosion_ligne'] = $ligne;
 			$last_dmg = getdmg($ligne);
+			$crit = iscrit($ligne);
 			$this->a_memory['explosion_dmg'] += $last_dmg;
+			if($crit == 'crit')
+				{
+					$this->a_memory['explosion_crit'] = 'oui';
+					$last_dmg = "*".$last_dmg."*";
+				}
 			$this->a_memory['explosion_dmgs'] .= (($this->a_memory['explosion_dmgs']=='(') ? '' : ', ' ).$last_dmg;
 		}
 		else
@@ -506,7 +518,13 @@ class analyse_arcane {
 			$this->a_memory['explosion_last_date'] = $last_date;
 			$this->a_memory['explosion_ligne'] = $ligne;
 			$last_dmg = getdmg($ligne);
+			$crit = iscrit($ligne);
 			$this->a_memory['explosion_dmg'] += $last_dmg;
+			if($crit == 'crit')
+				{
+					$this->a_memory['explosion_crit'] = 'oui';
+					$last_dmg = "*".$last_dmg."*";
+				}
 			$this->a_memory['explosion_dmgs'] .= (($this->a_memory['explosion_dmgs']=='(') ? '' : ', ' ).$last_dmg;
 		}		
 	}
@@ -519,6 +537,8 @@ class analyse_arcane {
 *************************************************/
 	function f_arcaneexplosionsend($ligne,$last_date)
 	{
+
+	global $mana_sorts;
 	
 		if($this->a_memory['explosion_last_date'] != 0 )
 			{
@@ -538,6 +558,10 @@ class analyse_arcane {
 					}
 				$i++;
 				}
+				if($this->a_memory['explosion_crit'] == 'oui')
+				{
+					$this->a_mana['current'] = min($this->a_mana['max'],$this->a_mana['current']+round($mana_sorts['Arcane Explosion']*0.3,0));
+				}
 				$ligne_txt .= ' '.$this->a_memory['explosion_dmg'].' '.$this->a_memory['explosion_dmgs'].')';
 				$this->f_timelost($this->a_memory['explosion_last_date'],'Arcane Explosion');
 				$this->get_mana('Arcane Explosion',$last_date);
@@ -550,6 +574,7 @@ class analyse_arcane {
 		$this->a_memory['explosion_ligne'] = 0;
 		$this->a_memory['explosion_dmgs'] = '(';
 		$this->a_memory['explosion_dmg'] = 0;
+		$this->a_memory['explosion_crit'] = 'non';
 	}
 	
 	
@@ -577,7 +602,7 @@ class analyse_arcane {
 			$this->a_memory['last_date_dmg'] = $last_date;
 		}
 
-
+		masterofelements('Flame Orb',$ligne,$this->a_mana);
 		insertdata($last_date,$ligne,$this->a_mana['current'],0.1);
 
 	}

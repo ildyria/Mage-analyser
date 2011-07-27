@@ -35,7 +35,8 @@ echo '<div style=\'display: block; text-align: center; border: solid 1px #0099CC
 echo 'Intelligence : '.$intel.' +80 +300 <br />'."\n";
 echo 'Mana : '.$mana_base.'<br />'."\n";
 echo 'Hate : '.$hast.'<br />'."\n";
-echo 'NWP : 3<br />'."\n";
+echo 'NWP : 3/3<br />'."\n";
+echo 'Ma&icirc;tre des &eacute;l&eacute;ments : 2/2<br />'."\n";
 echo 'Sp&eacute; : '.(($spe == 'arc') ? 'Arcane' : 'Feu').'<br />'."\n";
 echo 'Buffs raid : 5% hate, 1% mana/10s, PA<br />'."\n";
 echo 'Amure : Mage glyph&eacute;e<br />'."\n";
