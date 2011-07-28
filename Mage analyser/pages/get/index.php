@@ -109,7 +109,7 @@ while($i < count($loglignes))
 
 	};
 echo '</table><br />'."\n";
-
+ 
 
 // results
 echo '<div style="text-align: center; padding-top: 10px; border-top: solid 1px #0099CC;" class="c0">';

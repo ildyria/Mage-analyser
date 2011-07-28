@@ -347,7 +347,6 @@ class analyse_arcane {
 			{
 	
 				if(	$spell != 'Presence of Mind' &&
-					$spell != 'Replenish Mana' &&
 					$spell != 'Flame Orb' &&
 					$spell != 'Mage Ward' &&
 					$spell != 'Evocation'
@@ -638,7 +637,7 @@ class analyse_arcane {
 				$this->get_mana('Arcane Explosion',$last_date);
 				insertdata($this->a_memory['explosion_last_date'],$ligne_txt,$this->a_mana['current'],$this->a_memory['cast_time']);
 				send($this->a_memory['explosion_last_date'],$ligne_txt,'c0');
-				$this->a_memory['last_date_dmg'] = $last_date;
+				$this->a_memory['last_date_dmg'] = $this->a_memory['explosion_last_date'];
 			}
 
 		$this->a_memory['explosion_last_date'] = 0;
@@ -695,7 +694,7 @@ class analyse_arcane {
 			}
 		else
 			{
-				echo '- '.$this->a_statistique['time_lost'].' secondes de perdues.<br />'."\n";
+				echo '- '.$this->a_statistique['time_lost'].' secondes de perdues ('.round($this->a_statistique['time_lost']/$long*100,0).'%).<br />'."\n";
 			}
 		echo '- '.$this->a_statistique['nb missiles'].' missiles.<br />'."\n";
 		echo '- '.$this->a_statistique['nb deflag'].' déflag.<br />'."\n";

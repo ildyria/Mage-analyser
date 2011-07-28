@@ -375,7 +375,7 @@ function send($date,$string,$class)
 	{
 		echo "\t"."\t".'<td style="padding-left: 15px;">&nbsp;</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">&nbsp;</td>'."\n";
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->a_mana['current'].'</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor($analyse->a_mana['current']).'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->a_mana['current']/$mana_base)*100).'%</td>'."\n";
 	}
 	else
@@ -384,8 +384,8 @@ function send($date,$string,$class)
 		echo (($analyse->a_memory['time_lost'] > 1) ? "<span class='c17'>" : "").$analyse->a_memory['time_lost'].(($analyse->a_memory['time_lost'] > 1) ? "</span>" : "");
 //		echo ' -- '.$analyse->a_statistique['time_lost'];
 		echo '</td>'."\n";
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->a_mana['delta'].'</td>'."\n";
-		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->a_mana['current'].'</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor($analyse->a_mana['delta']).'</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor($analyse->a_mana['current']).'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->a_mana['current']/$mana_base)*100).'%</td>'."\n";
 	}
 	echo "\t".'</tr>'."\n";

@@ -90,6 +90,7 @@ $long_sorts['Volcanic Destruction'] = 12;
 $long_sorts['Soul Power'] = 20;
 $long_sorts['Revelation'] = 20;
 
+$long_sorts['Replenish Mana'] = 15;
 $long_sorts['Icy Veins'] = 20;
 $long_sorts['Mirror Image'] = 30;
 $long_sorts['Living Bomb'] = 12;
