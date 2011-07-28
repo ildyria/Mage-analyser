@@ -41,28 +41,46 @@ class analyse_arcane {
 		'deflag en trop' => 0,
 		'nb missiles' => 0,
 		'nb deflag' => 0,
-		'nb barrage' => 0
+		'nb barrage' => 0,
+		'nb fire blast' => 0,
+		'nb blink' => 0
 		);
 	var $a_cd = array(
 		'Arcane Power' => 'non',
 		'Presence of Mind' => 'non',
-		'Hospitality' => 'non',
-		'Scale of Fates' => 'non',
+
+		'Celerity' => 'non',
+		'Mark of the Firelord' => 'non',
+		'Battle Magic' => 'non',
+		'Dire Magic' => 'non',
+		'Volcanic Destruction' => 'non',
+		'Soul Power' => 'non',
+		'Revelation' => 'non',
+
 		'Icy Veins' => 'non',
 		'Mirror Image' => 'non',
 		'Replenish Mana' => 'non',
 		'Evocation' => 'non',
+		'Mage Ward' => 'non',
 		'Flame Orb' => 'non'
 		);
 	var $a_buff = array(
 		'Arcane Power' => 'non',
 		'Presence of Mind' => 'non',
-		'Hospitality' => 'non',
-		'Scale of Fates' => 'non',
+
+		'Celerity' => 'non',
+		'Mark of the Firelord' => 'non',
+		'Battle Magic' => 'non',
+		'Dire Magic' => 'non',
+		'Volcanic Destruction' => 'non',
+		'Soul Power' => 'non',
+		'Revelation' => 'non',
+
 		'Icy Veins' => 'non',
 		'Mirror Image' => 'non',
 		'Replenish Mana' => 'non',
 		'Flame Orb' => 'non',
+		'Mage Ward' => 'non',
 		'Evocation' => 'non'
 		);
 
@@ -72,6 +90,7 @@ class analyse_arcane {
 **
 *************************************************/
 	function initialise($last_date,$manabase) {
+
 		$this->a_memory['last_date_dmg'] = $last_date;
 		$this->a_timer['requinc'] = $last_date;
 		$this->a_timer['mp5'] = $last_date;
@@ -113,11 +132,20 @@ class analyse_arcane {
 		$this->check_clearcasting($ligne);
 		$this->check_cd($ligne,$last_date,'Arcane Power');
 		$this->check_cd($ligne,$last_date,'Presence of Mind');
-		$this->check_cd($ligne,$last_date,'Hospitality');
+
+		$this->check_cd($ligne,$last_date,'Celerity');
+		$this->check_cd($ligne,$last_date,'Mark of the Firelord');
+		$this->check_cd($ligne,$last_date,'Battle Magic');
+		$this->check_cd($ligne,$last_date,'Dire Magic');
+		$this->check_cd($ligne,$last_date,'Volcanic Destruction'); 
+		$this->check_cd($ligne,$last_date,'Soul Power');
+		$this->check_cd($ligne,$last_date,'Revelation');
+
 		$this->check_cd($ligne,$last_date,'Mirror Image');
 		$this->check_cd($ligne,$last_date,'Replenish Mana');
 		$this->check_cd($ligne,$last_date,'Flame Orb');
 		$this->check_cd($ligne,$last_date,'Evocation');
+		$this->check_cd($ligne,$last_date,'Mage Ward');
 
 		$this->f_addmana($ligne,$last_date);
 		
@@ -167,9 +195,44 @@ class analyse_arcane {
 				$this->f_arcanemissilesend($ligne,$last_date);
 				$this->f_timelost($last_date,'Fire Blast');
 				$this->get_mana('Fire Blast',$last_date);
+				$this->a_statistique['nb fire blast'] += 1;
 				insertdata($last_date,$ligne,$this->a_mana['current'],$this->a_memory['cast_time']);
 				$this->a_memory['last_date_dmg'] = $last_date;
 			}
+		elseif( strpos($ligne,$lang['Blink']) != 0)
+			{
+				$this->f_arcaneexplosionsend($ligne,$last_date);
+				$this->f_arcanemissilesend($ligne,$last_date);
+				$this->f_timelost($last_date,'Blink');
+				$this->get_mana('Blink',$last_date);
+				$this->a_statistique['nb blink'] += 1;
+				$this->a_memory['last_date_dmg'] = $last_date;
+			}
+		elseif( strpos($ligne,$lang['Mage Ward']) != 0)
+			{
+				$this->f_arcaneexplosionsend($ligne,$last_date);
+				$this->f_arcanemissilesend($ligne,$last_date);
+				$this->f_timelost($last_date,'Mage Ward');
+				$this->get_mana('Mage Ward',$last_date);
+				$this->a_memory['last_date_dmg'] = $last_date;
+			}
+		elseif( strpos($ligne,$lang['Slow Fall']) != 0)
+			{
+				$this->f_arcaneexplosionsend($ligne,$last_date);
+				$this->f_arcanemissilesend($ligne,$last_date);
+				$this->f_timelost($last_date,'Slow Fall');
+				$this->get_mana('Slow Fall',$last_date);
+				$this->a_memory['last_date_dmg'] = $last_date;
+			}
+		elseif( strpos($ligne,$lang['Time Warp']) != 0 && !(strpos($ligne,'fades') != 0)) // le soucis, c'est que si c'est un autre mage qui le lance... :/
+			{
+				$this->f_arcaneexplosionsend($ligne,$last_date);
+				$this->f_arcanemissilesend($ligne,$last_date);
+				$this->f_timelost($last_date,'Time Warp');
+				$this->get_mana('Time Warp',$last_date);
+				$this->a_memory['last_date_dmg'] = $last_date;
+			}
+			
 		else
 			{
 			}
@@ -286,28 +349,34 @@ class analyse_arcane {
 				if(	$spell != 'Presence of Mind' &&
 					$spell != 'Replenish Mana' &&
 					$spell != 'Flame Orb' &&
+					$spell != 'Mage Ward' &&
 					$spell != 'Evocation'
 					)
 					{
 						$this->a_buff[$spell] = add_sec_to_date($last_date,$long_sorts[$spell]);
 					}
-				if(!(strpos($ligne,'fades') != 0) && $this->a_cd[$spell] == 'non')
+				if(!(strpos($ligne,'fades') != 0) && $this->a_cd[$spell] == 'non' && $cd_sorts[$spell] != 0)
 					{
 						$this->a_cd[$spell] = add_sec_to_date($last_date,$cd_sorts[$spell]);
-						send($last_date,"/!\ BEGIN cd ".$lang[$spell].", time out at : ".$this->a_cd[$spell]." /!\\","c5");
 					}
 			}
 	
 		if($last_date > $this->a_cd[$spell])
 			{
-  				send($this->a_cd[$spell],$lang[$spell]." available","c25");
+				$lttltxt = $lang[$spell]." available";
+				prepare_ligne($lttltxt);
+  				send($this->a_cd[$spell],$lttltxt,"c25");
 				$this->a_cd[$spell] = 'non';
+				unset($lttltxt);
 			}
 		
 		if($last_date > $this->a_buff[$spell])
 			{
-  				send($this->a_buff[$spell],$lang[$spell]." fades","c10");
+				$lttltxt = $lang[$spell]." fades";
+				prepare_ligne($lttltxt);
+  				send($this->a_buff[$spell],$lttltxt,"c25");
 				$this->a_buff[$spell] = 'non';
+				unset($lttltxt);
 			}
 	
 	}
@@ -324,7 +393,9 @@ class analyse_arcane {
 		global $cast;
 		
 		$this->a_memory['cast_time'] = getcasttime($cast[$spell]);
-		$this->a_memory['time_lost'] = max(0,sub_time($last_date,$this->a_memory['last_date_dmg'])-$this->a_memory['cast_time']);
+		$delay = 0;
+		if($spell == 'Flame Orb' or $spell == 'Arcane Barrage') $delay = 1;
+		$this->a_memory['time_lost'] = floor((max(0,sub_time($last_date,$this->a_memory['last_date_dmg'])-$this->a_memory['cast_time']-$delay))*1000)/1000;
 		$this->a_statistique['time_lost'] += $this->a_memory['time_lost'];
 
 	}
@@ -343,10 +414,10 @@ class analyse_arcane {
 
 		if($this->a_arcaneblast['ended'] == 'oui')
 			{
-				$this->a_memory['cast_time'] = getcasttime($cast['Arcane Blast']-0.1*$this->a_arcaneblast['nb_debuff']);
-				if(add_sec_to_date($last_date,$this->a_memory['cast_time']) < $this->a_arcaneblast['timer'])
+				$this->a_memory['cast_time'] = max(1,SET4T11*getcasttime($cast['Arcane Blast']-0.1*$this->a_arcaneblast['nb_debuff']));
+				if(add_sec_to_date($last_date,-$this->a_memory['cast_time']) < $this->a_arcaneblast['timer'])
 				{
-					$this->get_mana($spell,$last_date);
+					$this->get_mana('Arcane Blast',$last_date);
 					insertdata($last_date,$ligne,$this->a_mana['current'],$this->a_memory['cast_time']);
 					masterofelements('Arcane Blast',$ligne,$this->a_mana);
 					$ligne = preg_replace('/'.$lang['Arcane Blast'].'/',$lang['Arcane Blast'].' ('.$this->a_arcaneblast['nb_debuff'].')',$ligne);
@@ -354,7 +425,7 @@ class analyse_arcane {
 				else
 				{
 					$this->a_arcaneblast['nb_debuff'] = 0;
-					$this->a_memory['cast_time'] = getcasttime($cast['Arcane Blast']);
+					$this->a_memory['cast_time'] = max(1,SET4T11*getcasttime($cast['Arcane Blast']));
 					$this->get_mana('Arcane Blast',$last_date);
 					insertdata($last_date,$ligne,$this->a_mana['current'],$this->a_memory['cast_time']);
 					masterofelements('Arcane Blast',$ligne,$this->a_mana);
@@ -363,7 +434,7 @@ class analyse_arcane {
 			}
 		else
 			{
-				$this->a_memory['cast_time'] = getcasttime($cast['Arcane Blast']-0.1*$this->a_arcaneblast['nb_debuff']);
+				$this->a_memory['cast_time'] = max(1,SET4T11*getcasttime($cast['Arcane Blast']-0.1*$this->a_arcaneblast['nb_debuff']));
 				$this->get_mana('Arcane Blast',$last_date);
 				insertdata($last_date,$ligne,$this->a_mana['current'],$this->a_memory['cast_time']);
 				masterofelements('Arcane Blast',$ligne,$this->a_mana);
@@ -371,7 +442,7 @@ class analyse_arcane {
 			}
 
 
-		$this->a_memory['time_lost'] = max(0,sub_time($last_date,$this->a_memory['last_date_dmg'])-$this->a_memory['cast_time']);
+		$this->a_memory['time_lost'] = floor((max(0,sub_time($last_date,$this->a_memory['last_date_dmg'])-$this->a_memory['cast_time']))*1000)/1000;
 		$this->a_statistique['time_lost'] += $this->a_memory['time_lost'];
 
 
@@ -567,9 +638,9 @@ class analyse_arcane {
 				$this->get_mana('Arcane Explosion',$last_date);
 				insertdata($this->a_memory['explosion_last_date'],$ligne_txt,$this->a_mana['current'],$this->a_memory['cast_time']);
 				send($this->a_memory['explosion_last_date'],$ligne_txt,'c0');
+				$this->a_memory['last_date_dmg'] = $last_date;
 			}
 
-		$this->a_memory['last_date_dmg'] = $last_date;
 		$this->a_memory['explosion_last_date'] = 0;
 		$this->a_memory['explosion_ligne'] = 0;
 		$this->a_memory['explosion_dmgs'] = '(';
@@ -615,12 +686,12 @@ class analyse_arcane {
 ** PRINT PARSING RESULTS
 **
 *************************************************/
-    function resultat() {
+    function resultat($long) {
 		$minutes = (floor($this->a_statistique['time_lost']) - (floor($this->a_statistique['time_lost']) % 60)) / 60;
 		$secondes = $this->a_statistique['time_lost'] - 60 * $minutes;
 		if($minutes != 0)
 			{
-				echo '- '.$minutes.' minutes et '.$secondes.' secondes de perdues.<br />'."\n";
+				echo '- '.$minutes.' minutes et '.round($secondes,1).' secondes de perdues ('.round($this->a_statistique['time_lost']/$long*100,0).'%).<br />'."\n";
 			}
 		else
 			{
@@ -628,8 +699,10 @@ class analyse_arcane {
 			}
 		echo '- '.$this->a_statistique['nb missiles'].' missiles.<br />'."\n";
 		echo '- '.$this->a_statistique['nb deflag'].' déflag.<br />'."\n";
-//		echo '- '.$this->a_statistique['nb blink'].' blink.<br />'."\n";
+		echo '- '.$this->a_statistique['nb blink'].' blink.<br />'."\n";
 		echo '- '.$this->a_statistique['nb barrage'].' barrage.<br />'."\n";
+		echo '- '.$this->a_statistique['nb fire blast'].' Trait de feu.<br />'."\n";
+
 		}
 
 }

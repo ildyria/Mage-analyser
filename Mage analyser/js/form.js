@@ -34,8 +34,29 @@ function edit_request()
 	feu += name;
 	feu += '"], "spellNames": ["Chaleur continue"]}]';
 
-	var arcane1 = '((sourceName = "'+name+'" and (((spellId = 55342 or spellId = 67684 or spellId = 71579 or spellId = 12042 or spellId = 12536)  and fullType = SPELL_AURA_APPLIED) or(spellId != 89091 and fullType = SPELL_DAMAGE)))or(targetName = "'+name+'" and (spellId = 2825 or spellId = 32182))) or (targetName = "'+name+'" and ((spellId = 12051 and fullType = SPELL_PERIODIC_ENERGIZE) or spellId = 5405 or spellId = 29166))';
-//	var arcane2 = 'targetName = "'+name+'" and (spellId = 6117 or spellId = 57669 or spellId = 12051 or spellId = 29166 or fullType = SPELL_ENERGIZE)';
+	var arcane = '((sourceName = "'+name+'" and (((';
+	arcane += 'spellId = 55342 or '; // Mirror Images
+	arcane += 'spellId = 91173 or '; // 379 Shard of Woe = Celerity
+	arcane += 'spellId = 97007 or '; // 378 Rune of Zeth = Mark of the Firelord
+	arcane += 'spellId = 91047 or '; // Tol Barad +1926 spell = Battle Magic
+	arcane += 'spellId = 92318 or '; // 372 Bell of Enraging Resonance H = Dire Magic
+	arcane += 'spellId = 91007 or '; // 359 Bell of Enraging Resonance N = Dire Magic
+	arcane += 'spellId = 89091 or '; // 359 DM : Volcano = Volcanic Destruction
+	arcane += 'spellId = 91019 or '; // 359 Soul Casket +1926 spell = Soul Power
+	arcane += 'spellId = 92320 or '; // 372 THERALION H +2178 mastery = Revelation
+	arcane += 'spellId = 91024 or '; // 359 THERALION N +1926 mastery = Revelation
+	arcane += 'spellId = 12042 or '; // ARCANE POWER
+	arcane += 'spellId = 543 or '; // MAGE WARD
+	arcane += 'spellId = 130 or '; // SLOW FALL
+	arcane += 'spellId = 1953 or '; // BLINK
+	arcane += 'spellId = 12042 or '; // ARCANE POWER
+	arcane += 'spellId = 12536'; // CLEARCASTING
+	arcane += ') and fullType = SPELL_AURA_APPLIED) or ';
+	arcane += '(spellId != 89091 and fullType = SPELL_DAMAGE))) or '; // HIT DAMAGES BUT NO VOLCANO DAMAGES
+	arcane += '(targetName = "'+name+'" and (';
+	arcane += 'spellId = 2825 or spellId = 80353 or spellId = 90355 or spellId = 32182))) or '; // TIME WARP, HEROISM, BLOOD LUST, Ancient Hysteria
+	arcane += '(targetName = "'+name+'" and ((spellId = 12051 and fullType = SPELL_PERIODIC_ENERGIZE) or spellId = 5405 or spellId = 29166))'; // MANA GAINS : Gem, Inervate, Evocation
+	// NEED TO ADD HYMNE OF HOPE
 
 	if ( spe == 'feu') {
 		document.getElementById('request').value = feu;
@@ -44,7 +65,7 @@ function edit_request()
 	}
 	else
 	{
-		document.getElementById('request').value = arcane1;
+		document.getElementById('request').value = arcane;
 		document.getElementById('txtarcane').setAttribute("style","");
 		document.getElementById('txtfire').setAttribute("style","display: none;");
 	}

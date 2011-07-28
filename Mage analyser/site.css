@@ -114,8 +114,22 @@ input, option{
 	color: #FFFF00; /* jaune */
 	}
 
+.c4 {
+	color: #00FF33; /* vert */
+	font-weight: bold;
+	}
+
 .c5 {
 	color: rgb(244,104,27);
+	}
+
+.c6 {
+	color: #FF9900; /* jaune orange */
+	font-weight: bold;
+	}	
+
+.c7 {
+	color: #FF6600; /*orange*/
 	}
 
 .c14 {
@@ -137,12 +151,6 @@ input, option{
 	color: #00FFFF; /* cyan */
 	font-weight: bold;
 	}	
-
-.c6 {
-	color: #FF9900; /* jaune orange */
-	font-weight: bold;
-	}	
-
 
 /* AJOUTS POUR INFO-BULLES */
 

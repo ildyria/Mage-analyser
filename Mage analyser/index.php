@@ -11,6 +11,7 @@ if($submit == 'Analyser')
 	{
 
 		$log = (isset($_POST['log1']) && !empty($_POST['log1'])) ? stripslashes($_POST['log1']) : 'non';
+		$T11 = (isset($_POST['4T11']) && !empty($_POST['4T11'])) ? $_POST['4T11'] : 'non';
 		$spe = (isset($_POST['spe']) && !empty($_POST['spe'])) ? stripslashes($_POST['spe']) : 'arc';
 		$hast = (isset($_POST['hast']) && !empty($_POST['hast'])) ? stripslashes($_POST['hast']) : 0;
 		$intel = (isset($_POST['intel']) && !empty($_POST['intel'])) ? stripslashes($_POST['intel']) : 0;

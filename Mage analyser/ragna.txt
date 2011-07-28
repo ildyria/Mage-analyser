@@ -7,6 +7,7 @@
 [22:35:02.287] Trunkot Orbe enflammé Ragnaros 1984
 [22:35:03.420] Trunkot Orbe enflammé Ragnaros 1951
 [22:35:03.420] Trunkot Déflagration des Arcanes Ragnaros 26960
+[22:35:03.620] Trunkot gains Révélation from Trunkot
 [22:35:03.803] Trunkot Déflagration des Arcanes Ragnaros 29202
 [22:35:04.186] Trunkot Orbe enflammé Ragnaros 2170
 [22:35:04.370] Trunkot gains Pouvoir des Arcanes from Trunkot
@@ -18,6 +19,7 @@
 [22:35:07.506] Trunkot Orbe enflammé Ragnaros 3194
 [22:35:07.875] Trunkot Déflagration des Arcanes Ragnaros 47741
 [22:35:08.062] Trunkot Orbe enflammé Ragnaros 3222
+[22:35:08.062] Trunkot gains Destruction volcanique from Trunkot
 [22:35:09.339] Trunkot Orbe enflammé Ragnaros *7102*
 [22:35:09.339] Trunkot Déflagration des Arcanes Ragnaros 51727
 [22:35:10.272] Trunkot Orbe enflammé Ragnaros *7078*
@@ -50,6 +52,8 @@
 [22:35:36.180] Trunkot Projectiles des Arcanes Ragnaros 4466
 [22:35:36.928] Trunkot gains 16392 mana from Trunkot's Evocation
 [22:35:38.728] Trunkot gains 16392 mana from Trunkot's Evocation
+[22:35:39.095] Trunkot gains Gardien du mage from Trunkot (Remaining: 9190)
+[22:35:42.246] Trunkot gains Transfert from Trunkot
 [22:35:45.192] Trunkot Déflagration des Arcanes Ragnaros *46277*
 [22:35:45.563] Trunkot gains Idées claires from Trunkot
 [22:35:48.524] Trunkot Déflagration des Arcanes Ragnaros 25663
@@ -58,6 +62,7 @@
 [22:35:51.840] Trunkot Trait de feu Ragnaros 7536
 [22:35:54.238] Trunkot Déflagration des Arcanes Ragnaros *59980*
 [22:35:57.954] Trunkot Projectiles des Arcanes Ragnaros 5055
+[22:35:58.140] Trunkot gains Destruction volcanique from Trunkot
 [22:35:58.505] Trunkot Projectiles des Arcanes Ragnaros 5055
 [22:35:58.873] Trunkot Projectiles des Arcanes Ragnaros 5061
 [22:35:59.238] Trunkot Projectiles des Arcanes Ragnaros 5061
@@ -69,7 +74,9 @@
 [22:36:03.294] Trunkot Déflagration des Arcanes Ragnaros 28027
 [22:36:05.206] Trunkot Déflagration des Arcanes Ragnaros 31336
 [22:36:08.697] Trunkot Barrage des Arcanes Ragnaros *40654*
+[22:36:09.619] Trunkot gains Transfert from Trunkot
 [22:36:12.946] Trunkot Déflagration des Arcanes Ragnaros *39069*
+[22:36:14.233] Trunkot gains Gardien du mage from Trunkot (Remaining: 9190)
 [22:36:14.236] Trunkot Déflagration des Arcanes Ragnaros *44643*
 [22:36:17.549] Trunkot Déflagration des Arcanes Ragnaros *50060*
 [22:36:17.732] Trunkot gains Idées claires from Trunkot
@@ -104,12 +111,14 @@
 [22:36:42.222] Trunkot Déflagration des Arcanes Ragnaros 25846
 [22:36:43.137] Trunkot Orbe enflammé Ragnaros 2299
 [22:36:44.239] Trunkot Orbe enflammé Ragnaros *4700*
+[22:36:44.609] Trunkot gains Transfert from Trunkot
 [22:36:45.168] Trunkot Orbe enflammé Ragnaros *4855*
 [22:36:45.904] Trunkot Orbe enflammé Ragnaros 2321
 [22:36:47.185] Trunkot Orbe enflammé Ragnaros 2306
 [22:36:47.570] Trunkot Déflagration des Arcanes Ragnaros 24353
 [22:36:47.936] Trunkot Orbe enflammé Ragnaros 1987
 [22:36:49.219] Trunkot Déflagration des Arcanes Ragnaros 26440
+[22:36:49.402] Trunkot gains Destruction volcanique from Trunkot
 [22:36:50.321] Trunkot Déflagration des Arcanes Ragnaros 33722
 [22:36:50.701] Trunkot gains Idées claires from Trunkot
 [22:36:50.884] Trunkot Déflagration des Arcanes Ragnaros 34013
@@ -117,6 +126,7 @@
 [22:36:55.672] Trunkot Projectiles des Arcanes Ragnaros *12329*
 [22:36:56.044] Trunkot Déflagration des Arcanes Ragnaros *45727*
 [22:36:56.217] Trunkot Projectiles des Arcanes Ragnaros *12328*
+[22:36:56.303] Trunkot gains Révélation from Trunkot
 [22:36:56.583] Trunkot Projectiles des Arcanes Ragnaros 6001
 [22:36:56.950] Trunkot Projectiles des Arcanes Ragnaros *12339*
 [22:36:57.683] Trunkot Déflagration des Arcanes Ragnaros 27832
@@ -124,10 +134,12 @@
 [22:37:00.632] Trunkot Déflagration des Arcanes Ragnaros 33926
 [22:37:02.665] Trunkot Déflagration des Arcanes Ragnaros 32116
 [22:37:04.331] Trunkot Déflagration des Arcanes Ragnaros 31461
+[22:37:04.331] Trunkot gains Gardien du mage from Trunkot (Remaining: 9190)
 [22:37:08.377] Trunkot Barrage des Arcanes Ragnaros 17674
 [22:37:08.559] Trunkot gains Idées claires from Trunkot
 [22:37:10.037] Trunkot Déflagration des Arcanes Ragnaros 20566
 [22:37:11.708] Trunkot Déflagration des Arcanes Ragnaros *47356*
+[22:37:13.360] Trunkot gains Transfert from Trunkot
 [22:37:17.229] Trunkot Déflagration des Arcanes Ragnaros 28135
 [22:37:18.892] Trunkot Déflagration des Arcanes Ragnaros 30882
 [22:37:20.177] Trunkot Déflagration des Arcanes Ragnaros 33451
@@ -146,6 +158,7 @@
 [22:37:32.772] Trunkot Déflagration des Arcanes Ragnaros 27983
 [22:37:35.904] Trunkot Barrage des Arcanes Ragnaros 15580
 [22:37:37.750] Trunkot Déflagration des Arcanes Ragnaros 18978
+[22:37:37.933] Trunkot gains Destruction volcanique from Trunkot
 [22:37:39.049] Trunkot Déflagration des Arcanes Ragnaros 24269
 [22:37:40.515] Trunkot Déflagration des Arcanes Ragnaros 26998
 [22:37:46.784] Trunkot Déflagration des Arcanes Fils des flammes *38704*
@@ -181,6 +194,7 @@
 [22:38:27.734] Trunkot Projectiles des Arcanes Ragnaros 5190
 [22:38:28.101] Trunkot Déflagration des Arcanes Ragnaros 19367
 [22:38:28.101] Trunkot Projectiles des Arcanes Ragnaros *10667*
+[22:38:28.484] Trunkot gains Destruction volcanique from Trunkot
 [22:38:28.484] Trunkot Orbe enflammé Ragnaros 1952
 [22:38:28.668] Trunkot Projectiles des Arcanes Ragnaros 5191
 [22:38:29.218] Trunkot Projectiles des Arcanes Ragnaros 5195
@@ -191,6 +205,8 @@
 [22:38:31.433] Trunkot Déflagration des Arcanes Ragnaros 25164
 [22:38:32.534] Trunkot Orbe enflammé Ragnaros 2279
 [22:38:33.451] Trunkot Orbe enflammé Ragnaros *4736*
+[22:38:33.633] Trunkot gains Gardien du mage from Trunkot (Remaining: 10699)
+[22:38:34.920] Trunkot gains Transfert from Trunkot
 [22:38:35.106] Trunkot Projectiles des Arcanes Ragnaros 5957
 [22:38:35.660] Trunkot Projectiles des Arcanes Ragnaros 6005
 [22:38:35.660] Trunkot gains Idées claires from Trunkot
@@ -198,6 +214,7 @@
 [22:38:36.582] Trunkot Projectiles des Arcanes Ragnaros 6006
 [22:38:36.949] Trunkot Projectiles des Arcanes Ragnaros 5777
 [22:38:38.798] Trunkot Barrage des Arcanes Ragnaros 18795
+[22:38:38.981] Trunkot gains Révélation from Trunkot
 [22:38:41.548] Trunkot Déflagration des Arcanes Ragnaros 20801
 [22:38:43.025] Trunkot Déflagration des Arcanes Ragnaros 26710
 [22:38:44.504] Trunkot Déflagration des Arcanes Ragnaros 30217
@@ -282,6 +299,7 @@
 [22:38:57.962] Trunkot Explosion des Arcanes Elémentaire du magma 3540
 [22:38:58.692] Trunkot Explosion des Arcanes Ragnaros 3801
 [22:38:58.692] Trunkot Explosion des Arcanes Elémentaire du magma 1009 (O: 2519)
+[22:38:59.426] Trunkot gains Transfert from Trunkot
 [22:39:03.487] Trunkot Trait de feu Ragnaros 6372
 [22:39:04.220] Trunkot Barrage des Arcanes Ragnaros 16071
 [22:39:06.437] Trunkot Déflagration des Arcanes Ragnaros 17894
@@ -300,6 +318,7 @@
 [22:39:20.248] Trunkot Orbe enflammé Ragnaros 2758
 [22:39:20.984] Trunkot Orbe enflammé Ragnaros 2757
 [22:39:21.349] Trunkot Déflagration des Arcanes Ragnaros 40809
+[22:39:21.733] Trunkot gains Destruction volcanique from Trunkot
 [22:39:22.284] Trunkot Orbe enflammé Ragnaros 3029
 [22:39:22.647] Trunkot Déflagration des Arcanes Ragnaros *93459*
 [22:39:23.015] Trunkot Orbe enflammé Ragnaros 2998
@@ -324,9 +343,11 @@
 [22:39:34.111] Trunkot Orbe enflammé Ragnaros *4117*
 [22:39:35.216] Trunkot Déflagration des Arcanes Ragnaros 25061
 [22:39:36.492] Trunkot Déflagration des Arcanes Ragnaros *51356*
+[22:39:37.421] Trunkot gains Transfert from Trunkot
 [22:39:40.924] Trunkot Barrage des Arcanes Ragnaros *29079*
 [22:39:41.289] Trunkot gains Idées claires from Trunkot
 [22:39:44.241] Trunkot Déflagration des Arcanes Ragnaros *33808*
+[22:39:44.244] Trunkot gains Gardien du mage from Trunkot (Remaining: 8907)
 [22:39:47.374] Trunkot Déflagration des Arcanes Ragnaros 21802
 [22:39:48.659] Trunkot Explosion des Arcanes Ragnaros *9373*
 [22:39:48.659] Trunkot Explosion des Arcanes Elémentaire du magma 3995
@@ -413,6 +434,7 @@
 [22:39:59.721] Trunkot Explosion des Arcanes Elémentaire du magma 2894
 [22:39:59.721] Trunkot Explosion des Arcanes Elémentaire du magma *5934*
 [22:40:00.820] Trunkot Explosion des Arcanes Ragnaros 3133
+[22:40:01.735] Trunkot gains Transfert from Trunkot
 [22:40:06.166] Trunkot Trait de feu Ragnaros *12412*
 [22:40:07.099] Trunkot Barrage des Arcanes Ragnaros *31836*
 [22:40:07.648] Trunkot gains 16887 mana from Trunkot's Evocation
@@ -427,9 +449,11 @@
 [22:40:24.610] Trunkot Projectiles des Arcanes Ragnaros 4939
 [22:40:24.977] Trunkot Déflagration des Arcanes Ragnaros 18728
 [22:40:24.977] Trunkot Projectiles des Arcanes Ragnaros 4941
+[22:40:25.164] Trunkot gains Destruction volcanique from Trunkot
 [22:40:25.342] Trunkot Projectiles des Arcanes Ragnaros *10159*
 [22:40:25.709] Trunkot Projectiles des Arcanes Ragnaros 4980
 [22:40:26.275] Trunkot Projectiles des Arcanes Ragnaros 4980
+[22:40:26.458] Trunkot gains Révélation from Trunkot
 [22:40:26.458] Trunkot Déflagration des Arcanes Ragnaros 23883
 [22:40:28.130] Trunkot Déflagration des Arcanes Ragnaros 29739
 [22:40:29.407] Trunkot Déflagration des Arcanes Ragnaros *67289*
@@ -438,10 +462,12 @@
 [22:40:34.204] Trunkot gains Idées claires from Trunkot
 [22:40:35.123] Trunkot Déflagration des Arcanes Ragnaros 26297
 [22:40:36.774] Trunkot Déflagration des Arcanes Ragnaros *60921*
+[22:40:37.887] Trunkot gains Transfert from Trunkot
 [22:40:41.205] Trunkot Trait de feu Ragnaros 7246
 [22:40:41.575] Trunkot Barrage des Arcanes Ragnaros 18120
 [22:40:46.305] Trunkot Projectiles des Arcanes Ragnaros *11516*
 [22:40:46.700] Trunkot Projectiles des Arcanes Ragnaros 5606
+[22:40:47.097] Trunkot gains Gardien du mage from Trunkot (Remaining: 8907)
 [22:40:47.273] Trunkot Projectiles des Arcanes Ragnaros 5614
 [22:40:47.273] Trunkot Déflagration des Arcanes Ragnaros *38413*
 [22:40:47.652] Trunkot Projectiles des Arcanes Ragnaros *11535*
@@ -514,12 +540,15 @@
 [22:41:02.385] Trunkot Explosion des Arcanes Elémentaire du magma 3330
 [22:41:03.135] Trunkot Explosion des Arcanes Ragnaros 3554
 [22:41:03.135] Trunkot Explosion des Arcanes Elémentaire du magma *6821*
+[22:41:04.047] Trunkot gains Transfert from Trunkot
 [22:41:10.128] Trunkot Déflagration des Arcanes Ragnaros 18332
+[22:41:10.311] Trunkot gains Destruction volcanique from Trunkot
 [22:41:11.593] Trunkot Déflagration des Arcanes Ragnaros *48741*
 [22:41:13.442] Trunkot Déflagration des Arcanes Ragnaros 26597
 [22:41:13.627] Trunkot gains Idées claires from Trunkot
 [22:41:14.912] Trunkot Déflagration des Arcanes Ragnaros 29094
 [22:41:20.989] Trunkot Déflagration des Arcanes Ragnaros 31983
+[22:41:22.275] Trunkot gains Transfert from Trunkot
 [22:41:29.454] Trunkot Déflagration des Arcanes Fils des flammes 24451
 [22:41:29.454] Trunkot gains Idées claires from Trunkot
 [22:41:32.412] Trunkot Déflagration des Arcanes Fils des flammes 24569
@@ -536,16 +565,20 @@
 [22:41:54.146] Trunkot Déflagration des Arcanes Scion de lave 18737
 [22:41:55.628] Trunkot Déflagration des Arcanes Scion de lave *42902*
 [22:41:56.910] Trunkot Déflagration des Arcanes Scion de lave 22774
+[22:41:57.297] Trunkot gains Distorsion temporelle from Trunkot
 [22:41:59.859] Trunkot Déflagration des Arcanes Scion de lave *50386*
 [22:42:00.043] Trunkot gains 12090 mana from Trunkot's Récupération du mana
 [22:42:00.043] Trunkot gains Pouvoir des Arcanes from Trunkot
 [22:42:01.343] Trunkot Déflagration des Arcanes Scion de lave *75476*
 [22:42:02.443] Trunkot Déflagration des Arcanes Scion de lave *73855*
+[22:42:02.446] Trunkot gains Destruction volcanique from Trunkot
 [22:42:03.361] Trunkot Déflagration des Arcanes Scion de lave *81852*
 [22:42:04.310] Trunkot Déflagration des Arcanes Scion de lave 39869
 [22:42:05.410] Trunkot Déflagration des Arcanes Scion de lave *80575*
 [22:42:06.704] Trunkot Déflagration des Arcanes Scion de lave 39250
+[22:42:06.897] Trunkot gains Révélation from Trunkot
 [22:42:06.897] Trunkot gains Idées claires from Trunkot
+[22:42:07.442] Trunkot gains Transfert from Trunkot
 [22:42:10.763] Trunkot Déflagration des Arcanes Scion de lave 41617
 [22:42:12.054] Trunkot Déflagration des Arcanes Scion de lave *84514*
 [22:42:12.782] Trunkot Déflagration des Arcanes Scion de lave *85040*
@@ -569,6 +602,7 @@
 [22:42:35.663] Trunkot Déflagration des Arcanes Ragnaros 21585
 [22:42:36.397] Trunkot Orbe enflammé Ragnaros 1968
 [22:42:36.767] Trunkot Déflagration des Arcanes Ragnaros 24225
+[22:42:37.133] Trunkot's Distorsion temporelle fades from Trunkot
 [22:42:37.584] Trunkot Orbe enflammé Ragnaros 1953
 [22:42:37.597] Trunkot Déflagration des Arcanes Ragnaros *54926*
 [22:42:38.430] Trunkot Orbe enflammé Ragnaros *3973*
@@ -587,9 +621,11 @@
 [22:42:47.110] Trunkot Déflagration des Arcanes Ragnaros 27522
 [22:42:47.477] Trunkot Orbe enflammé Ragnaros 1850
 [22:42:48.218] Trunkot Déflagration des Arcanes Ragnaros 27017
+[22:42:48.571] Trunkot gains Destruction volcanique from Trunkot
 [22:42:49.504] Trunkot Déflagration des Arcanes Ragnaros 30829
 [22:42:50.993] Trunkot Déflagration des Arcanes Ragnaros *62258*
 [22:42:52.456] Trunkot Déflagration des Arcanes Ragnaros 30631
+[22:42:54.857] Trunkot gains Transfert from Trunkot
 [22:42:57.619] Trunkot Déflagration des Arcanes Ragnaros 30577
 [22:42:59.268] Trunkot Déflagration des Arcanes Ragnaros 30365
 [22:42:59.467] Trunkot gains Idées claires from Trunkot
@@ -599,6 +635,7 @@
 [22:43:14.206] Trunkot Barrage des Arcanes Ragnaros 14953
 [22:43:20.914] Trunkot Barrage des Arcanes Ragnaros 15429
 [22:43:21.096] Trunkot gains Idées claires from Trunkot
+[22:43:24.775] Trunkot gains Transfert from Trunkot
 [22:43:25.525] Trunkot Barrage des Arcanes Ragnaros *32736*
 [22:43:29.025] Trunkot Barrage des Arcanes Ragnaros 16181
 [22:43:32.173] Trunkot Déflagration des Arcanes Ragnaros 18299
@@ -607,8 +644,10 @@
 [22:43:36.191] Trunkot gains Idées claires from Trunkot
 [22:43:37.108] Trunkot Déflagration des Arcanes Ragnaros 24827
 [22:43:38.402] Trunkot Déflagration des Arcanes Ragnaros 27058
+[22:43:38.589] Trunkot gains Destruction volcanique from Trunkot
 [22:43:40.290] Trunkot Déflagration des Arcanes Ragnaros 30868
 [22:43:41.023] Trunkot Déflagration des Arcanes Ragnaros 30225
+[22:43:42.504] Trunkot gains Transfert from Trunkot
 [22:43:46.552] Trunkot Barrage des Arcanes Ragnaros *36038*
 [22:43:51.518] Trunkot Barrage des Arcanes Ragnaros *36268*
 [22:43:55.985] Trunkot Barrage des Arcanes Ragnaros 15532

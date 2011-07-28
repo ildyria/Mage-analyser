@@ -82,25 +82,42 @@ function prepare_ligne(&$string)
 	global $lang;
 	
 	$string = preg_replace('/'.$lang['Heroism'].'/','<span class="c17">'.$lang['Heroism'].'</span>',$string);
-	$string = preg_replace('/'.$lang['Arcane Power'].'/','<span class="c14">'.$lang['Arcane Power'].'</span>',$string);
-	$string = preg_replace('/'.$lang['Hospitality'].'/','<span class="c14">'.$lang['Hospitality'].'</span>',$string);
-	$string = preg_replace('/'.$lang['Scale of Fates'].'/','<span class="c14">'.$lang['Scale of Fates'].'</span>',$string);
-	$string = preg_replace('/'.$lang['Icy Veins'].'/','<span class="c14">'.$lang['Icy Veins'].'</span>',$string);
-	$string = preg_replace('/'.$lang['Presence of Mind'].'/','<span class="c14">'.$lang['Presence of Mind'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Time Warp'].'/','<span class="c17">'.$lang['Time Warp'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Bloodlust'].'/','<span class="c17">'.$lang['Bloodlust'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Ancient Hysteria'].'/','<span class="c17">'.$lang['Ancient Hysteria'].'</span>',$string);
+	
 	$string = preg_replace('/'.$lang['Mirror Image'].'/','<span class="c14">'.$lang['Mirror Image'].'</span>',$string);
 	$string = preg_replace('/'.$lang['Evocation'].'/','<span class="c14">'.$lang['Evocation'].'</span>',$string);
 	$string = preg_replace('/'.$lang['Replenish Mana'].'/','<span class="c14">'.$lang['Replenish Mana'].'</span>',$string);
-	$string = preg_replace('/'.$lang['Living Bomb'].'/','<span class="c14">'.$lang['Living Bomb'].'</span>',$string);
-	$string = preg_replace('/'.$lang['Elusive Power'].'/','<span class="c14">'.$lang['Elusive Power'].'</span>',$string);
 	$string = preg_replace('/'.$lang['Ice Block'].'/','<span class="c17">'.$lang['Ice Block'].'</span>',$string);
 	$string = preg_replace('/'.$lang['Blink'].'/','<span class="c14">'.$lang['Blink'].'</span>',$string);
-	$string = preg_replace('/'.$lang['Polymorph'].'/','<span class="c14">'.$lang['Polymorph'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Clearcasting'].'/','<span class="c26">'.$lang['Clearcasting'].'</span>',$string);
+
+	$string = preg_replace('/'.$lang['Arcane Power'].'/','<span class="c14">'.$lang['Arcane Power'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Presence of Mind'].'/','<span class="c14">'.$lang['Presence of Mind'].'</span>',$string);
 	$string = preg_replace('/'.$lang['Arcane Barrage'].'/','<span class="c14">'.$lang['Arcane Barrage'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Mage Ward'].'/','<span class="c14">'.$lang['Mage Ward'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Slow Fall'].'/','<span class="c14">'.$lang['Slow Fall'].'</span>',$string);
+
+	$string = preg_replace('/'.$lang['Icy Veins'].'/','<span class="c14">'.$lang['Icy Veins'].'</span>',$string);
+
+	$string = preg_replace('/'.$lang['Flame Orb'].'/','<span class="c7">'.$lang['Flame Orb'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Living Bomb'].'/','<span class="c14">'.$lang['Living Bomb'].'</span>',$string);
 	$string = preg_replace('/'.$lang['Hot Streak'].'/','<span class="c1">'.$lang['Hot Streak'].'</span>',$string);
 	$string = preg_replace('/'.$lang['Pyroblast'].'/','<span class="c2">'.$lang['Pyroblast'].'</span>',$string);
-	$string = preg_replace('/'.$lang['Clearcasting'].'/','<span class="c26">'.$lang['Clearcasting'].'</span>',$string);
+
+	$string = preg_replace('/'.$lang['Celerity'].'/','<span class="c4">'.$lang['Celerity'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Mark of the Firelord'].'/','<span class="c4">'.$lang['Mark of the Firelord'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Battle Magic'].'/','<span class="c4">'.$lang['Battle Magic'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Dire Magic'].'/','<span class="c4">'.$lang['Dire Magic'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Volcanic Destruction'].'/','<span class="c4">'.$lang['Volcanic Destruction'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Soul Power'].'/','<span class="c4">'.$lang['Soul Power'].'</span>',$string);
+	$string = preg_replace('/'.$lang['Revelation'].'/','<span class="c4">'.$lang['Revelation'].'</span>',$string);
+
+	$string = preg_replace('/'.$lang['Polymorph'].'/','<span class="c14">'.$lang['Polymorph'].'</span>',$string);
 	$string = preg_replace('/'.$lang['Innervate'].'/','<span class="c6">'.$lang['Innervate'].'</span>',$string);
 	$string = preg_replace('/'.$lang['Hymn of Hope'].'/','<span class="c25">'.$lang['Hymn of Hope'].'</span>',$string);
+
 	$string = preg_replace('/fades/','<span class="c10">fades</span>',$string);
 
 	return $string;

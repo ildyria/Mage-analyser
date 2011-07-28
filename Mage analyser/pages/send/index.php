@@ -18,6 +18,9 @@ echo "\t"."\t"."\t".'<div style="font-size: 14px; text-decoration: underline; te
 echo "\t"."\t"."\t";
 echo '<input type=\'text\' size=\'50\' name=\'name\' id=\'name\' value=\'Entrez votre nom de personnage ici.\' onfocus="if (this.value==\'Entrez votre nom de personnage ici.\') {this.value=\'\'}" /> <span class="c1">*</span><br /><br />'."\n";
 echo "\t"."\t"."\t".'Score de hate <span class="c17">*</span> : <input type=\'text\' size=\'4\' name=\'hast\' value=\'0\' onfocus="if (this.value==\'0\') {this.value=\'\'}" /><br />'."\n";
+echo "\t"."\t"."\t".'4T11 <span class="c17">*</span> : <select name="4T11"><option value="non">non</option>';
+echo '<option value="oui">oui</option>';
+echo '</select><br />'."\n";
 echo "\t"."\t"."\t".'Intel : <span class="c17">*</span> : <input type=\'text\' size=\'4\' name=\'intel\' value=\'0\' onfocus="if (this.value==\'0\') {this.value=\'\'}" /><br />'."\n";
 //echo "\t"."\t"."\t".'Afficher les gains de mana : <select name="affmana"><option value="no">Non</option><option value="yes">Oui</option></select><br />'."\n";
 echo "\t"."\t"."\t".'Langue du rapport <span class="c17">*</span> : <select name="lang"><option value="en">Anglais</option><option value="fr">Fran&ccedil;ais</option></select><br />'."\n";

@@ -6,6 +6,14 @@ define('MANA_BASE', 17418);
 define('CST_HATE', 12806);
 
 
+if($T11 == 'non')
+	{
+		define('SET4T11', 1);
+	}
+else
+	{
+		define('SET4T11', 0.9);
+	}
 
 /*************************************************
 **
@@ -16,14 +24,21 @@ $cd_sorts = array();
 
 $cd_sorts['Arcane Power'] = 90;
 $cd_sorts['Presence of Mind'] = 90;
-$cd_sorts['Hospitality'] = 120;
-$cd_sorts['Elusive Power'] = 120;
-$cd_sorts['Scale of Fates'] = 120;
+
+$cd_sorts['Celerity'] = 60;
+$cd_sorts['Mark of the Firelord'] = 60;
+$cd_sorts['Battle Magic'] = 0;
+$cd_sorts['Dire Magic'] = 0;
+$cd_sorts['Volcanic Destruction'] = 0; 
+$cd_sorts['Soul Power'] = 120;
+$cd_sorts['Revelation'] = 0;
+
 $cd_sorts['Icy Veins'] = 144;
 $cd_sorts['Mirror Image'] = 180;
 $cd_sorts['Replenish Mana'] = 120;
 $cd_sorts['Evocation'] = 120;
 $cd_sorts['Flame Orb'] = 60;
+$cd_sorts['Mage Ward'] = 30;
 
 
 
@@ -35,6 +50,7 @@ $cd_sorts['Flame Orb'] = 60;
 $mana_sorts = array();
 
 $mana_sorts['Arcane Power'] = 0;
+$mana_sorts['Blink'] = floor(0.12*MANA_BASE);
 $mana_sorts['Mirror Image'] = floor(0.1*MANA_BASE);
 $mana_sorts['Arcane Barrage'] = floor(0.11*MANA_BASE);
 $mana_sorts['Arcane Blast'] = floor(0.05*MANA_BASE);
@@ -49,6 +65,10 @@ $mana_sorts['Dragon Breath'] = floor(0.07*MANA_BASE);
 $mana_sorts['Flamestrike'] = floor(0.3*MANA_BASE);
 $mana_sorts['Blast Wave'] = floor(0.07*MANA_BASE);
 $mana_sorts['Flame Orb'] = floor(0.06*MANA_BASE);
+$mana_sorts['Mage Ward'] = floor(0.16*MANA_BASE);
+$mana_sorts['Slow Fall'] = floor(0.06*MANA_BASE);
+$mana_sorts['Time Warp'] = floor(0.26*MANA_BASE);
+
 
 
 
@@ -61,9 +81,15 @@ $long = array();
 
 $long_sorts['Arcane Power'] = 15;
 $long_sorts['Heroism'] = 45;
-$long_sorts['Hospitality'] = 20;
-$long_sorts['Elusive Power'] = 20;
-$long_sorts['Scale of Fates'] = 20;
+
+$long_sorts['Celerity'] = 10;
+$long_sorts['Mark of the Firelord'] = 15;
+$long_sorts['Battle Magic'] = 15;
+$long_sorts['Dire Magic'] = 20;
+$long_sorts['Volcanic Destruction'] = 12; 
+$long_sorts['Soul Power'] = 20;
+$long_sorts['Revelation'] = 20;
+
 $long_sorts['Icy Veins'] = 20;
 $long_sorts['Mirror Image'] = 30;
 $long_sorts['Living Bomb'] = 12;
@@ -86,12 +112,15 @@ $cast['Fireball'] = 2.5;
 $cast['Pyroblast'] = 1.5;
 $cast['Pyroblast!'] = 1.5;
 $cast['Ice Lance'] = 1.5;
+$cast['Blink'] = 1.5;
 $cast['Living Bomb'] = 1.5;
 $cast['Mirror Image'] = 1.5;
 $cast['Blast Wave'] = 1.5;
 $cast['Flamestrike'] = 1.5;
 $cast['Flame Orb'] = 1.5;
-
+$cast['Mage Ward'] = 1.5;
+$cast['Slow Fall'] = 1.5;
+$cast['Time Warp'] = 1.5;
 
 
 /*************************************************
@@ -106,9 +135,15 @@ $lang_en['Hymn of Hope'] = 'Hymn of Hope';
 $lang_en['Clearcasting'] = 'Clearcasting';
 $lang_en['Arcane Power'] = 'Arcane Power';
 $lang_en['Presence of Mind'] = 'Presence of Mind';
-$lang_en['Hospitality'] = 'Hospitality';
-$lang_en['Scale of Fates'] = 'Scale of Fates';
-$lang_en['Elusive Power'] = 'Elusive Power';
+
+$lang_en['Celerity'] = 'Celerity';
+$lang_en['Mark of the Firelord'] = 'Mark of the Firelord';
+$lang_en['Battle Magic'] = 'Battle Magic';
+$lang_en['Dire Magic'] = 'Dire Magic';
+$lang_en['Volcanic Destruction'] = 'Volcanic Destruction'; 
+$lang_en['Soul Power'] = 'Soul Power';
+$lang_en['Revelation'] = 'Revelation';
+
 $lang_en['Icy Veins'] = 'Icy Veins';
 $lang_en['Mirror Image'] = 'Mirror Image';
 $lang_en['Replenish Mana'] = 'Replenish Mana';
@@ -136,6 +171,8 @@ $lang_en['Heroism'] = 'Heroism';
 $lang_en['Bloodlust'] = 'Bloodlust';
 $lang_en['Time Warp'] = 'Time Warp';
 $lang_en['Ancient Hysteria'] = 'Ancient Hysteria';
+$lang_en['Mage Ward'] = 'Mage Ward';
+$lang_en['Slow Fall'] = 'Slow Fall';
 
 //--------------------------------------------------
 $lang_en['Innervation'] = 'Innervate';
@@ -143,8 +180,15 @@ $lang_en['Hymne à l\'espoir'] = 'Hymn of Hope';
 $lang_en['Idées claires'] = 'Clearcasting';
 $lang_en['Pouvoir des Arcanes'] = 'Arcane Power';
 $lang_en['Présence spirituelle'] = 'Presence of Mind';
-$lang_en['Hospitalité'] = 'Hospitality';
-$lang_en['Puissance insaisissable'] = 'Elusive Power';
+
+$lang_en['Vélocité'] = 'Celerity';
+$lang_en['Marque du seigneur de Feu'] = 'Mark of the Firelord';
+$lang_en['Magie du combat'] = 'Battle Magic';
+$lang_en['Magie redoutable'] = 'Dire Magic';
+$lang_en['Destruction volcanique'] = 'Volcanic Destruction'; 
+$lang_en["Puissance de l'âme"] = 'Soul Power';
+$lang_en['Révélation'] = 'Revelation';
+
 $lang_en['Veines glaciales'] = 'Icy Veins';
 $lang_en['Image miroir'] = 'Mirror Image';
 $lang_en['Récupération du mana'] = 'Replenish Mana';
@@ -172,6 +216,8 @@ $lang_en['Héroïsme'] = 'Heroism';
 $lang_en['Furie sanguinaire'] = 'Bloodlust';
 $lang_en['Distorsion temporelle'] = 'Time Warp';
 $lang_en['Hystérie ancienne'] = 'Ancient Hysteria';
+$lang_en['Gardien du mage'] = 'Mage Ward';
+$lang_en['Chute lente'] = 'Slow Fall';
 
 
 
@@ -187,8 +233,15 @@ $lang_fr['Hymn of Hope'] = 'Hymne à l\'espoir';
 $lang_fr['Clearcasting'] = 'Idées claires';
 $lang_fr['Arcane Power'] = 'Pouvoir des Arcanes';
 $lang_fr['Presence of Mind'] = 'Présence spirituelle';
-$lang_fr['Hospitality'] = 'Hospitalité';
-$lang_fr['Elusive Power'] = 'Puissance insaisissable';
+
+$lang_fr['Celerity'] = 'Vélocité';
+$lang_fr['Mark of the Firelord'] = 'Marque du seigneur de Feu';
+$lang_fr['Battle Magic'] = 'Magie du combat';
+$lang_fr['Dire Magic'] = 'Magie redoutable';
+$lang_fr['Volcanic Destruction'] = 'Destruction volcanique'; 
+$lang_fr['Soul Power'] = "Puissance de l'âme";
+$lang_fr['Revelation'] = 'Révélation';
+
 $lang_fr['Icy Veins'] = 'Veines glaciales';
 $lang_fr['Mirror Image'] = 'Image miroir';
 $lang_fr['Replenish Mana'] = 'Récupération du mana';
@@ -217,5 +270,8 @@ $lang_fr['Heroism'] = 'Héroïsme';
 $lang_fr['Bloodlust'] = 'Furie sanguinaire';
 $lang_fr['Time Warp'] = 'Distorsion temporelle';
 $lang_fr['Ancient Hysteria'] = 'Hystérie ancienne';
+$lang_fr['Mage Ward'] = 'Gardien du mage';
+$lang_fr['Slow Fall'] = 'Chute lente';
+
 
 ?>

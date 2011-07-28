@@ -98,12 +98,6 @@ while($i < count($loglignes))
 				$hero = 'off';
 			}
 
-		// count number of blink
-		if(strpos($ligne,$lang['Blink']) != 0)
-			{
-				$analyse->statistique['nb blink'] ++;
-			}
-
 		// start analyse
 		$analyse->analyse($hero,$ligne,$last_date);
 		
@@ -129,7 +123,7 @@ $minutes = ($duree - ($duree % 60)) / 60;
 $secondes = $duree - 60 * $minutes;
 echo 'Durant ce combat ('.$minutes.' min '.$secondes.' sec) il y a eut :<br />'."\n";
 // print analyse
-$analyse->resultat();
+$analyse->resultat($duree);
 
 // graph
 require_once $path['root'].'/pages/get/includes/graph.php';
