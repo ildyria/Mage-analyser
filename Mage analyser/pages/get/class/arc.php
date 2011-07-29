@@ -488,7 +488,7 @@ class analyse_arcane {
 *************************************************/
 	function f_arcanemissiles($ligne,$last_date)
 	{
-		if($this->a_memory['missiles_nb'] == 0) f_arcanemissilesend($ligne,$last_date);
+		if($this->a_memory['missiles_nb'] == 0) $this->f_arcanemissilesend($ligne,$last_date);
 
 		$this->a_arcaneblast['nb_debuff'] = 0;
 		$this->a_arcaneblast['timer'] = $last_date;
