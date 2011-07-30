@@ -15,6 +15,16 @@ else
 		define('SET4T11', 0.9);
 	}
 
+if($sinestra == 'non')
+	{
+		$sinestra = 0;
+	}
+else
+	{
+		$sinestra = 205;
+	}
+
+
 /*************************************************
 **
 ** COOLDOWN TABLE
@@ -50,24 +60,24 @@ $cd_sorts['Mage Ward'] = 30;
 $mana_sorts = array();
 
 $mana_sorts['Arcane Power'] = 0;
-$mana_sorts['Blink'] = floor(0.12*MANA_BASE);
-$mana_sorts['Mirror Image'] = floor(0.1*MANA_BASE);
-$mana_sorts['Arcane Barrage'] = floor(0.11*MANA_BASE);
-$mana_sorts['Arcane Blast'] = floor(0.05*MANA_BASE);
+$mana_sorts['Blink'] = floor(0.12*MANA_BASE) - $sinestra;
+$mana_sorts['Mirror Image'] = floor(0.1*MANA_BASE) - $sinestra;
+$mana_sorts['Arcane Barrage'] = floor(0.11*MANA_BASE) - $sinestra;
+$mana_sorts['Arcane Blast'] = floor(0.05*MANA_BASE) - $sinestra;
 $mana_sorts['Arcane Missiles'] = 0;
-$mana_sorts['Arcane Explosion'] = floor(0.15*MANA_BASE);
-$mana_sorts['Living Bomb'] = floor(0.17*MANA_BASE);
-$mana_sorts['Fireball'] = floor(0.09*MANA_BASE);
-$mana_sorts['Fire Blast'] = floor(0.21*MANA_BASE);
-$mana_sorts['Scorch'] = floor(0.08*MANA_BASE);
-$mana_sorts['Pyroblast'] = floor(0.17*MANA_BASE);
-$mana_sorts['Dragon Breath'] = floor(0.07*MANA_BASE);
-$mana_sorts['Flamestrike'] = floor(0.3*MANA_BASE);
-$mana_sorts['Blast Wave'] = floor(0.07*MANA_BASE);
-$mana_sorts['Flame Orb'] = floor(0.06*MANA_BASE);
-$mana_sorts['Mage Ward'] = floor(0.16*MANA_BASE);
-$mana_sorts['Slow Fall'] = floor(0.06*MANA_BASE);
-$mana_sorts['Time Warp'] = floor(0.26*MANA_BASE);
+$mana_sorts['Arcane Explosion'] = floor(0.15*MANA_BASE) - $sinestra;
+$mana_sorts['Living Bomb'] = floor(0.17*MANA_BASE) - $sinestra;
+$mana_sorts['Fireball'] = floor(0.09*MANA_BASE) - $sinestra;
+$mana_sorts['Fire Blast'] = floor(0.21*MANA_BASE) - $sinestra;
+$mana_sorts['Scorch'] = floor(0.08*MANA_BASE) - $sinestra;
+$mana_sorts['Pyroblast'] = floor(0.17*MANA_BASE) - $sinestra;
+$mana_sorts['Dragon Breath'] = floor(0.07*MANA_BASE) - $sinestra;
+$mana_sorts['Flamestrike'] = floor(0.3*MANA_BASE) - $sinestra;
+$mana_sorts['Blast Wave'] = floor(0.07*MANA_BASE) - $sinestra;
+$mana_sorts['Flame Orb'] = floor(0.06*MANA_BASE) - $sinestra;
+$mana_sorts['Mage Ward'] = floor(0.16*MANA_BASE) - $sinestra;
+$mana_sorts['Slow Fall'] = floor(0.06*MANA_BASE) - $sinestra;
+$mana_sorts['Time Warp'] = floor(0.26*MANA_BASE) - $sinestra;
 
 
 
