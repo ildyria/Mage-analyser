@@ -45,7 +45,7 @@ function edit_request()
 	arcane += 'spellId = 91019 or '; // 359 Soul Casket +1926 spell = Soul Power
 	arcane += 'spellId = 92320 or '; // 372 THERALION H +2178 mastery = Revelation
 	arcane += 'spellId = 91024 or '; // 359 THERALION N +1926 mastery = Revelation
-	arcane += 'spellId = 12042 or '; // ARCANE POWER
+	arcane += 'spellId = 12043 or '; // PoM
 	arcane += 'spellId = 543 or '; // MAGE WARD
 	arcane += 'spellId = 130 or '; // SLOW FALL
 	arcane += 'spellId = 1953 or '; // BLINK

@@ -15,10 +15,11 @@ class analyse_arcane {
 		'explosion_dmgs' => '(',
 		'explosion_dmg' => 0,
 		'explosion_crit' => 'non',
+		'explosion_end_date' => 0,
 		
 		'cast_time' => 0,
 		'time_lost' => 0,
-		'last_date_dmg' => 0
+		'last_date_dmg' => 0,
 		);
 	var $a_timer = array(
 		'mp5' => 'non',
@@ -111,22 +112,26 @@ class analyse_arcane {
 	
 		global $lang;
 		
-		// MANA GAIN
-		while ($this->a_timer['requinc'] < $last_date) {
-			$this->a_mana['current'] = requincage($this->a_mana['current']);
-			$this->a_timer['requinc'] = add_sec_to_date($this->a_timer['requinc'],1);
-		}
-
-		while ($this->a_timer['mp5'] < $last_date) {
-			$this->a_mana['current'] = addmp5($this->a_mana['current']);
-			$this->a_timer['mp5'] = add_sec_to_date($this->a_timer['mp5'],5);
-		}
-
 		// INITIALISING VALUES
 		$this->a_arcaneblast['ended'] = 'non';
 		$this->a_memory['time_lost'] = 0;
 		$this->a_mana['delta'] = 0;
 		
+		$this->a_mana['max'] = manamaxvar($this->a_mana['max'],$ligne);
+
+		// MANA GAIN
+		while ($this->a_timer['requinc'] < $last_date) {
+			$this->a_mana['current'] = requincage($this->a_mana['current'],$this->a_mana['max']);
+			$this->a_timer['requinc'] = add_sec_to_date($this->a_timer['requinc'],1);
+//			send($last_date,'REQUINC : '.($this->a_mana['max']*0.001).' || NEXT : '.$this->a_timer['requinc'],'c2');
+		}
+
+		while ($this->a_timer['mp5'] < $last_date) {
+			$this->a_mana['current'] = addmp5($this->a_mana['current'],$this->a_mana['max']);
+			$this->a_timer['mp5'] = add_sec_to_date($this->a_timer['mp5'],5);
+//			send($last_date,'ARMOR + MP5 : '.(869+326+$this->a_mana['max']*0.036).' || NEXT : '.$this->a_timer['mp5'],'c6');
+		}
+
 		// CHECKS
 		$this->check_arcanedebuff($last_date);
 		$this->check_clearcasting($ligne);
@@ -375,6 +380,7 @@ class analyse_arcane {
 				prepare_ligne($lttltxt);
   				send($this->a_buff[$spell],$lttltxt,"c25");
 				$this->a_buff[$spell] = 'non';
+				$this->a_mana['max'] = manamaxvar($this->a_mana['max'],$lttltxt);
 				unset($lttltxt);
 			}
 	
@@ -569,7 +575,7 @@ class analyse_arcane {
 *************************************************/
 	function f_arcaneexplosion($ligne,$last_date)
 	{
-		if($this->a_memory['explosion_last_date'] == $last_date)
+		if($this->a_memory['explosion_end_date'] > $last_date)
 		{
 			$this->a_memory['explosion_ligne'] = $ligne;
 			$last_dmg = getdmg($ligne);
@@ -586,6 +592,7 @@ class analyse_arcane {
 		{
 			$this->f_arcaneexplosionsend($ligne,$last_date);
 			$this->a_memory['explosion_last_date'] = $last_date;
+			$this->a_memory['explosion_end_date'] = add_sec_to_date($last_date,0.9);
 			$this->a_memory['explosion_ligne'] = $ligne;
 			$last_dmg = getdmg($ligne);
 			$crit = iscrit($ligne);
@@ -640,6 +647,7 @@ class analyse_arcane {
 				$this->a_memory['last_date_dmg'] = $this->a_memory['explosion_last_date'];
 			}
 
+		$this->a_memory['explosion_end_date'] = 0;
 		$this->a_memory['explosion_last_date'] = 0;
 		$this->a_memory['explosion_ligne'] = 0;
 		$this->a_memory['explosion_dmgs'] = '(';

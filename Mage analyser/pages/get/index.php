@@ -32,7 +32,7 @@ else
 echo '<div id=\'main\'>'."\n";
 echo '<div style=\'text-align: center; padding: 25px;\'><img src="Cache/test.png" alt="image ici" id="img" style="border: solid 1px #0099CC;" /></div>'."\n";
 echo '<div style=\'display: block; text-align: center; border: solid 1px #0099CC; width: 400px; position:relative; margin-left:auto; margin-right:auto; background: #000000;\'>'."\n";
-echo 'Intelligence : '.$intel.' +80 +300 <br />'."\n";
+echo 'Intelligence : '.$intel.' x 1,05 +80 +300 <br />'."\n";
 echo 'Mana : '.$mana_base.'<br />'."\n";
 echo 'Hate : '.$hast.'<br />'."\n";
 echo 'NWP : 3/3<br />'."\n";
@@ -53,6 +53,7 @@ echo "\t"."\t".'<td style="padding-left: 15px;">time lost</td>'."\n";
 echo "\t"."\t".'<td style="padding-left: 15px;">&Delta;mana</td>'."\n";
 echo "\t"."\t".'<td style="padding-left: 15px;">mana</td>'."\n";
 echo "\t"."\t".'<td style="padding-left: 15px;">%mana</td>'."\n";
+echo "\t"."\t".'<td style="padding-left: 15px;">mana max</td>'."\n";
 echo "\t".'</tr>'."\n";
 
 

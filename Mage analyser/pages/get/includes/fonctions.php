@@ -204,7 +204,7 @@ function getcasttime($basetime)
 *************************************************/
 function getmaxmana($int)
 {
-	return floor(15*($int+380)+MANA_BASE+2126-280);
+	return floor(15*($int*1.05+380)+MANA_BASE+2126-280);
 }
 
 
@@ -214,11 +214,9 @@ function getmaxmana($int)
 ** ADD MP5 TO MANA POOL (mage armor glyphed + PA)
 **
 *************************************************/
-function addmp5($mana)
+function addmp5($mana,$manamax)
 {
-	global $mana_base;
-	
-	return max(0,min($mana_base,$mana+869+326+$mana_base*0.036));
+	return max(0,min($manamax,$mana+869+326+$manamax*0.036));
 }
 
 
@@ -228,11 +226,46 @@ function addmp5($mana)
 ** ADD REQUINCAGE (0,1% MANAMAX EVERY 1 SEC)
 **
 *************************************************/
-function requincage($mana)
+function requincage($mana,$manamax)
+{	
+	return max(0,min($manamax,$mana+round($manamax*0.001,0)));
+}
+
+
+
+/*************************************************
+**
+** INCREASE / DESCREASE MANA MAX BY INTEL PROCS
+**
+*************************************************/
+function manamaxvar($manamax,$ligne)
 {
-	global $mana_base;
+	global $lang;
 	
-	return max(0,min($mana_base,$mana+floor($mana_base*0.001)));
+	if( strpos($ligne,$lang['Mark of the Firelord']) != 0 && !(strpos($ligne,'fades') != 0))
+	{
+		// increase manamax
+		return $manamax+1277*1.05*1.05*15;
+	}
+	elseif( strpos($ligne,$lang['Volcanic Destruction']) != 0 && !(strpos($ligne,'fades') != 0))
+	{
+		// increase manamax
+		return $manamax+1600*1.05*1.05*15;
+	}
+	elseif( strpos($ligne,$lang['Mark of the Firelord']) != 0)
+	{
+		// decrease manamax
+		return $manamax-1277*1.05*1.05*15;
+
+	}
+	elseif( strpos($ligne,$lang['Volcanic Destruction']) != 0)
+	{
+		// decrease manamax
+		return $manamax-1600*1.05*1.05*15;
+	}
+	
+	return $manamax;
+
 }
 
 
@@ -377,6 +410,7 @@ function send($date,$string,$class)
 		echo "\t"."\t".'<td style="padding-left: 15px;">&nbsp;</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor($analyse->a_mana['current']).'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->a_mana['current']/$mana_base)*100).'%</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->a_mana['max'].'</td>'."\n";
 	}
 	else
 	{
@@ -387,6 +421,7 @@ function send($date,$string,$class)
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor($analyse->a_mana['delta']).'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor($analyse->a_mana['current']).'</td>'."\n";
 		echo "\t"."\t".'<td style="padding-left: 15px;">'.floor(($analyse->a_mana['current']/$mana_base)*100).'%</td>'."\n";
+		echo "\t"."\t".'<td style="padding-left: 15px;">'.$analyse->a_mana['max'].'</td>'."\n";
 	}
 	echo "\t".'</tr>'."\n";
 }
