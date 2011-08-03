@@ -5,6 +5,7 @@ DEFINED('MA') or die('HACKING ATTEMPT!');
 class analyse_arcane {
 
 	var $a_memory = array(
+		'Pyromaniac' => 'non',
 		'missiles_last_date' => 0,
 		'missiles_ligne' => 0,
 		'missiles_dmgs' => '(',

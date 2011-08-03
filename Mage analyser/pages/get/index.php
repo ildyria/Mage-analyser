@@ -126,6 +126,9 @@ echo 'Durant ce combat ('.$minutes.' min '.$secondes.' sec) il y a eut :<br />'.
 // print analyse
 $analyse->resultat($duree);
 
+
+if($spe == 'arc')
+	{
 // graph
 require_once $path['root'].'/pages/get/includes/graph.php';
 
@@ -141,6 +144,8 @@ img.src='Cache/test".$imgid.".png';
 }
 
 testtimeout();
-</script>
-</div>";
+</script>";
+	};
+
+echo "</div>";
 ?>

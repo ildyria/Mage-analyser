@@ -114,6 +114,11 @@ input, option{
 	color: #FFFF00; /* jaune */
 	}
 
+.c3 {
+	color: #FFFF00; /* jaune */
+	font-weight: bold;
+	}
+
 .c4 {
 	color: #00FF33; /* vert */
 	font-weight: bold;
@@ -131,6 +136,20 @@ input, option{
 .c7 {
 	color: #FF6600; /*orange*/
 	}
+
+.c8 {
+	color: #FF0000; /*pure red*/
+	}
+
+.c9 {
+	color: #FF0000; /*pure RED*/
+	font-weight: bold;
+	}
+
+.c10 {
+	color: #FFFFFF; /* blanc */
+	font-weight: bold;
+	}	
 
 .c14 {
 	color: rgb(170,145,215);

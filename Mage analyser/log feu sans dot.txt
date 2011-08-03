@@ -1,0 +1,383 @@
+[23:24:50.831] Fireangelx gains Volcanic Destruction from Fireangelx
+[23:24:52.633] Fireangelx Fireball Rageface 18808
+[23:24:54.386] Fireangelx Fireball Rageface 18863
+[23:24:55.922] Fireangelx Fireball Rageface 18862
+[23:24:57.462] Fireangelx Fireball Rageface *39080*
+[23:24:58.164] Fireangelx's Pyromaniac fades from Fireangelx
+[23:24:58.550] Fireangelx gains Pyromaniac from Fireangelx
+[23:24:58.692] Fireangelx Living Bomb Rageface 4806
+[23:24:58.840] Fireangelx Fireball Rageface 18836
+[23:24:58.972] Rageface afflicted by Living Bomb from Fireangelx
+[23:24:59.378] Fireangelx's Pyromaniac fades from Fireangelx
+[23:24:59.858] Fireangelx Living Bomb Riplimb 4693
+[23:24:59.858] Fireangelx Living Bomb Shannox 4692
+[23:25:00.160] Fireangelx gains Impact from Fireangelx
+[23:25:00.332] Fireangelx Fireball Rageface 19025
+[23:25:01.116] Fireangelx Living Bomb Riplimb *9212*
+[23:25:01.116] Fireangelx Living Bomb Shannox 4483
+[23:25:01.396] Fireangelx's Impact is refreshed by Fireangelx
+[23:25:07.613] Fireangelx Fireball Rageface 16128
+[23:25:09.785] Fireangelx Fireball Rageface 15916
+[23:25:11.847] Fireangelx Fireball Rageface 15914
+[23:25:12.517] Fireangelx Living Bomb Rageface *8464*
+[23:25:13.967] Fireangelx Fireball Rageface *32974*
+[23:25:14.004] Rageface afflicted by Living Bomb from Fireangelx
+[23:25:15.281] Riplimb afflicted by Living Bomb from Fireangelx
+[23:25:16.087] Shannox afflicted by Living Bomb from Fireangelx
+[23:25:16.576] Fireangelx gains Pyromaniac from Fireangelx
+[23:25:20.282] Fireangelx Fireball Rageface 14782
+[23:25:20.534] Fireangelx gains Impact from Fireangelx
+[23:25:22.367] Fireangelx Fireball Rageface *30896*
+[23:25:24.264] Fireangelx Flame Orb Riplimb *5073*
+[23:25:25.030] Fireangelx Flame Orb Riplimb *5212*
+[23:25:25.139] Fireangelx Fireball Rageface 14828
+[23:25:25.448] Fireangelx Combustion Rageface 6591
+[23:25:26.512] Fireangelx Flame Orb Riplimb 2109
+[23:25:26.647] Fireangelx Living Bomb Rageface 3857
+[23:25:26.647] Fireangelx Living Bomb Riplimb 3571
+[23:25:26.647] Fireangelx Living Bomb Shannox 3857
+[23:25:26.647] Fireangelx Fire Blast Rageface 6625
+[23:25:26.769] Fireangelx Fireball Rageface 14739
+[23:25:27.164] Fireangelx Flame Orb Riplimb *4319*
+[23:25:27.877] Rageface afflicted by Living Bomb from Fireangelx
+[23:25:27.877] Fireangelx Living Bomb Rageface 3857
+[23:25:27.877] Fireangelx Living Bomb Riplimb 3572
+[23:25:27.877] Fireangelx Living Bomb Shannox *7926*
+[23:25:27.877] Fireangelx Flame Orb Riplimb 2107
+[23:25:28.730] Fireangelx Living Bomb Riplimb *7339*
+[23:25:28.730] Fireangelx Living Bomb Shannox 3857
+[23:25:29.093] Fireangelx Flame Orb Riplimb 2092
+[23:25:30.026] Fireangelx Flame Orb Riplimb 2070
+[23:25:30.987] Fireangelx Fireball Rageface 14889
+[23:25:31.195] Fireangelx Flame Orb Riplimb 2075
+[23:25:32.029] Fireangelx Flame Orb Riplimb *4267*
+[23:25:32.755] Riplimb afflicted by Living Bomb from Fireangelx
+[23:25:33.029] Fireangelx Fireball Rageface 14973
+[23:25:33.225] Fireangelx Flame Orb Riplimb 2135
+[23:25:34.013] Shannox afflicted by Living Bomb from Fireangelx
+[23:25:34.013] Fireangelx Flame Orb Riplimb 2250
+[23:25:35.296] Fireangelx Flame Orb Riplimb 2256
+[23:25:36.147] Fireangelx Flame Orb Riplimb 2213
+[23:25:36.415] Fireangelx gains Volcanic Destruction from Fireangelx
+[23:25:37.142] Fireangelx Fireball Rageface *38731*
+[23:25:37.321] Fireangelx Fire Power Riplimb *9217*
+[23:25:37.321] Fireangelx Fire Power Shannox 4712
+[23:25:37.615] Fireangelx gains Impact from Fireangelx
+[23:25:38.843] Fireangelx Fireball Rageface 19020
+[23:25:39.247] Fireangelx Living Bomb Rageface 4806
+[23:25:39.650] Fireangelx's Impact is refreshed by Fireangelx
+[23:25:40.107] Rageface afflicted by Living Bomb from Fireangelx
+[23:25:40.458] Fireangelx Fireball Rageface *38632*
+[23:25:40.482] Fireangelx gains Hot Streak from Fireangelx
+[23:25:43.447] Fireangelx Pyroblast! Rageface *46145*
+[23:25:43.447] Fireangelx Fireball Rageface 18991
+[23:25:43.739] Fireangelx gains Dire Magic from Fireangelx
+[23:25:43.739] Riplimb afflicted by Living Bomb from Fireangelx
+[23:25:43.739] Fireangelx's Pyromaniac fades from Fireangelx
+[23:25:43.854] Fireangelx Fire Blast Rageface 8045
+[23:25:44.267] Fireangelx gains Pyromaniac from Fireangelx
+[23:25:44.330] Fireangelx Living Bomb Riplimb 5181
+[23:25:44.947] Fireangelx's Pyromaniac fades from Fireangelx
+[23:25:45.468] Fireangelx Living Bomb Shannox 5595
+[23:25:47.057] Shannox afflicted by Living Bomb from Fireangelx
+[23:25:47.397] Fireangelx gains Pyromaniac from Fireangelx
+[23:25:47.654] Fireangelx Fireball Rageface 21327
+[23:25:50.713] Fireangelx Fireball Rageface 18368
+[23:25:51.514] Fireangelx Living Bomb Rageface *9548*
+[23:25:51.514] Fireangelx Living Bomb Crystal Prison 4302
+[23:25:52.477] Fireangelx Fireball Rageface 18190
+[23:25:54.020] Fireangelx Fireball Rageface *37340*
+[23:25:54.712] Fireangelx's Pyromaniac fades from Fireangelx
+[23:25:54.712] Rageface afflicted by Living Bomb from Fireangelx
+[23:25:55.647] Fireangelx Fireball Rageface *37600*
+[23:25:59.209] Fireangelx Fireball Shannox 18177
+[23:25:59.671] Fireangelx Living Bomb Shannox *9548*
+[23:26:04.899] Shannox afflicted by Living Bomb from Fireangelx
+[23:26:06.232] Fireangelx Living Bomb Rageface *8464*
+[23:26:06.434] Fireangelx Fireball Shannox 15845
+[23:26:06.531] Fireangelx gains Impact from Fireangelx
+[23:26:07.411] Rageface afflicted by Living Bomb from Fireangelx
+[23:26:08.580] Riplimb afflicted by Living Bomb from Fireangelx
+[23:26:09.000] Fireangelx gains Pyromaniac from Fireangelx
+[23:26:13.002] Fireangelx Fireball Shannox 16012
+[23:26:14.814] Fireangelx Fireball Shannox *32899*
+[23:26:16.638] Fireangelx Fireball Rageface 16004
+[23:26:17.828] Fireangelx Living Bomb Shannox 4119
+[23:26:18.362] Fireangelx Fireball Rageface 16119
+[23:26:19.588] Fireangelx's Pyromaniac fades from Fireangelx
+[23:26:20.095] Fireangelx Living Bomb Riplimb *9323*
+[23:26:20.095] Fireangelx Living Bomb Rageface *8390*
+[23:26:20.623] Fireangelx Fireball Rageface *30425*
+[23:26:21.209] Rageface afflicted by Living Bomb from Fireangelx
+[23:26:21.367] Fireangelx Living Bomb Riplimb 4537
+[23:26:21.367] Fireangelx Living Bomb Shannox *8390*
+[23:26:22.417] Fireangelx Fireball Rageface 15954
+[23:26:23.646] Fireangelx gains Volcanic Destruction from Fireangelx
+[23:26:25.575] Fireangelx Fireball Rageface *38817*
+[23:26:25.694] Fireangelx gains Impact from Fireangelx
+[23:26:27.322] Fireangelx Fireball Rageface *38954*
+[23:26:27.322] Fireangelx gains Hot Streak from Fireangelx
+[23:26:29.027] Fireangelx Fireball Rageface 18823
+[23:26:29.350] Fireangelx's Impact is refreshed by Fireangelx
+[23:26:29.618] Fireangelx Pyroblast! Rageface *45365*
+[23:26:29.765] Shannox afflicted by Living Bomb from Fireangelx
+[23:26:29.991] Fireangelx Fire Blast Rageface 8170
+[23:26:33.995] Fireangelx Living Bomb Rageface *9411*
+[23:26:33.995] Fireangelx Living Bomb Riplimb *8715*
+[23:26:33.995] Fireangelx Living Bomb Shannox 4580
+[23:26:34.111] Fireangelx Fireball Rageface *36513*
+[23:26:35.840] Fireangelx Fireball Rageface 17998
+[23:26:36.300] Shannox afflicted by Living Bomb from Fireangelx
+[23:26:37.531] Riplimb afflicted by Living Bomb from Fireangelx
+[23:26:37.751] Fireangelx Fireball Rageface *30516*
+[23:26:37.933] Fireangelx gains Pyromaniac from Fireangelx
+[23:26:38.682] Fireangelx gains 11851 mana from Fireangelx's Replenish Mana
+[23:26:41.815] Fireangelx Fireball Shannox *30901*
+[23:26:42.000] Fireangelx gains Hot Streak from Fireangelx
+[23:26:43.478] Fireangelx Fireball Shannox 14914
+[23:26:44.549] Fireangelx's Pyromaniac fades from Fireangelx
+[23:26:45.189] Fireangelx Fireball Shannox 15026
+[23:26:45.189] Fireangelx Pyroblast! Shannox 17586
+[23:26:47.951] Fireangelx Fireball Shannox 14754
+[23:26:48.100] Fireangelx gains Impact from Fireangelx
+[23:26:48.914] Fireangelx Living Bomb Shannox 3858
+[23:26:49.734] Fireangelx Fireball Shannox *30410*
+[23:26:49.769] Fireangelx gains Hot Streak from Fireangelx
+[23:26:50.273] Fireangelx Living Bomb Riplimb 3572
+[23:26:50.565] Shannox afflicted by Living Bomb from Fireangelx
+[23:26:51.360] Fireangelx Fireball Shannox *30422*
+[23:26:51.360] Fireangelx's Hot Streak is refreshed by Fireangelx
+[23:26:52.690] Fireangelx Pyroblast! Shannox *36073*
+[23:26:54.216] Riplimb afflicted by Living Bomb from Fireangelx
+[23:26:54.216] Fireangelx Fire Blast Shannox *13559*
+[23:26:54.624] Fireangelx Flame Orb Shannox *4713*
+[23:26:55.556] Fireangelx Flame Orb Shannox *4575*
+[23:26:56.729] Fireangelx Flame Orb Shannox 2313
+[23:26:57.574] Fireangelx Flame Orb Shannox 2307
+[23:26:58.060] Fireangelx Fireball Shannox 14761
+[23:26:58.860] Fireangelx Flame Orb Shannox 2275
+[23:26:59.119] Rageface afflicted by Living Bomb from Fireangelx
+[23:26:59.500] Fireangelx gains Pyromaniac from Fireangelx
+[23:26:59.615] Fireangelx Flame Orb Shannox 2311
+[23:26:59.841] Fireangelx Fireball Shannox 14908
+[23:27:00.856] Fireangelx Flame Orb Shannox 2243
+[23:27:01.638] Fireangelx Flame Orb Shannox 2267
+[23:27:02.730] Fireangelx Fireball Shannox 15067
+[23:27:02.844] Fireangelx Flame Orb Shannox 2283
+[23:27:03.171] Fireangelx Living Bomb Riplimb 3571
+[23:27:03.171] Fireangelx Living Bomb Rageface *10653*
+[23:27:03.171] Fireangelx Living Bomb Shannox 3857
+[23:27:03.171] Fireangelx Living Bomb Riplimb 3571
+[23:27:03.171] Fireangelx Living Bomb Rageface 5184
+[23:27:03.171] Fireangelx Living Bomb Shannox 3858
+[23:27:03.572] Fireangelx gains Impact from Fireangelx
+[23:27:03.673] Fireangelx Flame Orb Shannox 2262
+[23:27:04.393] Fireangelx Fireball Shannox *30291*
+[23:27:04.978] Fireangelx Flame Orb Shannox 2225
+[23:27:05.214] Shannox afflicted by Living Bomb from Fireangelx
+[23:27:05.716] Fireangelx Flame Orb Shannox *4694*
+[23:27:06.146] Fireangelx Fireball Shannox 14923
+[23:27:06.427] Fireangelx gains Impact from Fireangelx
+[23:27:06.427] Riplimb afflicted by Living Bomb from Fireangelx
+[23:27:06.427] Fireangelx's Pyromaniac fades from Fireangelx
+[23:27:06.543] Fireangelx Flame Orb Shannox *4759*
+[23:27:06.543] Fireangelx Fire Blast Shannox 6679
+[23:27:06.851] Fireangelx gains Pyromaniac from Fireangelx
+[23:27:07.840] Fireangelx Flame Orb Shannox 2403
+[23:27:08.469] Fireangelx Flame Orb Shannox 2406
+[23:27:08.469] Fireangelx Fire Power Riplimb *7750*
+[23:27:08.469] Fireangelx Fire Power Shannox 4204
+[23:27:09.721] Fireangelx gains Volcanic Destruction from Fireangelx
+[23:27:10.056] Fireangelx Fireball Shannox 17086
+[23:27:11.351] Fireangelx's Pyromaniac fades from Fireangelx
+[23:27:11.597] Fireangelx Fireball Shannox 19825
+[23:27:11.726] Fireangelx Living Bomb Rageface *11664*
+[23:27:13.241] Fireangelx Fireball Shannox 20084
+[23:27:15.153] Fireangelx Fireball Shannox 20027
+[23:27:16.604] Fireangelx Living Bomb Riplimb 4693
+[23:27:16.604] Fireangelx Living Bomb Shannox 5068
+[23:27:16.604] Shannox afflicted by Living Bomb from Fireangelx
+[23:27:16.790] Fireangelx Living Bomb Riplimb 4693
+[23:27:16.790] Fireangelx Living Bomb Shannox *10414*
+[23:27:16.967] Fireangelx Fireball Shannox *41215*
+[23:27:17.011] Fireangelx gains Impact from Fireangelx
+[23:27:17.042] Fireangelx's Impact is refreshed by Fireangelx
+[23:27:17.994] Riplimb afflicted by Living Bomb from Fireangelx
+[23:27:17.994] Fireangelx Fire Blast Shannox *17369*
+[23:27:18.236] Fireangelx gains Hot Streak from Fireangelx
+[23:27:19.063] Rageface afflicted by Living Bomb from Fireangelx
+[23:27:19.457] Fireangelx gains Pyromaniac from Fireangelx
+[23:27:21.079] Fireangelx Pyroblast! Shannox *45986*
+[23:27:21.374] Fireangelx gains 20705 mana from Fireangelx's Evocation
+[23:27:22.707] Fireangelx gains 16736 mana from Fireangelx's Evocation
+[23:27:24.209] Fireangelx gains 15299 mana from Fireangelx's Evocation
+[23:27:25.707] Fireangelx gains 15298 mana from Fireangelx's Evocation
+[23:27:28.326] Fireangelx Fireball Shannox *30894*
+[23:27:28.480] Fireangelx gains Impact from Fireangelx
+[23:27:28.847] Fireangelx's Pyromaniac fades from Fireangelx
+[23:27:29.265] Fireangelx Living Bomb Shannox 3858
+[23:27:29.265] Fireangelx Living Bomb Riplimb 3857
+[23:27:29.668] Fireangelx gains Dire Magic from Fireangelx
+[23:27:30.149] Fireangelx Fireball Shannox 14873
+[23:27:31.688] Shannox afflicted by Living Bomb from Fireangelx
+[23:27:31.771] Fireangelx Living Bomb Rageface *10694*
+[23:27:31.771] Fireangelx Fireball Shannox *37508*
+[23:27:32.159] Fireangelx's Impact is refreshed by Fireangelx
+[23:27:32.616] Fireangelx gains Blink from Fireangelx
+[23:27:35.759] Fireangelx Scorch Shannox *17897*
+[23:27:36.165] Fireangelx gains Hot Streak from Fireangelx
+[23:27:38.203] Fireangelx Pyroblast! Rageface 24143
+[23:27:38.203] Fireangelx Fireball Rageface 20545
+[23:27:39.466] Rageface afflicted by Living Bomb from Fireangelx
+[23:27:42.889] Fireangelx Fireball Rageface *41974*
+[23:27:44.329] Fireangelx Living Bomb Riplimb 4647
+[23:27:44.329] Fireangelx Living Bomb Shannox 4647
+[23:27:44.487] Fireangelx Fireball Rageface 20415
+[23:27:47.977] Riplimb afflicted by Living Bomb from Fireangelx
+[23:27:48.134] Fireangelx Scorch Riplimb *20035*
+[23:27:48.402] Fireangelx gains Impact from Fireangelx
+[23:27:49.219] Shannox afflicted by Living Bomb from Fireangelx
+[23:27:49.619] Fireangelx gains Pyromaniac from Fireangelx
+[23:27:51.702] Fireangelx's Pyromaniac fades from Fireangelx
+[23:27:52.068] Fireangelx Living Bomb Rageface 5184
+[23:27:53.433] Fireangelx Fireball Shannox *30753*
+[23:27:53.750] Fireangelx gains Hot Streak from Fireangelx
+[23:27:53.750] Fireangelx's Hot Streak is refreshed by Fireangelx
+[23:27:53.750] Fireangelx's Impact is refreshed by Fireangelx
+[23:27:55.702] Fireangelx Fireball Shannox 15006
+[23:27:56.158] Fireangelx gains Volcanic Destruction from Fireangelx
+[23:27:56.949] Fireangelx's Impact is refreshed by Fireangelx
+[23:27:57.500] Fireangelx Pyroblast! Shannox *36784*
+[23:27:57.500] Fireangelx Fireball Shannox 14905
+[23:28:00.308] Fireangelx Fireball Shannox *38931*
+[23:28:00.612] Fireangelx Living Bomb Riplimb *11061*
+[23:28:00.612] Fireangelx Living Bomb Shannox *9875*
+[23:28:02.000] Fireangelx Living Bomb Riplimb 5383
+[23:28:02.000] Fireangelx Living Bomb Shannox 4806
+[23:28:02.117] Fireangelx Fireball Shannox 18716
+[23:28:02.373] Shannox afflicted by Living Bomb from Fireangelx
+[23:28:03.998] Fireangelx Fireball Shannox *38625*
+[23:28:08.891] Fireangelx Scorch Rageface 8440
+[23:28:09.990] Rageface afflicted by Living Bomb from Fireangelx
+[23:28:10.125] Fireangelx Scorch Rageface *16471*
+[23:28:14.445] Fireangelx Fireball Rageface 16673
+[23:28:15.219] Fireangelx Living Bomb Shannox 3857
+[23:28:16.975] Fireangelx Fireball Rageface 16583
+[23:28:17.354] Fireangelx gains Impact from Fireangelx
+[23:28:18.752] Fireangelx Fireball Rageface *34447*
+[23:28:19.435] Shannox afflicted by Living Bomb from Fireangelx
+[23:28:20.676] Fireangelx Fireball Shannox 15983
+[23:28:22.795] Fireangelx Living Bomb Rageface 4614
+[23:28:23.031] Fireangelx's Impact is refreshed by Fireangelx
+[23:28:23.930] Fireangelx Fireball Shannox *32751*
+[23:28:24.214] Fireangelx gains Hot Streak from Fireangelx
+[23:28:24.372] Fireangelx Flame Orb Rageface *5486*
+[23:28:25.253] Fireangelx Flame Orb Rageface *5530*
+[23:28:26.340] Fireangelx Flame Orb Rageface 2735
+[23:28:27.060] Fireangelx Fireball Shannox *32868*
+[23:28:27.063] Fireangelx's Hot Streak is refreshed by Fireangelx
+[23:28:27.192] Fireangelx Flame Orb Rageface *5575*
+[23:28:28.405] Fireangelx Flame Orb Rageface *5508*
+[23:28:28.809] Fireangelx Combustion Shannox 6964
+[23:28:29.075] Fireangelx Fireball Shannox *32551*
+[23:28:29.101] Fireangelx Pyroblast! Shannox 19068
+[23:28:29.106] Fireangelx gains Hot Streak from Fireangelx
+[23:28:29.106] Fireangelx's Impact is refreshed by Fireangelx
+[23:28:29.283] Fireangelx Flame Orb Rageface 2668
+[23:28:29.511] Riplimb afflicted by Living Bomb from Fireangelx
+[23:28:29.612] Fireangelx Fire Blast Shannox 6998
+[23:28:30.583] Fireangelx Flame Orb Rageface 2683
+[23:28:31.307] Fireangelx Flame Orb Rageface *5548*
+[23:28:31.955] Fireangelx Pyroblast! Shannox 18947
+[23:28:31.960] Fireangelx Living Bomb Riplimb *9480*
+[23:28:31.960] Fireangelx Living Bomb Shannox *8464*
+[23:28:32.464] Fireangelx Living Bomb Riplimb 4614
+[23:28:32.464] Fireangelx Living Bomb Shannox *8464*
+[23:28:34.413] Fireangelx Flame Orb Riplimb *5327*
+[23:28:34.918] Fireangelx Fireball Shannox *32925*
+[23:28:35.222] Fireangelx gains Hot Streak from Fireangelx
+[23:28:35.378] Fireangelx Flame Orb Riplimb *5264*
+[23:28:36.198] Fireangelx Flame Orb Riplimb 2592
+[23:28:36.841] Fireangelx Fireball Shannox 15016
+[23:28:37.325] Fireangelx Flame Orb Riplimb *6265*
+[23:28:38.284] Fireangelx Flame Orb Riplimb 3027
+[23:28:38.284] Fireangelx Fire Power Riplimb 4900
+[23:28:38.284] Fireangelx Fire Power Shannox *8196*
+[23:28:38.599] Fireangelx Pyroblast! Shannox 17853
+[23:28:38.599] Fireangelx Fireball Shannox *30467*
+[23:28:41.444] Fireangelx Fireball Riplimb *41559*
+[23:28:41.727] Fireangelx gains Hot Streak from Fireangelx
+[23:28:41.727] Fireangelx gains Volcanic Destruction from Fireangelx
+[23:28:43.289] Fireangelx Fireball Riplimb 25421
+[23:28:45.158] Fireangelx Pyroblast! Riplimb *61017*
+[23:28:45.158] Fireangelx Fireball Riplimb *51806*
+[23:28:47.580] Rageface afflicted by Living Bomb from Fireangelx
+[23:28:47.828] Fireangelx Fireball Rageface *43302*
+[23:28:47.850] Fireangelx gains Pyromaniac from Fireangelx
+[23:28:49.557] Fireangelx Scorch Rageface *20673*
+[23:28:51.181] Fireangelx's Pyromaniac fades from Fireangelx
+[23:28:51.896] Fireangelx Fireball Rageface *43543*
+[23:28:53.922] Fireangelx Fireball Rageface 21120
+[23:28:54.597] Fireangelx gains 12094 mana from Fireangelx's Replenish Mana
+[23:28:56.245] Fireangelx Fireball Rageface 16838
+[23:28:57.632] Shannox afflicted by Living Bomb from Fireangelx
+[23:28:58.715] Fireangelx gains Time Warp from Fireangelx
+[23:28:59.119] Fireangelx Fireball Rageface *34379*
+[23:28:59.742] Fireangelx gains Mirror Image from Fireangelx
+[23:29:00.168] Fireangelx Living Bomb Rageface 4320
+[23:29:00.168] Fireangelx Living Bomb Shannox *7926*
+[23:29:03.305] Fireangelx Fireball Shannox 14766
+[23:29:04.526] Fireangelx Fireball Shannox 14792
+[23:29:05.756] Fireangelx Fireball Shannox 15001
+[23:29:07.384] Fireangelx Fireball Shannox *39233*
+[23:29:08.835] Fireangelx Fireball Shannox 19416
+[23:29:09.810] Fireangelx Fireball Shannox *39653*
+[23:29:09.842] Fireangelx gains Hot Streak from Fireangelx
+[23:29:09.842] Fireangelx gains Dire Magic from Fireangelx
+[23:29:10.384] Fireangelx Living Bomb Shannox *10125*
+[23:29:10.689] Shannox afflicted by Living Bomb from Fireangelx
+[23:29:11.030] Fireangelx Fireball Shannox *39499*
+[23:29:11.057] Fireangelx's Hot Streak is refreshed by Fireangelx
+[23:29:12.245] Fireangelx Fireball Shannox *46960*
+[23:29:13.086] Fireangelx Pyroblast! Shannox *56098*
+[23:29:15.510] Fireangelx Fireball Shannox *46822*
+[23:29:15.536] Fireangelx gains Hot Streak from Fireangelx
+[23:29:16.852] Fireangelx Fireball Shannox *46870*
+[23:29:18.275] Fireangelx Fireball Shannox 22831
+[23:29:19.734] Fireangelx Fireball Shannox *46813*
+[23:29:19.734] Fireangelx Pyroblast! Shannox 27015
+[23:29:22.033] Fireangelx Fireball Shannox 22929
+[23:29:22.444] Shannox afflicted by Living Bomb from Fireangelx
+[23:29:22.444] Fireangelx Living Bomb Shannox 5811
+[23:29:23.489] Fireangelx Fireball Shannox *47344*
+[23:29:25.898] Fireangelx Fireball Shannox *47043*
+[23:29:26.135] Fireangelx gains Hot Streak from Fireangelx
+[23:29:27.339] Fireangelx Fireball Shannox 23104
+[23:29:28.138] Fireangelx gains Volcanic Destruction from Fireangelx
+[23:29:28.701] Fireangelx Fireball Shannox 24181
+[23:29:30.176] Fireangelx Fireball Shannox 28616
+[23:29:30.176] Fireangelx Pyroblast! Shannox 33567
+[23:29:32.507] Fireangelx Fireball Shannox 22446
+[23:29:32.723] Fireangelx gains Impact from Fireangelx
+[23:29:34.013] Fireangelx Fireball Shannox 22318
+[23:29:34.250] Shannox afflicted by Living Bomb from Fireangelx
+[23:29:34.338] Fireangelx Living Bomb Shannox 5677
+[23:29:35.293] Fireangelx Fireball Shannox 22228
+[23:29:37.704] Fireangelx Fireball Shannox *45818*
+[23:29:38.720] Fireangelx's Time Warp fades from Fireangelx
+[23:29:39.043] Fireangelx Fireball Shannox *46302*
+[23:29:39.154] Fireangelx gains Hot Streak from Fireangelx
+[23:29:40.482] Fireangelx Fireball Shannox *45902*
+[23:29:42.677] Fireangelx Fireball Shannox 17795
+[23:29:42.677] Fireangelx Pyroblast! Shannox 21298
+[23:29:42.795] Fireangelx gains Impact from Fireangelx
+[23:29:45.795] Fireangelx Flame Orb Shannox *5102*
+[23:29:46.199] Fireangelx Living Bomb Shannox 4320
+[23:29:46.620] Fireangelx Flame Orb Shannox *5238*
+[23:29:46.722] Fireangelx Fireball Shannox *34492*
+[23:29:47.686] Fireangelx Flame Orb Shannox 2530
+[23:29:48.543] Fireangelx Flame Orb Shannox 2558
+[23:29:49.308] Shannox afflicted by Living Bomb from Fireangelx
+[23:29:49.417] Fireangelx Flame Orb Shannox *5143*
+[23:29:50.704] Fireangelx Flame Orb Shannox 2507
+[23:29:50.858] Fireangelx Fireball Shannox 16776

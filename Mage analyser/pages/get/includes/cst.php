@@ -34,6 +34,9 @@ $cd_sorts = array();
 
 $cd_sorts['Arcane Power'] = 90;
 $cd_sorts['Presence of Mind'] = 90;
+$cd_sorts['Mirror Image'] = 180;
+$cd_sorts['Evocation'] = 120;
+$cd_sorts['Mage Ward'] = 30;
 
 $cd_sorts['Celerity'] = 60;
 $cd_sorts['Mark of the Firelord'] = 60;
@@ -42,13 +45,14 @@ $cd_sorts['Dire Magic'] = 0;
 $cd_sorts['Volcanic Destruction'] = 0; 
 $cd_sorts['Soul Power'] = 120;
 $cd_sorts['Revelation'] = 0;
+$cd_sorts['Cauterize'] = 60;
+
+$cd_sorts['Replenish Mana'] = 120;
 
 $cd_sorts['Icy Veins'] = 144;
-$cd_sorts['Mirror Image'] = 180;
-$cd_sorts['Replenish Mana'] = 120;
-$cd_sorts['Evocation'] = 120;
+
+$cd_sorts['Combustion'] = 120;
 $cd_sorts['Flame Orb'] = 60;
-$cd_sorts['Mage Ward'] = 30;
 
 
 
@@ -66,6 +70,10 @@ $mana_sorts['Arcane Barrage'] = floor(0.11*MANA_BASE) - $sinestra;
 $mana_sorts['Arcane Blast'] = floor(0.05*MANA_BASE) - $sinestra;
 $mana_sorts['Arcane Missiles'] = 0;
 $mana_sorts['Arcane Explosion'] = (floor(0.15*MANA_BASE) - $sinestra)/2;
+$mana_sorts['Mage Ward'] = floor(0.16*MANA_BASE) - $sinestra;
+$mana_sorts['Slow Fall'] = floor(0.06*MANA_BASE) - $sinestra;
+$mana_sorts['Time Warp'] = floor(0.26*MANA_BASE) - $sinestra;
+
 $mana_sorts['Living Bomb'] = floor(0.17*MANA_BASE) - $sinestra;
 $mana_sorts['Fireball'] = floor(0.09*MANA_BASE) - $sinestra;
 $mana_sorts['Fire Blast'] = floor(0.21*MANA_BASE) - $sinestra;
@@ -75,9 +83,7 @@ $mana_sorts['Dragon Breath'] = floor(0.07*MANA_BASE) - $sinestra;
 $mana_sorts['Flamestrike'] = floor(0.3*MANA_BASE) - $sinestra;
 $mana_sorts['Blast Wave'] = floor(0.07*MANA_BASE) - $sinestra;
 $mana_sorts['Flame Orb'] = floor(0.06*MANA_BASE) - $sinestra;
-$mana_sorts['Mage Ward'] = floor(0.16*MANA_BASE) - $sinestra;
-$mana_sorts['Slow Fall'] = floor(0.06*MANA_BASE) - $sinestra;
-$mana_sorts['Time Warp'] = floor(0.26*MANA_BASE) - $sinestra;
+$mana_sorts['Combustion'] = 0;
 
 
 
@@ -102,6 +108,7 @@ $long_sorts['Revelation'] = 20;
 
 $long_sorts['Replenish Mana'] = 15;
 $long_sorts['Icy Veins'] = 20;
+$long_sorts['Combustion'] = 0;
 $long_sorts['Mirror Image'] = 30;
 $long_sorts['Living Bomb'] = 12;
 
@@ -120,7 +127,7 @@ $cast['Arcane Barrage'] = 1.5;
 $cast['Arcane Explosion'] = 1.5;
 $cast['Fire Blast'] = 1.5;
 $cast['Fireball'] = 2.5;
-$cast['Pyroblast'] = 1.5;
+$cast['Pyroblast'] = 3.5;
 $cast['Pyroblast!'] = 1.5;
 $cast['Ice Lance'] = 1.5;
 $cast['Blink'] = 1.5;
@@ -167,6 +174,7 @@ $lang_en['Arcane Missiles'] = 'Arcane Missiles';
 $lang_en['Arcane Explosion'] = 'Arcane Explosion';
 $lang_en['Hot Streak'] = 'Hot Streak';
 $lang_en['Living Bomb'] = 'Living Bomb';
+$lang_en['Combustion'] = 'Combustion';
 $lang_en['Fireball'] = 'Fireball';
 $lang_en['Pyroblast'] = 'Pyroblast';
 $lang_en['Pyroblast!'] = 'Pyroblast!';
@@ -184,6 +192,9 @@ $lang_en['Time Warp'] = 'Time Warp';
 $lang_en['Ancient Hysteria'] = 'Ancient Hysteria';
 $lang_en['Mage Ward'] = 'Mage Ward';
 $lang_en['Slow Fall'] = 'Slow Fall';
+$lang_en['Cauterize'] = 'Cauterize';
+$lang_en['Pyromaniac'] = 'Pyromaniac';
+$lang_en['Impact'] = 'Impact';
 
 //--------------------------------------------------
 $lang_en['Innervation'] = 'Innervate';
@@ -229,6 +240,8 @@ $lang_en['Distorsion temporelle'] = 'Time Warp';
 $lang_en['Hystérie ancienne'] = 'Ancient Hysteria';
 $lang_en['Gardien du mage'] = 'Mage Ward';
 $lang_en['Chute lente'] = 'Slow Fall';
+$lang_en['Cautérisation'] = 'Cauterize';
+$lang_en['Pyromane'] = 'Pyromaniac';
 
 
 
@@ -258,6 +271,7 @@ $lang_fr['Mirror Image'] = 'Image miroir';
 $lang_fr['Replenish Mana'] = 'Récupération du mana';
 $lang_fr['Evocation'] = 'Evocation';
 $lang_fr['Living Bomb'] = 'Bombe vivante';
+$lang_fr['Combustion'] = 'Combustion';
 $lang_fr['Blink'] = 'Transfert';
 $lang_fr['Ice Block'] = 'Bloc de glace';
 $lang_fr['Arcane Barrage'] = 'Barrage des Arcanes';
@@ -283,6 +297,9 @@ $lang_fr['Time Warp'] = 'Distorsion temporelle';
 $lang_fr['Ancient Hysteria'] = 'Hystérie ancienne';
 $lang_fr['Mage Ward'] = 'Gardien du mage';
 $lang_fr['Slow Fall'] = 'Chute lente';
+$lang_fr['Cauterize'] = 'Cautérisation';
+$lang_fr['Pyromaniac'] = 'Pyromane';
+$lang_fr['Impact'] = 'Impact';
 
 
 ?>
